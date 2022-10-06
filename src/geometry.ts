@@ -3,7 +3,6 @@
  */
 export type FlexuralAxis = 'X-X' | 'Y-Y';
 
-
 /**
  * Represents a generic 2D geometry.
  */
@@ -13,14 +12,12 @@ export interface I2Dimensional {
     secondMomentOfArea(rotationAbout: FlexuralAxis): number; 
 }
 
-
 /**
  * Represents a generic 3D geometry.
  */
 export interface I3Dimensional { 
     volume(): number;
 }
-
 
 /**
  * A basic 2D rectangular geometry.
@@ -83,7 +80,6 @@ export class Rectangle implements I2Dimensional {
         }
     }
 }
-
 
 /**
  * A basic 2D circular geometry.
