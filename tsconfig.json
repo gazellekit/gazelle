@@ -1,0 +1,9 @@
+{
+    "include": [ "src" ],
+    "compilerOptions": {
+        "strict": true,
+        "outDir": "static/js",
+        "target": "ES2022",
+        "removeComments": true
+    }
+}
