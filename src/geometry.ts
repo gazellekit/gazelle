@@ -1,23 +1,4 @@
-/**
- * The orthogonal axes about which flexure (i.e. bending) occurs.
- */
-export type FlexuralAxis = 'X-X' | 'Y-Y';
-
-/**
- * Represents a generic 2D geometry.
- */
-export interface I2Dimensional {
-    area(): number;
-    perimeter(): number;
-    secondMomentOfArea(rotationAbout: FlexuralAxis): number; 
-}
-
-/**
- * Represents a generic 3D geometry.
- */
-export interface I3Dimensional { 
-    volume(): number;
-}
+import type { FlexuralAxis, I2Dimensional } from "./geometry.types";
 
 /**
  * A basic 2D rectangular geometry.
@@ -51,24 +32,14 @@ export class Rectangle implements I2Dimensional {
         this.depth = depth;
     }
 
-    /**
-     * @returns the geometric area.
-     */
     public area(): number {
         return this.width * this.depth;
     }
 
-    /**
-     * @returns the geometric perimeter.
-     */
     public perimeter(): number { 
         return (2 * this.width) + (2 * this.depth);
     }
 
-    /**
-     * @param rotationAbout the axis about which the section bends.
-     * @returns the geometric second moment of area about a given axis.
-     */
     public secondMomentOfArea(rotationAbout: FlexuralAxis): number { 
         switch (rotationAbout) { 
             case 'X-X': {
@@ -108,23 +79,14 @@ export class Rectangle implements I2Dimensional {
         this.radius = this.diameter / 2.0; 
     }
 
-    /**
-     * @returns the geometric area.
-     */
     public area(): number {
         return Math.PI * Math.pow(this.diameter, 2) / 4.0;
     }
 
-    /**
-     * @returns the geometric perimeter.
-     */
     public perimeter(): number { 
         return Math.PI * this.diameter;
     }
 
-    /**
-     * @returns the geometric second moment of area about a given axis.
-     */
     public secondMomentOfArea(_: FlexuralAxis): number { 
         return Math.PI * Math.pow(this.diameter, 4) / 64;
     }
