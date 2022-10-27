@@ -1,4 +1,4 @@
-# LibreStructures 🎗
+# Structures 🎗
 
 ## Purpose
 
