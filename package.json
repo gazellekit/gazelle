@@ -1,9 +1,9 @@
 {
-  "name": "libre-structures",
+  "name": "structures",
   "license": "MIT",
   "version": "0.1.0",
   "author": "James S. Bayley",
-  "description": "Empowering Structural Engineers to Design & Build.",
+  "description": "Open Source Structural Engineering.",
   "browser": "main.js",
   "scripts": {
     "build": "node_modules/.bin/tsc",
