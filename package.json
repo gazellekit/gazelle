@@ -3,13 +3,19 @@
   "license": "MIT",
   "version": "0.1.0",
   "author": "James S. Bayley",
-  "description": "Open Source Structural Engineering.",
+  "description": "Open & Collaborative Structural Engineering.",
   "browser": "main.js",
   "scripts": {
     "build": "node_modules/.bin/tsc",
     "watch": "node_modules/.bin/tsc --watch"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "eslint": "^8.26.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.1",
     "typescript": "^4.8.4"
   }
 }
