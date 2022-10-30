@@ -1,8 +1,8 @@
 {
-	"name": "LibreStructures",
+	"name": "structures.js",
 	"build": {
 		"dockerfile": "Dockerfile",
-		"args": { "VARIANT": "18-bullseye" }
+		"args": { "VARIANT": "18" }
 	},
 	"customizations": {
 		"vscode": {
