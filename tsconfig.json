@@ -2,8 +2,8 @@
     "include": [ "src" ],
     "compilerOptions": {
         "strict": true,
-        "outDir": "static/js",
-        "target": "ES2022",
+        "outDir": "build",
+        "target": "ES2020",
         "removeComments": true
     }
 }
