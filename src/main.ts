@@ -1,1 +1,1 @@
-console.log('Hello, LibreStructures!');
+console.log('Hello, Structures.js!');
