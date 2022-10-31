@@ -2,7 +2,7 @@
   "name": "structures",
   "version": "0.1.0",
   "author": "James S. Bayley",
-  "license": "AGPL-3.0-or-later",
+  "license": "MIT",
   "description": "Free, Open & Collaborative Structural Engineering.",
   "browser": "main.js",
   "scripts": {
