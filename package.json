@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "James S. Bayley",
   "license": "MIT",
-  "description": "Free, Open & Collaborative Structural Engineering.",
+  "description": "For Structural Engineers, Everywhere.",
   "browser": "main.js",
   "scripts": {
     "build": "node_modules/.bin/tsc",
