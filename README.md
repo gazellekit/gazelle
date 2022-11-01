@@ -2,8 +2,6 @@
 
 # Structures.js 🏗
 
-## Purpose
-
 Structural Engineers accept enormous responsibility when they opt to dedicate their lives to improve our built environment. However, the digital tools currently at their disposal are often closed-source and proprietary. Engineers have very little opportunity to inspect, or influence, the algorithms behind the software used to analyse and design our buildings and bridges. This must change. 
 
 Structural Engineers must have access to tools and technologies that are open, transparent and verifiable. Calculations and design procedures should be implemented in such a way that Engineers can (1) adopt them with confidence, (2) inspect them, and (3) propose amendments, corrections and enhancements.
