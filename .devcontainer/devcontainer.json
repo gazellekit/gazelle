@@ -1,23 +1,37 @@
 {
-	"name": "structures.js",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"args": { "VARIANT": "18" }
-	},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"dbaeumer.vscode-eslint",
-				"ritwickdey.liveServer"
-			],
-			"settings": {
-				"liveServer.settings.port": 8080
-			}
-		}
-	},
-	"forwardPorts": [ 8080 ],
-	"remoteUser": "node",
-	"features": {
-		"git": "latest"
-	}
+  "name": "structures.js",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "18"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "ritwickdey.liveServer",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "editor.codeActionsOnSave": {
+          "source.fixAll": true,
+          "source.organizeImports": true
+        },
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "eslint.enable": true,
+        "eslint.run": "onSave",
+        "eslint.codeActionsOnSave.mode": "all",
+        "eslint.format.enable": false,
+        "eslint.alwaysShowStatus": true,
+        "liveServer.settings.port": 8080
+      }
+    }
+  },
+  "forwardPorts": [8080],
+  "remoteUser": "node",
+  "features": {
+    "git": "latest"
+  }
 }
