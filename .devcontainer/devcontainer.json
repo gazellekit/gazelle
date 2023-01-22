@@ -1,34 +1,21 @@
 {
-  "name": "structures.js",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:0-18",
-  "runArgs": ["--name", "structuresjs"],
-  "remoteUser": "root",
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "dbaeumer.vscode-eslint",
-        "ritwickdey.liveServer",
-        "esbenp.prettier-vscode"
-      ],
-      "settings": {
-        "editor.codeActionsOnSave": {
-          "source.fixAll": true,
-          "source.organizeImports": true
-        },
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "eslint.enable": true,
-        "eslint.run": "onSave",
-        "eslint.codeActionsOnSave.mode": "all",
-        "eslint.format.enable": false,
-        "eslint.alwaysShowStatus": true,
-        "liveServer.settings.port": 8080
-      }
-    }
-  },
-  "forwardPorts": [8080],
-  "features": {
-    "git": "latest"
-  }
+	"name": "F# (.NET)",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:0-7.0-bullseye",
+	// "features": {},
+	"customizations": {
+		"vscode": {		
+			"extensions": [
+				"Ionide.Ionide-fsharp",
+				"ms-dotnettools.csharp"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/powershell:1": {}
+	},
+	"postCreateCommand": "dotnet restore",
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
 }
