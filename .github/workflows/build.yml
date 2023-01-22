@@ -1,4 +1,0 @@
-# Build, test and revise the NPM package for deployment.
-# Push revised version to GitHub Packages.
-# Push JS files to CDN to enable script tag integration.
-# Run security checks and tests on each run.

@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Primitives\UnitSystems\Units.fs" />
+        <Compile Include="Primitives\UnitSystems\Annotation.fs" />
+        <Compile Include="Primitives\UnitSystems\Conversion.fs" />
+        <Compile Include="Primitives\UnitSystems\Math.fs" />
+        <Compile Include="Geometry\Properties.fs" />
+        <Compile Include="Geometry.fs" />
+        <Compile Include="DesignCodes.fs" />
+        <Compile Include="LimitStates.fs" />
+        <Compile Include="DomainError.fs" />
+        <Compile Include="Concrete.fs" />
+        <Compile Include="Creep.fs" />
+        <Compile Include="Cages.fs" />
+        <Compile Include="Detailing.fs" />
+        <Compile Include="Rebar.fs" />
+        <Compile Include="RCPier.fs" />
+        <Compile Include="RCSection.fs" />
+        <Compile Include="Durability.fs" />
+        <Compile Include="ConcreteSerializer.fs" />
+    </ItemGroup>
+
+</Project>

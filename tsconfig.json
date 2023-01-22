@@ -1,9 +1,0 @@
-{
-  "include": ["src"],
-  "compilerOptions": {
-    "strict": true,
-    "outDir": "build",
-    "target": "ES2022",
-    "removeComments": true
-  }
-}
