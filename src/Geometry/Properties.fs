@@ -46,7 +46,7 @@ type Area<[<Measure>] 'TUnit> =
 /// <summary>
 /// Volume dimension annotated with unit-of-measure.
 /// </summary>   
-type Volume<[<Measure>] 'TUnit> = Volume of float<'TUnit^3>
+type Volume<[<Measure>] 'TUnit> = Volume of float<'TUnit ^ 3>
 
 /// <summary>
 /// Second moment of area dimension annotated with unit-of-measure.
