@@ -1,4 +1,4 @@
-namespace Nitro.ETABS
+namespace Calcpad.ETABS
 
 type StoreyRenderProps = 
     { Name: string 

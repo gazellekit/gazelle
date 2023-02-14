@@ -1,4 +1,4 @@
-namespace Nitro
+namespace Calcpad.ETABS
 
 type IOError = 
     | BadUserInput

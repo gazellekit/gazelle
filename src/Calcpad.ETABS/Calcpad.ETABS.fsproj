@@ -1,5 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Authors>James S. Bayley</Authors>
     <TargetFramework>net48</TargetFramework>
@@ -10,29 +9,23 @@
     <IsPackable>true</IsPackable>
     <Version>0.0.1</Version>
   </PropertyGroup>
-
   <ItemGroup>
     <Reference Include=".\DLLs\ETABSv1.dll">
-	  <HintPath>ETABSv1.dll</HintPath>
-	  <SpecificVersion>False</SpecificVersion>
-	</Reference>
-	<Reference Include=".\DLLs\ETABSv17.dll">
-	  <HintPath>ETABSv17.dll</HintPath>
-	  <SpecificVersion>False</SpecificVersion>
-	</Reference>
+      <HintPath>ETABSv1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include=".\DLLs\ETABSv17.dll">
+      <HintPath>ETABSv17.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
   </ItemGroup>
-
   <ItemGroup>
     <Compile Include="ErrorHandling.fs" />
-    <Compile Include="ETABS.fs" />
-    <Compile Include="IO.fs" />
-    <Compile Include="Messages.fs" />
-    <Compile Include="Model.fs" />
-    <Compile Include="Renderer.fs" />
-    <Compile Include="Types.fs" />
     <Compile Include="UnvalidatedTypes.fs" />
-    <Compile Include="Unwrap.fs" />
     <Compile Include="ValidatedTypes.fs" />
+    <Compile Include="Types.fs" />
+    <Compile Include="ETABS.fs" />
+    <Compile Include="Model.fs" />
+    <Compile Include="Unwrap.fs" />
   </ItemGroup>
-
 </Project>

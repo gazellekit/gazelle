@@ -1,4 +1,4 @@
-namespace Nitro
+namespace Calcpad.ETABS
 
 // DTO types specified in user config. file prior to model validation.
 type IntegerRange = 

@@ -1,11 +1,8 @@
-﻿namespace Nitro.ETABS
+﻿namespace Calcpad.ETABS
 
 open System
 open System.Runtime.InteropServices
 open System.Runtime.Remoting
-
-open Nitro
-open Nitro.IO
 
 type Version = V17 | V19 
 type Helper = V17 of ETABSv17.cHelper | V19 of ETABSv1.cHelper
