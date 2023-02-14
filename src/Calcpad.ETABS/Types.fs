@@ -1,10 +1,10 @@
 namespace Calcpad.ETABS
 
-type StoreyRenderProps = 
-    { Name: string 
-      Height: float 
-      IsMaster: bool 
-      MasterRefName: string 
-      IsSplicedAbove: bool 
-      SpliceHeight: float 
-      Color: int }
+// type StoreyRenderProps = 
+//     { Name: string 
+//       Height: float 
+//       IsMaster: bool 
+//       MasterRefName: string 
+//       IsSplicedAbove: bool 
+//       SpliceHeight: float 
+//       Color: int }
