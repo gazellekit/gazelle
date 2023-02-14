@@ -1,4 +1,8 @@
 {
+  "[fsharp]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
+  },
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
