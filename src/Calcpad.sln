@@ -1,6 +1,5 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fortress", "src\Fortress.fsproj", "{D0E86BDC-D10D-4DC3-955E-67C22896E162}"
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad", "Calcpad.Core\Calcpad.Core.fsproj", "{D0E86BDC-D10D-4DC3-955E-67C22896E162}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
