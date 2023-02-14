@@ -1,4 +1,4 @@
-name: Run CI and build project.
+name: Development CI.
 
 on:
   push:
