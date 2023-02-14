@@ -8,7 +8,8 @@
     "**/Thumbs.db": true,
     "**/obj": true,
     "**/bin": true,
-    "**/.idea": true
+    "**/.idea": true,
+    "*.sln.DotSettings.user": true
   },
   "liveServer.settings.port": 8080,
   "liveServer.settings.root": "/"
