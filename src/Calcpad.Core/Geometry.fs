@@ -1,4 +1,4 @@
-namespace Calcpad
+namespace Calcpad.Core
 
 open System
 open Calcpad.Primitives.UnitSystems

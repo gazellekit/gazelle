@@ -1,4 +1,4 @@
-namespace Calcpad
+namespace Calcpad.Core
 
 //module Durability = 
        
