@@ -1,7 +1,7 @@
 namespace Calcpad.Core
 
 open System
-open Calcpad.Primitives.UnitSystems
+open Calcpad.Core.Primitives.UnitSystems
 
 /// Orthogonal geometric cross-sectional axes. 
 type Axis = X | Y
