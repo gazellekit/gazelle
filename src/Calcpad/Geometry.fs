@@ -1,7 +1,7 @@
-namespace Fortress
+namespace Calcpad
 
 open System
-open Fortress.Primitives.UnitSystems
+open Calcpad.Primitives.UnitSystems
 
 /// Orthogonal geometric cross-sectional axes. 
 type Axis = X | Y

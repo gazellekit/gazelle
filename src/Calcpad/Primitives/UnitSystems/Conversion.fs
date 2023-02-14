@@ -1,4 +1,4 @@
-namespace Fortress.Primitives.UnitSystems
+namespace Calcpad.Primitives.UnitSystems
 
 open FSharp.Data.UnitSystems.SI.UnitSymbols
 

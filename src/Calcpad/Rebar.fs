@@ -1,6 +1,6 @@
-namespace Fortress
+namespace Calcpad
 
-open Fortress.Primitives.UnitSystems
+open Calcpad.Primitives.UnitSystems
 open FSharp.Data.UnitSystems.SI.UnitSymbols
 
 type UKSteelGrade = B400 | B500 | B600 | C400 | C500 | C600

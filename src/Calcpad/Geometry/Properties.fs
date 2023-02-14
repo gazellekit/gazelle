@@ -1,4 +1,4 @@
-namespace Fortress.Primitives.Geometry
+namespace Calcpad.Primitives.Geometry
 
 /// <summary>
 /// Orthogonal geometric axis.

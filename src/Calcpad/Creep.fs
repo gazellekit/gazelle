@@ -1,4 +1,4 @@
-namespace Fortress
+namespace Calcpad
 
 // open type System.Math
 // open FSharp.Data.UnitSystems.SI.UnitSymbols

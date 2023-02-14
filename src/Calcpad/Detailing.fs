@@ -1,4 +1,4 @@
-namespace Fortress
+namespace Calcpad
 
 //open System
 
