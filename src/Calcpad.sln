@@ -1,5 +1,9 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad", "Calcpad\Calcpad.fsproj", "{D0E86BDC-D10D-4DC3-955E-67C22896E162}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.ETABS", "Calcpad.ETABS\Calcpad.ETABS.fsproj", "{87045B78-A332-4711-A0A1-5F57B195ACB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,5 +15,12 @@ Global
 		{D0E86BDC-D10D-4DC3-955E-67C22896E162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0E86BDC-D10D-4DC3-955E-67C22896E162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0E86BDC-D10D-4DC3-955E-67C22896E162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87045B78-A332-4711-A0A1-5F57B195ACB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87045B78-A332-4711-A0A1-5F57B195ACB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87045B78-A332-4711-A0A1-5F57B195ACB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87045B78-A332-4711-A0A1-5F57B195ACB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87045B78-A332-4711-A0A1-5F57B195ACB5} = {0F411079-5FCB-4451-952F-C0946BF5410D}
 	EndGlobalSection
 EndGlobal
