@@ -9,5 +9,7 @@
     "**/obj": true,
     "**/bin": true,
     "**/.idea": true
-  }
+  },
+  "liveServer.settings.port": 8080,
+  "liveServer.settings.root": "/"
 }
