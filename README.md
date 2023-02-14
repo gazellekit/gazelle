@@ -1,5 +1,5 @@
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 [![Run CI and build project.](https://github.com/jamesbayley/Calcpad/actions/workflows/build.yml/badge.svg)](https://github.com/jamesbayley/Calcpad/actions/workflows/build.yml)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 
 # Calcpad
 
