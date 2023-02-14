@@ -2,14 +2,14 @@ name: Run CI and build project.
 
 on:
   push:
-    branches: test
+    branches: dev
 
 jobs:
   build:
     name: Build .NET Project
     runs-on: ubuntu-latest
     environment: 
-      name: Test
+      name: Development
 
     steps: 
       - name: Checkout Repository
