@@ -16,5 +16,5 @@
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers/features/powershell:1": {}
 	},
-	"postCreateCommand": "dotnet restore --configfile NuGet.config"
+	"postCreateCommand": "dotnet restore --configfile nuget.config"
 }
