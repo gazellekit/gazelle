@@ -1,4 +1,10 @@
+# .NET
 bin/
 obj/
-.DS_Store
 .fake
+
+# Rider
+.idea/
+
+# MacOS
+.DS_Store
