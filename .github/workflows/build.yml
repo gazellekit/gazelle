@@ -1,0 +1,19 @@
+name: Run CI and build project.
+
+on:
+  push:
+    branches: test
+
+jobs:
+  build:
+    name: Build .NET Project
+    runs-on: ubuntu-latest
+    environment: 
+      name: Test
+
+    steps: 
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      
+      - name: Build Project
+        run: dotnet build
