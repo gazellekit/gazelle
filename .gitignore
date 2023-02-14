@@ -5,6 +5,7 @@ obj/
 
 # Rider
 .idea/
+*.sln.DotSettings.user
 
 # MacOS
 .DS_Store
