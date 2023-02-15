@@ -3,6 +3,10 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "Ionide.Ionide-fsharp"
   },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -16,5 +20,6 @@
     "*.sln.DotSettings.user": true
   },
   "liveServer.settings.port": 8080,
-  "liveServer.settings.root": "/"
+  "liveServer.settings.root": "/src/Calcpad.Web/www",
+  "liveServer.settings.file": "index.html"
 }
