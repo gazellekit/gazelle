@@ -6,6 +6,9 @@ obj/
 # Node.js
 node_modules/
 
+# JavaScript
+**/www/build/
+
 # Rider
 .idea/
 *.sln.DotSettings.user
