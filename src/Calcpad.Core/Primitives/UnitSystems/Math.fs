@@ -1,4 +1,4 @@
-namespace Calcpad.Primitives.UnitSystems
+namespace Calcpad.Core.Primitives.UnitSystems
 
 /// <summary>
 /// Collection of mathematical modules that operate on  

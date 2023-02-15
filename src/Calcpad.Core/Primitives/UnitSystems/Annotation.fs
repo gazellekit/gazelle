@@ -1,4 +1,4 @@
-namespace Calcpad.Primitives.UnitSystems
+namespace Calcpad.Core.Primitives.UnitSystems
 
 /// <summary>
 /// Remove unit-of-measure type annotations from various types.

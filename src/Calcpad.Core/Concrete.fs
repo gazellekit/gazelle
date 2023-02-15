@@ -1,6 +1,6 @@
-namespace Calcpad
+namespace Calcpad.Core
 
-open Calcpad.Primitives.UnitSystems
+open Calcpad.Core.Primitives.UnitSystems
 open FSharp.Data.UnitSystems.SI.UnitSymbols
 
 type UKConcreteGrade =

@@ -1,0 +1,12 @@
+{
+  "include": [ "ts" ],
+  "compilerOptions": {
+    "strict": true,
+    "module": "ES2022",
+    "target": "ES2022",
+    "allowJs": false,
+    "checkJs": false,
+    "outDir": "www/build",
+    "removeComments": true
+  }
+}

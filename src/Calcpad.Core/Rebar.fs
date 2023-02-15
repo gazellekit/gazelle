@@ -1,6 +1,6 @@
-namespace Calcpad
+namespace Calcpad.Core
 
-open Calcpad.Primitives.UnitSystems
+open Calcpad.Core.Primitives.UnitSystems
 open FSharp.Data.UnitSystems.SI.UnitSymbols
 
 type UKSteelGrade = B400 | B500 | B600 | C400 | C500 | C600

@@ -1,4 +1,4 @@
-namespace Calcpad
+namespace Calcpad.Core
 
 /// Supported eurocodes (EC).
 type Eurocode = | UK

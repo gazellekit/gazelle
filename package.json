@@ -1,0 +1,17 @@
+{
+  "name": "calcpad",
+  "version": "0.0.1",
+  "description": "For Structural Engineers, Everywhere.",
+  "license": "AGPL-3.0-or-later",
+  "author": {
+    "name": "James S. Bayley",
+    "url": "https://www.linkedin.com/in/jsbayley/"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "node_modules/.bin/tsc --project ./src/Calcpad.Web"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}

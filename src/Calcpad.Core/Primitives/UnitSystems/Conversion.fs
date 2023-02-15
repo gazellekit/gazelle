@@ -1,4 +1,4 @@
-namespace Calcpad.Primitives.UnitSystems
+namespace Calcpad.Core.Primitives.UnitSystems
 
 open FSharp.Data.UnitSystems.SI.UnitSymbols
 
