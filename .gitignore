@@ -3,6 +3,9 @@ bin/
 obj/
 .fake
 
+# Node.js
+node_modules/
+
 # Rider
 .idea/
 *.sln.DotSettings.user

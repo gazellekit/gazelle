@@ -7,11 +7,13 @@
 			"extensions": [
 				"Ionide.Ionide-fsharp",
 				"ms-dotnettools.csharp",
-				"ritwickdey.liveserver"
+				"ritwickdey.liveserver",
+				"esbenp.prettier-vscode"
 			]
 		}
 	},
 	"features": {
+		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers/features/powershell:1": {}
