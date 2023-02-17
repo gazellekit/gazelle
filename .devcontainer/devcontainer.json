@@ -1,6 +1,6 @@
 {
 	"name": "Calcpad",
-	"image": "mcr.microsoft.com/devcontainers/dotnet:0-7.0-bullseye",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:0-6.0-bullseye",
 	"runArgs": ["--name", "calcpad"],
 	"customizations": {
 		"vscode": {		

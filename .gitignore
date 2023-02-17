@@ -3,6 +3,10 @@ bin/
 obj/
 .fake
 
+# Fable
+fable_modules/
+*.fs.js
+
 # Node.js
 node_modules/
 
