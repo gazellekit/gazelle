@@ -6,6 +6,7 @@
     "esbenp.prettier-vscode",
     "ms-python.python",
     "ms-python.vscode-pylance",
-    "ms-vscode.makefile-tools"
+    "ms-vscode.makefile-tools",
+    "bierner.markdown-preview-github-styles"
   ]
 }

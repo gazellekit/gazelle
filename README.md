@@ -24,10 +24,10 @@
 
 1. [Setup](#setup)
 2. [Projects](#projects)
-  - [Bluebook](#bluebook)
-  - [Calcpad](#calcpad)
-  - [Fortress](#fortress)
-  - [Foreman](#foreman)
+    - [Bluebook](#bluebook)
+    - [Calcpad](#calcpad)
+    - [Fortress](#fortress)
+    - [Foreman](#foreman)
 
 ## Setup
 
