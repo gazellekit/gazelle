@@ -27,10 +27,18 @@
 
 ## Setup
 
+...
+
 ## Projects
 
 ### Calcpad
 
+...
+
 ### Fortress
 
+...
+
 ### Foreman
+
+...
