@@ -2,16 +2,6 @@
 	"name": "calcpad",
 	"image": "mcr.microsoft.com/devcontainers/dotnet:0-6.0-bullseye",
 	"runArgs": ["--name", "calcpad"],
-	"customizations": {
-		"vscode": {		
-			"extensions": [
-				"Ionide.Ionide-fsharp",
-				"ms-dotnettools.csharp",
-				"ritwickdey.liveserver",
-				"esbenp.prettier-vscode"
-			]
-		}
-	},
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/devcontainers/features/python:1": {},

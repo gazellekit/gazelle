@@ -1,15 +1,4 @@
 {
-  "[fsharp]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
-  },
-  "[typescript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[python]": {
-    "editor.formatOnSave": true
-  },
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -24,7 +13,34 @@
     "**/__pycache__": true,
     "**/*.fs.js": true
   },
+  
   "liveServer.settings.port": 8080,
   "liveServer.settings.root": "/projects/calcpad/www",
-  "liveServer.settings.file": "index.html"
+  "liveServer.settings.file": "index.html",
+
+  "[fsharp]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
+  },
+
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[python]": {
+    "editor.formatOnSave": true,
+  },
+  "python.defaultInterpreterPath": "/usr/local/bin/python",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
+  "python.formatting.blackPath": "/usr/local/py-utils/bin/black",
+  "python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
+  "python.linting.banditPath": "/usr/local/py-utils/bin/bandit",
+  "python.linting.flake8Path": "/usr/local/py-utils/bin/flake8",
+  "python.linting.mypyPath": "/usr/local/py-utils/bin/mypy",
+  "python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
+  "python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
+  "python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
 }

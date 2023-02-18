@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "Ionide.Ionide-fsharp",
+    "ms-dotnettools.csharp",
+    "ritwickdey.liveserver",
+    "esbenp.prettier-vscode",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-vscode.makefile-tools"
+  ]
+}
