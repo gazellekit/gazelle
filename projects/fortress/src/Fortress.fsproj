@@ -2,12 +2,12 @@
 
     <PropertyGroup>
         <Authors>James S. Bayley</Authors>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <RepositoryUrl>https://github.com/jamesbayley/Calcpad</RepositoryUrl>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageId>Calcpad.Core</PackageId>
+        <PackageId>Fortress</PackageId>
         <IsPackable>true</IsPackable>
         <Version>0.0.1</Version>
     </PropertyGroup>
@@ -18,7 +18,7 @@
         <Compile Include="Primitives\UnitSystems\Conversion.fs" />
         <Compile Include="Primitives\UnitSystems\Math.fs" />
         <Compile Include="Geometry\Properties.fs" />
-        <Compile Include="Geometry.fs" />
+        <!-- <Compile Include="Geometry.fs" />
         <Compile Include="DesignCodes.fs" />
         <Compile Include="LimitStates.fs" />
         <Compile Include="DomainError.fs" />
@@ -30,7 +30,12 @@
         <Compile Include="RCPier.fs" />
         <Compile Include="RCSection.fs" />
         <Compile Include="Durability.fs" />
-        <Compile Include="ConcreteSerializer.fs" />
+        <Compile Include="ConcreteSerializer.fs" /> -->
+        <Compile Include="Interop\JS.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Fable.Core" Version="3.2.3" />
     </ItemGroup>
 
 </Project>
