@@ -39,6 +39,6 @@
 
 ...
 
-### Foreman
+### Foreman
 
 ...
