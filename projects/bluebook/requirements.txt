@@ -6,7 +6,7 @@ entrypoints==0.4
 et-xmlfile==1.1.0
 executing==1.2.0
 ipykernel==6.17.0
-ipython==8.6.0
+ipython==8.10.0
 jedi==0.18.1
 jupyter_client==7.4.4
 jupyter_core==4.11.2
