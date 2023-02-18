@@ -19,3 +19,18 @@
 </p>
 
 </div>
+
+## Table of Contents
+
+1. [Setup](#setup)
+2. [Projects](#projects)
+
+## Setup
+
+## Projects
+
+### Calcpad
+
+### Fortress
+
+### Foreman
