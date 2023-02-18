@@ -18,9 +18,9 @@
     "**/bin": true,
     "**/.idea": true,
     "*.sln.DotSettings.user": true,
-    // "**/*.fs.js": true
+    "**/*.fs.js": true
   },
   "liveServer.settings.port": 8080,
-  "liveServer.settings.root": "/src/Calcpad.Web/www",
+  "liveServer.settings.root": "/projects/calcpad/www",
   "liveServer.settings.file": "index.html"
 }
