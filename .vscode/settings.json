@@ -7,6 +7,9 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[python]": {
+    "editor.formatOnSave": true
+  },
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -18,6 +21,7 @@
     "**/bin": true,
     "**/.idea": true,
     "*.sln.DotSettings.user": true,
+    "**/__pycache__": true,
     "**/*.fs.js": true
   },
   "liveServer.settings.port": 8080,
