@@ -6,4 +6,6 @@ on:
 
 jobs:
   build:
-    run: echo "Simulating build..."
+    steps: 
+      name: Print Message
+      run: echo "Simulating build..."
