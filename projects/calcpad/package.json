@@ -9,7 +9,7 @@
   },
   "type": "module",
   "scripts": {
-    "build": "node_modules/.bin/tsc --project ./src/Calcpad.Web"
+    "build": "node_modules/.bin/tsc"
   },
   "devDependencies": {
     "typescript": "^4.9.5"

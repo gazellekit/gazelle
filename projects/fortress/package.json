@@ -1,0 +1,13 @@
+{
+  "name": "calcpad",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "postinstall": "dotnet tool restore",
+    "build": "dotnet fable src && webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

@@ -7,6 +7,9 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[python]": {
+    "editor.formatOnSave": true
+  },
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -17,9 +20,11 @@
     "**/obj": true,
     "**/bin": true,
     "**/.idea": true,
-    "*.sln.DotSettings.user": true
+    "*.sln.DotSettings.user": true,
+    "**/__pycache__": true,
+    "**/*.fs.js": true
   },
   "liveServer.settings.port": 8080,
-  "liveServer.settings.root": "/src/Calcpad.Web/www",
+  "liveServer.settings.root": "/projects/calcpad/www",
   "liveServer.settings.file": "index.html"
 }

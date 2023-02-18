@@ -1,6 +1,6 @@
 {
-	"name": "Calcpad",
-	"image": "mcr.microsoft.com/devcontainers/dotnet:0-7.0-bullseye",
+	"name": "calcpad",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:0-6.0-bullseye",
 	"runArgs": ["--name", "calcpad"],
 	"customizations": {
 		"vscode": {		
@@ -14,9 +14,9 @@
 	},
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers/features/python:1": {},
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers/features/powershell:1": {}
-	},
-	"postCreateCommand": "dotnet restore --configfile nuget.config"
+	}
 }
