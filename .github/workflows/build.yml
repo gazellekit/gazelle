@@ -6,9 +6,9 @@ on:
 
 jobs:
   name: Build
-    runs-on: ubuntu-latest
-    environment:
-      name: "Development"
+  runs-on: ubuntu-latest
+  environment:
+    name: "Development"
 
   build:
     steps: 
