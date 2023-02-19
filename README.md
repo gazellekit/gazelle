@@ -1,7 +1,6 @@
 <div align="center">
 
-<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet" />
-<h1 style="font-family: 'Lobster Two', cursive;">calcpad</h1>
+<h1>calcpad</h1>
 
 [![Production](https://github.com/jamesbayley/calcpad/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/jamesbayley/calcpad/actions/workflows/deploy-prod.yml)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
