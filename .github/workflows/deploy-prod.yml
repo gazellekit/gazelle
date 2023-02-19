@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: "Production"
+      url: ${{ steps.publish-to-azure-swa.outputs.static_web_app_url }}
 
     steps:
       - name: Checkout Repository
