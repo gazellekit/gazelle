@@ -14,11 +14,28 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           submodules: true
 
-      - name: Build And Deploy
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.x'
+          include-prerelease: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Build Fortress
+        run: |
+          cd ./projects/fortress
+          npm ci
+          npm run build
+
+      - name: Build and Deploy Calcpad
         uses: Azure/static-web-apps-deploy@v1
         id: publish-to-azure-swa
         with:
