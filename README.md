@@ -9,10 +9,11 @@
 
 ## Table of Contents
 
-1. [Setup](#setup)
-2. [Projects](#projects)
+1. [The Mission](#themission)
+2. [Setup](#setup)
+3. [Projects](#projects)
 
-## Overview
+## The Mission
 
 <p align="justify">
   Structural Engineers accept enormous responsibility when they opt to dedicate their lives to improve our built environment. However, the digital tools currently at their disposal are often closed-source and proprietary. Engineers have very little opportunity to inspect, or influence, the algorithms behind the software used to analyse and design our buildings and bridges. This must change.
