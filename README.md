@@ -15,9 +15,7 @@
 
 ## Our Mission
 
-<p align="justify">
-  At calcpad, we're building <em>truly</em> open software that is transparent, ethical and robust.
-</p>
+At calcpad, we're building <em>truly</em> open software that is transparent, ethical and robust.
 
 ## Why?
 
