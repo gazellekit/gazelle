@@ -9,16 +9,13 @@
 
 ## Table of Contents
 
-1. [The Mission](#themission)
+1. [Our Mission](#themission)
 
-## The Mission
+## Our Mission
 
 <p align="justify">
-  Engineers accept phenomenal responsibility when dedicating their lives to improve our Built Environment. However, much of the engineering software available is closed source and proprietary, with little opportunity to inspect, validate or influence the algorithms used to design our buildings and bridges. This is unfair. 
+  Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. Nevertheless, the vast majority of professional engineering software is closed source and proprietary. Engineers can rarely inspect, validate or influence the algorithms used to design our buildings and bridges. We believe this is unfair and must change.
 </p>
 <p align="justify">
-  At calcpad, we are dedicated to building a truly open suite of software that is transparent, verifiable and robust. We are building calcpad in plain-sight and are actively rallying a community of domain experts, software engineers and technologists to help build the next generation of engineering applications, in an ethical manner that acknowledges the pressures and liabilities of Civil & Structural Engineers.
-</p>
-<p align="justify">
-  At calcpad, we're aspiring to build a community-driven profession that is open-minded, open-hearted, and open-source.
+  At calcpad, we're building <em>truly</em> open software that is transparent, ethical and robust.
 </p>
