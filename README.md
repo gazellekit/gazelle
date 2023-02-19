@@ -1,9 +1,10 @@
 <div align="center">
 
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet" />
+<h1 style="font-family: 'Lobster Two', cursive;">calcpad</h1>
+
 [![Production](https://github.com/jamesbayley/calcpad/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/jamesbayley/calcpad/actions/workflows/deploy-prod.yml)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
-
-<h1>calcpad</h1>
 
 <p align="justify">
   Structural Engineers accept enormous responsibility when they opt to dedicate their lives to improve our built environment. However, the digital tools currently at their disposal are often closed-source and proprietary. Engineers have very little opportunity to inspect, or influence, the algorithms behind the software used to analyse and design our buildings and bridges. This must change.
