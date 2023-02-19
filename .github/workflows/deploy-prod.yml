@@ -6,24 +6,24 @@ on:
     
     steps:
       deploy-static-web-app:
-        name: Publish calcpad.io
-        runs-on: ubuntu-latest
-        environment:
-          name: "Production"
+        - name: Publish calcpad.io
+          runs-on: ubuntu-latest
+          environment:
+            name: "Production"
 
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-        with:
-          submodules: true
+        - name: Checkout Repository
+          uses: actions/checkout@v2
+          with:
+            submodules: true
 
-      - name: Build And Deploy
-        uses: Azure/static-web-apps-deploy@v1
-        id: publish-to-azure-swa
-        with:
-          azure_static_web_apps_api_token: ${{ secrets.CALCPAD_SWA_TOKEN }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          action: "upload"
-          api_location: ""
-          app_location: "/projects/calcpad/www"
-          output_location: ""
-          skip_api_build: true
+        - name: Build And Deploy
+          uses: Azure/static-web-apps-deploy@v1
+          id: publish-to-azure-swa
+          with:
+            azure_static_web_apps_api_token: ${{ secrets.CALCPAD_SWA_TOKEN }}
+            repo_token: ${{ secrets.GITHUB_TOKEN }}
+            action: "upload"
+            api_location: ""
+            app_location: "/projects/calcpad/www"
+            output_location: ""
+            skip_api_build: true
