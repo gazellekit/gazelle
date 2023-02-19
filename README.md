@@ -14,5 +14,13 @@
 ## Our Mission
 
 <p align="justify">
-  Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. Nevertheless, the vast majority of professional engineering software is closed source and proprietary. Engineers can rarely inspect, validate or influence the algorithms used to design our buildings and bridges. We believe this is unfair and must change. At calcpad, we're building <em>truly</em> open software that is transparent, ethical and robust.
+  Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. Nevertheless, the vast majority of professional engineering software is closed source and proprietary. Engineers can rarely inspect, validate or influence the algorithms used to design our buildings and bridges.
+</p>
+  
+<p align="justify">
+  We believe this is unfair and must change.
+</p>
+
+<p align="justify">
+  At calcpad, we're building truly open software that is transparent, ethical and robust.
 </p>
