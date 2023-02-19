@@ -25,4 +25,4 @@ Engineers accept phenomenal responsibility when dedicating their lives to improv
 
 ## License
 
-We value the efforts of our community in helping to make **calcpad** the best suite of engineering software available. Open Source Software (OSS) survives on a trust-based relationship; accordingly, we have adopted a strict _copyleft_ license (AGPLv3).
+We value the efforts of our community in helping us to develop the best suite of engineering software available. Open Source Software (OSS) survives on a trust-based relationship; accordingly, we have adopted a strict _copyleft_ license (AGPLv3).
