@@ -10,42 +10,15 @@
 ## Table of Contents
 
 1. [The Mission](#themission)
-2. [Setup](#setup)
-3. [Projects](#projects)
 
 ## The Mission
 
 <p align="justify">
-  Structural Engineers accept enormous responsibility when they opt to dedicate their lives to improve our built environment. However, the digital tools currently at their disposal are often closed-source and proprietary. Engineers have very little opportunity to inspect, or influence, the algorithms behind the software used to analyse and design our buildings and bridges. This must change.
+  Engineers accept phenomenal responsibility when dedicating their lives to improve our Built Environment. However, much of the engineering software available is closed source and proprietary, with little opportunity to inspect, validate or influence the algorithms used to design our buildings and bridges. This is unfair. 
 </p>
 <p align="justify">
-  Structural Engineers must have access to tools and technologies that are open, transparent and verifiable. Calculations and design procedures should be implemented in such a way that Engineers can (1) adopt them with confidence, (2) inspect them, and (3) propose amendments, corrections and enhancements.
+  At calcpad, we are dedicated to building a truly open suite of software that is transparent, verifiable and robust. We are building calcpad in plain-sight and are actively rallying a community of domain experts, software engineers and technologists to help build the next generation of engineering applications, in an ethical manner that acknowledges the pressures and liabilities of Civil & Structural Engineers.
 </p>
 <p align="justify">
-  This library aspires to become the de facto implementation for Structural Engineering design worldwide. Through global contribution and collaboration, we are assembling a comprehensive repository of international design code implementations (e.g., Eurocode, ACI, etc.), atop a core layer of structural mechanics algorithms.
+  At calcpad, we're aspiring to build a community-driven profession that is open-minded, open-hearted, and open-source.
 </p>
-<p align="justify">
-  Together, we're building a profession that is open-minded, open-hearted, and open-source.
-</p>
-
-## Setup
-
-...
-
-## Projects
-
-### Bluebook
-
-...
-
-### Calcpad
-
-...
-
-### Fortress
-
-...
-
-### Foreman
-
-...
