@@ -5,6 +5,8 @@
 [![Production](https://github.com/jamesbayley/calcpad/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/jamesbayley/calcpad/actions/workflows/deploy-prod.yml)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 
+<p align="center">Injecting transparency, community and simplicity into the heart of engineering.</p>
+
 <p align="justify">
   Structural Engineers accept enormous responsibility when they opt to dedicate their lives to improve our built environment. However, the digital tools currently at their disposal are often closed-source and proprietary. Engineers have very little opportunity to inspect, or influence, the algorithms behind the software used to analyse and design our buildings and bridges. This must change.
 </p>
