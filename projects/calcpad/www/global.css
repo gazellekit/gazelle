@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Lobster Two';
+  src: URL('assets/fonts/lobster-two/LobsterTwo-Regular.ttf') format('truetype');
+}
+
+:root { 
+  /* Palette 1 */
+  --yale-blue: #0d3b66ff;
+  --imperial-red: #fb3640ff;
+  --dutch-white: #fcecc9ff;
+  --moonstone: #53b3cbff;
+  --lavender-blush: #e0d8deff;
+
+  /* Palette 2 */
+  --emerald: #23ce6bff;
+  --magenta-haze: #932f6dff;
+  --yinmn-blue: #1d4e89ff;
+  --melon: #ffa69eff;
+  --ivory: #fbfff1ff;
+}
+
+h1 { 
+  font-family: 'Lobster Two', Verdana, Tahoma, sans-serif;
+}
