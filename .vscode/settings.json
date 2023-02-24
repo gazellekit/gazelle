@@ -7,7 +7,6 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/obj": true,
-    "**/bin": true,
     "**/.idea": true,
     "*.sln.DotSettings.user": true,
     "**/__pycache__": true,
