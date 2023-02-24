@@ -4,6 +4,8 @@
 }
 
 :root { 
+  font-size: 10px;
+
   /* Palette 1 */
   --yale-blue: #0d3b66ff;
   --imperial-red: #fb3640ff;
@@ -20,5 +22,25 @@
 }
 
 h1 { 
+  font-size: 4rem;
   font-family: 'Lobster Two', Verdana, Tahoma, sans-serif;
+  color: var(--lavender-blush);
+  text-align: left;
 }
+
+body { 
+  background-image: url(./assets/images/wallpaper/selfridges-desktop-small.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+/* @media (max-width: 40rem) {
+  h1 { 
+    color: #000000
+  }
+
+  body { 
+    background-image: url(./assets/images/wallpaper/birmingham-library-mobile.jpg);
+  }
+} */
