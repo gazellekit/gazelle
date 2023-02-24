@@ -2,16 +2,16 @@
   "version": 1,
   "isRoot": true,
   "tools": {
-    "fable": {
-      "version": "3.7.20",
-      "commands": [
-        "fable"
-      ]
-    },
     "fantomas": {
       "version": "5.2.1",
       "commands": [
         "fantomas"
+      ]
+    },
+    "fable": {
+      "version": "4.0.0-theta-018",
+      "commands": [
+        "fable"
       ]
     }
   }
