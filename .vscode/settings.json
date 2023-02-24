@@ -8,23 +8,15 @@
     "**/Thumbs.db": true,
     "**/obj": true,
     "**/.idea": true,
-    "*.sln.DotSettings.user": true,
+    "**/*.py": true,
+    "**/*.fs.js": true,
     "**/__pycache__": true,
-    "**/*.fs.js": true
+    "*.sln.DotSettings.user": true
   },
-  
-  "liveServer.settings.port": 8080,
-  "liveServer.settings.root": "/projects/calcpad/www",
-  "liveServer.settings.file": "index.html",
 
   "[fsharp]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "Ionide.Ionide-fsharp"
-  },
-
-  "[typescript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   "[python]": {

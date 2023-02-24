@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "postinstall": "dotnet tool restore",
-    "build": "dotnet fable src && webpack"
+    "build": "dotnet fable"
   },
   "devDependencies": {
     "webpack": "^5.75.0",

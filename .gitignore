@@ -14,6 +14,7 @@ node_modules/
 **/www/build/
 
 # Python
+*.py
 venv/
 __pycache__/
 

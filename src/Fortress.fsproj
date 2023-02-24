@@ -3,7 +3,7 @@
     <Authors>James S. Bayley</Authors>
     <TargetFramework>net7.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <RepositoryUrl>https://github.com/jamesbayley/Calcpad</RepositoryUrl>
+    <RepositoryUrl>https://github.com/jamesbayley/Fortress</RepositoryUrl>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Fortress</PackageId>
