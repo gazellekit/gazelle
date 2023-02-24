@@ -1,4 +1,4 @@
-namespace Calcpad.Core.Primitives.UnitSystems
+namespace Fortress.Primitives.UnitSystems
 
 /// <summary>
 /// Collection of mathematical modules that operate on  

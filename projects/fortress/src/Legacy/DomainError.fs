@@ -1,4 +1,4 @@
-namespace Calcpad.Core
+namespace Fortress
 
 type ConcreteError = 
     | InvalidAge of message : string

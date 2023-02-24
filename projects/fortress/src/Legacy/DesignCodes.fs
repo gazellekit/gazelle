@@ -1,4 +1,4 @@
-namespace Calcpad.Core
+namespace Fortress
 
 /// Supported eurocodes (EC).
 type Eurocode = | UK

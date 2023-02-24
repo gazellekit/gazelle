@@ -1,4 +1,4 @@
-namespace Calcpad.Core.Primitives.UnitSystems
+namespace Fortress.Primitives.UnitSystems
 
 /// <summary>
 /// Remove unit-of-measure type annotations from various types.

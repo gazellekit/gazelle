@@ -1,6 +1,6 @@
-namespace Calcpad.Core
+namespace Fortress
 
-open Calcpad.Core.Primitives.UnitSystems
+open Fortress.Primitives.UnitSystems
 open FSharp.Data.UnitSystems.SI.UnitSymbols
 
 type UKConcreteGrade =
