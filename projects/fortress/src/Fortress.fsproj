@@ -11,12 +11,12 @@
     <Version>0.0.1</Version>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Legacy/Concrete.fs" />
     <Compile Include="Primitives\UnitSystems\Units.fs" />
     <Compile Include="Primitives\UnitSystems\Annotation.fs" />
     <Compile Include="Primitives\UnitSystems\Conversion.fs" />
     <Compile Include="Primitives\UnitSystems\Math.fs" />
     <Compile Include="Geometry\Properties.fs" />
+    <Compile Include="Legacy\Concrete.fs" />
     <!-- <Compile Include="Geometry.fs" />
         <Compile Include="DesignCodes.fs" />
         <Compile Include="LimitStates.fs" />
