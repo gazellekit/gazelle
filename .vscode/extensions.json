@@ -1,12 +1,13 @@
 {
   "recommendations": [
-    "Ionide.Ionide-fsharp",
-    "ms-dotnettools.csharp",
-    "ritwickdey.liveserver",
+    "bierner.markdown-preview-github-styles",
     "esbenp.prettier-vscode",
+    "ionide.ionide-fsharp",
+    "ms-azuretools.vscode-docker",
+    "ms-dotnettools.csharp",
     "ms-python.python",
     "ms-python.vscode-pylance",
-    "ms-vscode.makefile-tools",
-    "bierner.markdown-preview-github-styles"
+    "ms-vscode.powershell",
+    "ritwickdey.liveserver"
   ]
 }
