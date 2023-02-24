@@ -10,10 +10,6 @@
 		"ghcr.io/devcontainers/features/powershell:1": {},
 		"ghcr.io/devcontainers/features/azure-cli:1": {} 
 	},
-	"postCreateCommand": {
-		"fortress": "cd projects/fortress && npm install && npm run build",
-		"calcpad": "cd projects/calcpad && npm install && npm run build"
-	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
