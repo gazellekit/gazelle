@@ -34,4 +34,4 @@ jobs:
         run: npm ci
 
       - name: Transpile Fortress
-        run: ./Build-Fortress.ps1
+        run: pwsh ./Build-Fortress.ps1
