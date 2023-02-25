@@ -30,8 +30,8 @@ jobs:
         with:
           node-version: 18
 
-      - name: Build Fortress
-        run: |
-          cd ./projects/fortress
-          npm ci
-          npm run build
+      - name: Install NPM Packages.
+        run: npm ci
+
+      - name: Transpile Fortress
+        run: ./Build-Fortress.ps1

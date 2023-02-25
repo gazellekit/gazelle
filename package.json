@@ -2,9 +2,6 @@
   "name": "fortress",
   "version": "0.0.1",
   "private": true,
-  "scripts": {
-    "build": "dotnet fable"
-  },
   "devDependencies": {
     "webpack": "^5.75.0",
     "webpack-cli": "^4.10.0"
