@@ -1,5 +1,5 @@
 <div align="center">
-<img width="225px" src="./fortress.png" alt="Blue Fortress Logo. "/>
+<img width="200px" src="./fortress.png" alt="Blue Fortress Logo. "/>
 
 [![Production](https://github.com/jamesbayley/Fortress/actions/workflows/publish.yml/badge.svg)](https://github.com/jamesbayley/Fortress/actions/workflows/publish.yml)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
