@@ -1,10 +1,12 @@
 <div align="center">
-<img width="200px" src="./fortress.png" alt="Blue Fortress Logo. "/>
+<img height="150px" src="./fortress.png" alt="Blue Fortress Logo. "/>
+<h1>Fortress</h1>
+<p align="center">Open Software for Structural Engineers</p>
 
 [![Production](https://github.com/jamesbayley/Fortress/actions/workflows/publish.yml/badge.svg)](https://github.com/jamesbayley/Fortress/actions/workflows/publish.yml)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 
-<p align="center">Open Software for Structural Engineers</p>
+
 </div>
 
 ## Table of Contents
