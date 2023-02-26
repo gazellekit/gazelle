@@ -9,6 +9,10 @@ jobs:
     name: Build Fortress
     runs-on: ubuntu-latest
     environment: Production
+    defaults:
+      run:
+        shell: pwsh
+        working-directory: projects
 
     steps:
       - name: Checkout Repository
@@ -32,6 +36,3 @@ jobs:
 
       - name: Install NPM Packages.
         run: npm ci
-
-      - name: Transpile Fortress
-        run: pwsh ./Build-Fortress.ps1
