@@ -35,4 +35,6 @@ jobs:
           node-version: 18
 
       - name: Install NPM Packages.
-        run: npm ci
+        run: |
+          cd Fortress
+          npm ci
