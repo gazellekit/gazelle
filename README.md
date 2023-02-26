@@ -50,9 +50,7 @@ We welcome all financial contributions that can help to:
 1. Keep the vision alive, 
 2. Contribute towards our admin and server costs.
 
-<p align="center">
-  Please check out our GitHub Sponsors link if you wish to donate.
-</p>
+Please check out our GitHub Sponsors link if you wish to donate.
 
 ## License
 
