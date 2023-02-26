@@ -17,8 +17,9 @@
 1. [Why?](#why)
 2. [Our Mission](#themission)
 3. [How?](#how)
-4. [License](#license)
-5. [Sponsors](#sponsors)
+4. [Values](#values)
+4. [Sponsors](#sponsors)
+5. [License](#license)
 
 ## Why?
 
@@ -34,24 +35,25 @@ As a community, we're building a library for Structural Engineers that emphasise
 
 ## How?
 
+## Values
 
-
-## License
-
-We value the efforts of our community in helping us to develop the most comprehensive library available for Structural Engineers. Open Source Software (OSS) survives on a trust-based relationship; accordingly, we have adopted a strict _copyleft_ license (AGPLv3).
-
-## Sponsors
-
-This project survives based on the empassioned, voluntary efforts of individuals who believe that: 
+We aspire to foster a community of contributors who believe that: 
 
 1. Through collaboration, we can be more effective as an industry, 
 2. Re-inventing the wheel is unnecessary and introduces risk of bugs in calculations,
 3. Engineers should be able to adopt these algorithms across a variety of technology stacks.
 
-Accordingly, we welcome all financial contributions that can help towards: 
+## Sponsors
 
-1. Keeping the vision alive, 
-2. Supporting our volunteers for sacrificing their time,
-3. To recompense a percentage of our admin/server costs.
+We welcome all financial contributions that can help to: 
 
-Please check out our GitHub Sponsors link if you wish to donate.
+1. Keep the vision alive, 
+2. Contribute towards our admin and server costs.
+
+<p align="center">
+  Please check out our GitHub Sponsors link if you wish to donate.
+</p>
+
+## License
+
+We value the efforts of our community in helping us to develop the most comprehensive library available for Structural Engineers. Open Source Software (OSS) survives on a trust-based relationship; accordingly, we have adopted a strict _copyleft_ license (AGPLv3).
