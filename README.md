@@ -26,11 +26,13 @@ Engineers accept phenomenal responsibility when dedicating their lives to improv
 
 ## Our Mission
 
-Re-inventing the wheel is costly and introduces risk of error. Fortress provides your AEC development teams with battle-tested, reliable and community-driven design algorithms to supercharge your workflows! You can focus on developing the features that matter to you and your teams: those that drive competitive business value. Fortress is the foundation underpinning a developer-friendly API infrastructure for Civil & Structural Engineers that integrates seamlessly across all modern technology stacks and emphasises:
+Fortress is the foundation underpinning a developer-friendly API infrastructure for Civil & Structural Engineers that integrates seamlessly across all modern technology stacks and emphasises:
 
 1. Transparency, 
 2. Robustness, 
 3. Simplicity.
+
+Re-inventing the wheel is costly and introduces risk of error. Fortress provides your AEC development teams with battle-tested, reliable and community-driven design algorithms to supercharge your workflows! You can focus on developing the features that matter to you and your teams: those that drive competitive business value.
 
 ## How?
 
