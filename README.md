@@ -47,7 +47,7 @@ We aspire to foster a community of contributors who believe that:
 
 ## Tech for Good
 
-A single environment from which AEC developers can integrate robust, transparent design algorithms into whichever technology stack they happen to be using is vital to support the rapid innovation happening across the global industry. However, no single engineering consultancy is incentivised to build such a platform for the wider AEC ecosystem. For the AEC technology scene to thrive, it falls upon _us_ in the open-source community to innovate, collaborate and share our combined experiences and intellects to build the infrastructure we deserve.
+A single environment from which AEC developers can integrate robust, transparent design algorithms into whichever technology stack they happen to be using is vital to support the rapid innovation happening across the global industry. However, no single engineering consultancy is incentivised to build such a platform. For the AEC development ecosystem to thrive, it falls upon _us_ in the open-source community to innovate, collaborate and share our combined experiences and intellects to build the infrastructure we deserve.
 
 ## Sponsors
 
