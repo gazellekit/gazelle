@@ -27,7 +27,7 @@ Engineers accept phenomenal responsibility when dedicating their lives to improv
 
 ## Our Mission
 
-As a community, we're building a library for Structural Engineers that emphasises:
+Fortress is the foundation underpinning an intuitive API-as-a-Service infrastructure for Civil & Structural Engineers that emphasises:
 
 1. Transparency, 
 2. Robustness, 
@@ -39,16 +39,17 @@ As a community, we're building a library for Structural Engineers that emphasise
 
 We aspire to foster a community of contributors who believe that: 
 
-1. Through collaboration, we can be more effective as an industry, 
-2. Re-inventing the wheel is unnecessary and introduces risk of bugs in calculations,
-3. Engineers should be able to adopt these algorithms across a variety of technology stacks.
+1. Engineers should be able to rely on the same tried-and-tested algorithms across all modern tech stacks.
+2. Re-inventing the wheel is unnecessary and introduces risk of bugs in calculations.
+3. Through collaboration, we can be more effective as an industry.
 
 ## Sponsors
 
-We welcome all financial contributions that can help to: 
+We welcome all financial contributions that can: 
 
-1. Keep the vision alive, 
-2. Contribute towards our admin and server costs.
+1. Help us to keep the vision alive, 
+2. Empower us to build more great features,
+3. Support our open-source server costs.
 
 Please check out our GitHub Sponsors link if you wish to donate.
 
