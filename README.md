@@ -19,7 +19,6 @@
 3. [How?](#how)
 4. [Values](#values)
 4. [Sponsors](#sponsors)
-5. [License](#license)
 
 ## Why?
 
@@ -52,7 +51,3 @@ We welcome all financial contributions that can:
 3. Support our open-source server costs.
 
 Please check out our GitHub Sponsors link if you wish to donate.
-
-## License
-
-We value the efforts of our community in helping us to develop the most comprehensive library available for Structural Engineers. Open Source Software (OSS) survives on a trust-based relationship; accordingly, we have adopted a strict _copyleft_ license (AGPLv3).
