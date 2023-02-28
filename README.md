@@ -22,15 +22,15 @@
 
 ## Why?
 
-Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. Nevertheless, the vast majority of professional engineering software is closed source and proprietary. Engineers can rarely inspect, validate or influence the algorithms used to design our buildings and bridges. We believe this is unfair and must change.
+Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. Nevertheless, the vast majority of professional engineering software is closed source and proprietary. Engineers can rarely inspect, validate or influence the algorithms used to design our buildings and bridges. We believe this is unfair and must change. Fortress aspires to become the _single source of truth_ for Civil & Structural Engineering Design algorithms. 
 
 ## Our Mission
 
-Fortress is the foundation underpinning an intuitive API-as-a-Service infrastructure for Civil & Structural Engineers that emphasises:
+Re-inventing the wheel is costly and introduces risk of error. Fortress provides your AEC development teams with battle-tested, reliable and community-driven design algorithms to supercharge your workflows! You can focus on developing the features that matter to you and your teams: those that drive competitive business value. Fortress is the foundation underpinning a developer-friendly API infrastructure for Civil & Structural Engineers that integrates seamlessly across all modern technology stacks and emphasises:
 
 1. Transparency, 
 2. Robustness, 
-3. Portability.
+3. Simplicity.
 
 ## How?
 
