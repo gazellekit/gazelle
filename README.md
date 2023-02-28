@@ -15,10 +15,11 @@
 ## Table of Contents
 
 1. [Why?](#why)
-2. [Our Mission](#themission)
+2. [Our Mission](#our-mission)
 3. [How?](#how)
 4. [Values](#values)
-4. [Sponsors](#sponsors)
+5. [Tech for Good](#tech-for-good)
+6. [Sponsors](#sponsors)
 
 ## Why?
 
@@ -43,6 +44,10 @@ We aspire to foster a community of contributors who believe that:
 1. Engineers should be able to rely on the same tried-and-tested algorithms across all modern tech stacks.
 2. Re-inventing the wheel is unnecessary and introduces risk of bugs in calculations.
 3. Through collaboration, we can be more effective as an industry.
+
+## Tech for Good
+
+A single environment from which AEC developers can integrate robust, transparent design algorithms into whichever technology stack they happen to be using is vital to support the rapid innovation happening across the global industry. However, no single engineering consultancy is incentivised to build such a platform for the wider AEC ecosystem. For the AEC technology scene to thrive, it falls upon _us_ in the open-source community to innovate, collaborate and share our combined experiences and intellects to build the infrastructure we deserve.
 
 ## Sponsors
 
