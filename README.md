@@ -23,7 +23,7 @@
 ## Why?
 
 <p align="justify"> 
-Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. Nevertheless, the vast majority of professional engineering software is closed source and proprietary. Engineers can rarely inspect, validate or influence the algorithms used to design our buildings and bridges. I believe this is unfair and must change. Fortress aspires to become the _single source of truth_ for Structural Engineering Design algorithms. 
+Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. Nevertheless, the vast majority of professional engineering software is closed source and proprietary. Engineers can rarely inspect, validate or influence the algorithms used to design our buildings and bridges. I believe this is unfair and must change. Fortress aspires to become the <em>single source of truth</em> for Structural Engineering Design algorithms. 
 </p>
 
 ## What?
@@ -60,13 +60,13 @@ I genuinely understand how overwhelming it can be to explore the various rabbit-
 </p>
 
 <p align="justify"> 
-For the AEC development ecosystem to thrive, I believe that it falls upon _us_ in the open-source community to innovate, collaborate and share our combined experiences and intellects to build the infrastructure we deserve.
+For the AEC development ecosystem to thrive, I believe that it falls upon <em>us</em> in the open-source community to innovate, collaborate and share our combined experiences and intellects to build the infrastructure we deserve.
 </p>
 
 ## Sponsors
 
 <p align="justify"> 
-I work in this project entirely in my spare time, because I believe in a more _open_ AEC industry. Nevertheless, server costs and admin fees are real! I welcome all financial contributions that can help to keep the vision alive. Please check out my **GitHub Sponsors** link if you'd like to donate.
+I work in this project entirely in my spare time, because I believe in a more <em>open</em> AEC industry. Nevertheless, server costs and admin fees are real! I welcome all financial contributions that can help to keep the vision alive. Please check out my <strong>GitHub Sponsors</strong> link if you'd like to donate.
 </p>
 
 Thank You.
