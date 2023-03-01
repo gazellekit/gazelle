@@ -11,7 +11,7 @@
 
 1. [Tech Stack](#tech-stack)
 
-## Tech Stack
+## Tech Stack
 
 ### F#
 
