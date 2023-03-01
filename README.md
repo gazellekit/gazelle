@@ -33,7 +33,7 @@ Fortress is an AEC Developer Platform that offers API-as-a-Service infrastructur
 </p>
 
 <p align="justify"> 
-Web APIs are standardly built upon the standard HTTP/TLS network protocol, which is language-agnostic; whether you're developing desktop apps in C#, Machine Learning scripts in Python, or Single Page Web Apps (SPAs) in JavaScript, you can rely on these battle-tested Design APIs to power your applications and supercharge your workflows. This way, you can focus on developing the bespoke features that matter to your teams and clients: those that drive competitive business value. 
+Web APIs are standardly built upon the standard HTTP/TLS network protocol, which is language-agnostic; whether you're developing desktop apps in C#, Machine Learning scripts in Python, or web apps in JavaScript, you can rely on these battle-tested Design APIs to power your applications and supercharge your workflows. This way, you can focus on developing the bespoke features that matter to your teams and clients: those that drive competitive business value. 
 </p>
 
 ## Values
