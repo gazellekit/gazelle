@@ -15,46 +15,41 @@
 ## Table of Contents
 
 1. [Why?](#why)
-2. [Our Mission](#our-mission)
-3. [How?](#how)
-4. [Values](#values)
-5. [Tech for Good](#tech-for-good)
-6. [Sponsors](#sponsors)
+2. [What?](#what)
+3. [Values](#values)
+4. [Open-Source](#open-source)
+5. [Sponsors](#sponsors)
 
 ## Why?
 
-Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. Nevertheless, the vast majority of professional engineering software is closed source and proprietary. Engineers can rarely inspect, validate or influence the algorithms used to design our buildings and bridges. We believe this is unfair and must change. Fortress aspires to become the _single source of truth_ for Civil & Structural Engineering Design algorithms. 
+Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. Nevertheless, the vast majority of professional engineering software is closed source and proprietary. Engineers can rarely inspect, validate or influence the algorithms used to design our buildings and bridges. I believe this is unfair and must change. Fortress aspires to become the _single source of truth_ for Structural Engineering Design algorithms. 
 
-## Our Mission
+## What?
 
-Fortress is the foundation underpinning a developer-friendly API infrastructure for Civil & Structural Engineers that integrates seamlessly across all modern technology stacks and emphasises:
+Fortress is an AEC Developer Platform that offers API-as-a-Service infrastructure for Structural Engineers. The core library hosts an open-source collection of structural design algorithms, which are then exposed via RESTful API endpoints over the network allowing Technologists and Developers working in AEC organisations to integrate these fundamentals checks and calculations into their projects and products, regardless of their specific technology stack. 
+
+Web APIs are standardly built upon the standard HTTP/TLS network protocol, which is language-agnostic; whether you're developing desktop apps in C#, Machine Learning scripts in Python, or Single Page Web Apps (SPAs) in JavaScript, you can rely on these battle-tested Design APIs to power your applications and supercharge your workflows. This way, you can focus on developing the bespoke features that matter to your teams and clients: those that drive competitive business value. 
+
+## Values
+
+Three core values underpin all software design decisions in this project:
 
 1. Transparency, 
 2. Robustness, 
 3. Simplicity.
 
-Re-inventing the wheel is costly and introduces risk of error. Fortress provides your AEC development teams with battle-tested, reliable and community-driven design algorithms to supercharge your workflows! You can focus on developing the features that matter to you and your teams: those that drive competitive business value.
+Re-inventing the wheel is costly and it risks introducing errors into calculations. Fortress abstracts you away from the underlying implementation details by exposing developer-friendly entrypoints, whilst still allowing you the freedom to read, verify and validate the calculations for your own peace-of-mind.
 
-## How?
+## Open-Source
 
-## Values
+A transparent, verifiable AEC Developer Platform designed specifically for Structural Engineers and BIM Professionals is certainly needed. However, no single engineering consultancy is incentivised to build such a platform. Quite simply, this is the platform I wish had existed when I started out as an AEC Developer. 
 
-We aspire to foster a community of contributors who believe that: 
+I genuinely understand how overwhelming it can be to explore the various rabbit-holes that exist when transitioning into Software Engineering. Tutorials and API documentation often presume a programming background, which for many in AEC is simply not the case. My hope is that by (1) building this project in the open, (2) allowing any interested party to study the codebase, and (3) providing rich, intuitive documentation to ease onboarding, Engineers interested in developing new applications, scripts, tools and workflows can learn and grow in confidence.
 
-1. Engineers should be able to rely on the same tried-and-tested algorithms across all modern tech stacks.
-2. Re-inventing the wheel is unnecessary and introduces risk of bugs in calculations.
-3. Through collaboration, we can be more effective as an industry.
-
-## Tech for Good
-
-A single environment from which AEC developers can integrate robust, transparent design algorithms into whichever technology stack they happen to be using is vital to support the rapid innovation happening across the global industry. However, no single engineering consultancy is incentivised to build such a platform. For the AEC development ecosystem to thrive, it falls upon _us_ in the open-source community to innovate, collaborate and share our combined experiences and intellects to build the infrastructure we deserve.
+For the AEC development ecosystem to thrive, I believe that it falls upon _us_ in the open-source community to innovate, collaborate and share our combined experiences and intellects to build the infrastructure we deserve.
 
 ## Sponsors
 
-We welcome all financial contributions that can: 
-
-1. Help us to keep the vision alive, 
-2. Empower us to build more great features,
-3. Support our open-source server costs.
-
+I work in this project entirely in my spare time, because I believe there is a better solution than the status quo. Nevertheless, server costs and administration fees are real! I welcome any financial contributions that can
+1. Help to keep the vision alive, 3. Support our open-source server costs
 Please check out our GitHub Sponsors link if you wish to donate.
