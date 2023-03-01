@@ -50,6 +50,6 @@ For the AEC development ecosystem to thrive, I believe that it falls upon _us_ i
 
 ## Sponsors
 
-I work in this project entirely in my spare time, because I believe there is a better solution than the status quo. Nevertheless, server costs and administration fees are real! I welcome any financial contributions that can
-1. Help to keep the vision alive, 3. Support our open-source server costs
-Please check out our GitHub Sponsors link if you wish to donate.
+I work in this project entirely in my spare time, because I believe in a more _open_ AEC industry. Nevertheless, server costs and admin fees are real! I welcome all financial contributions that can help to keep the vision alive. Please check out my **GitHub Sponsors** link if you'd like to donate.
+
+Thank You.
