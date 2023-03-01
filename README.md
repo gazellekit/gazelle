@@ -56,7 +56,7 @@ A transparent, verifiable AEC Developer Platform designed specifically for Struc
 </p>
 
 <p align="justify"> 
-I genuinely understand how overwhelming it can be to explore the various rabbit-holes that exist when transitioning into Software Engineering. Tutorials and API documentation often presume a programming background, which for many in AEC is simply not the case. My hope is that by (1) building this project in the open, (2) allowing any interested party to study the codebase, and (3) providing rich, intuitive documentation to ease onboarding, Engineers interested in developing new applications, scripts, tools and workflows can learn and grow in confidence.
+I genuinely understand how overwhelming it can be to explore the various rabbit-holes that exist when transitioning into Software Engineering. Tutorials and API documentation often presume a programming background, which for many in AEC is simply not the case. My hope is that by (1) building this project in the open, (2) allowing any interested party to study the codebase, and (3) providing rich, intuitive documentation to ease onboarding, Engineers keen to develop new applications, scripts, tools and workflows can learn and grow in confidence.
 </p>
 
 <p align="justify"> 
