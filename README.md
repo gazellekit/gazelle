@@ -18,8 +18,7 @@
 2. [What?](#what)
 3. [Values](#values)
 4. [Open-Source](#open-source)
-5. [Tech Stack](#tech-stack)
-6. [Sponsors](#sponsors)
+5. [Sponsors](#sponsors)
 
 ## Why?
 
