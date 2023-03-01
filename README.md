@@ -22,15 +22,22 @@
 
 ## Why?
 
+<p align="justify"> 
 Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. Nevertheless, the vast majority of professional engineering software is closed source and proprietary. Engineers can rarely inspect, validate or influence the algorithms used to design our buildings and bridges. I believe this is unfair and must change. Fortress aspires to become the _single source of truth_ for Structural Engineering Design algorithms. 
+</p>
 
 ## What?
 
+<p align="justify"> 
 Fortress is an AEC Developer Platform that offers API-as-a-Service infrastructure for Structural Engineers. The core library hosts an open-source collection of structural design algorithms, which are then exposed via RESTful API endpoints over the network allowing Technologists and Developers working in AEC organisations to integrate these fundamentals checks and calculations into their projects and products, regardless of their specific technology stack. 
+</p>
 
+<p align="justify"> 
 Web APIs are standardly built upon the standard HTTP/TLS network protocol, which is language-agnostic; whether you're developing desktop apps in C#, Machine Learning scripts in Python, or Single Page Web Apps (SPAs) in JavaScript, you can rely on these battle-tested Design APIs to power your applications and supercharge your workflows. This way, you can focus on developing the bespoke features that matter to your teams and clients: those that drive competitive business value. 
+</p>
 
 ## Values
+
 
 Three core values underpin all software design decisions in this project:
 
@@ -38,18 +45,28 @@ Three core values underpin all software design decisions in this project:
 2. Robustness, 
 3. Simplicity.
 
+<p align="justify"> 
 Re-inventing the wheel is costly and it risks introducing errors into calculations. Fortress abstracts you away from the underlying implementation details by exposing developer-friendly entrypoints, whilst still allowing you the freedom to read, verify and validate the calculations for your own peace-of-mind.
+</p>
 
 ## Open-Source
 
+<p align="justify"> 
 A transparent, verifiable AEC Developer Platform designed specifically for Structural Engineers and BIM Professionals is certainly needed. However, no single engineering consultancy is incentivised to build such a platform. Quite simply, this is the platform I wish had existed when I started out as an AEC Developer. 
+</p>
 
+<p align="justify"> 
 I genuinely understand how overwhelming it can be to explore the various rabbit-holes that exist when transitioning into Software Engineering. Tutorials and API documentation often presume a programming background, which for many in AEC is simply not the case. My hope is that by (1) building this project in the open, (2) allowing any interested party to study the codebase, and (3) providing rich, intuitive documentation to ease onboarding, Engineers interested in developing new applications, scripts, tools and workflows can learn and grow in confidence.
+</p>
 
+<p align="justify"> 
 For the AEC development ecosystem to thrive, I believe that it falls upon _us_ in the open-source community to innovate, collaborate and share our combined experiences and intellects to build the infrastructure we deserve.
+</p>
 
 ## Sponsors
 
+<p align="justify"> 
 I work in this project entirely in my spare time, because I believe in a more _open_ AEC industry. Nevertheless, server costs and admin fees are real! I welcome all financial contributions that can help to keep the vision alive. Please check out my **GitHub Sponsors** link if you'd like to donate.
+</p>
 
 Thank You.
