@@ -1,6 +1,6 @@
-namespace Fortress
+namespace Fortress.Legacy
 
-open Fortress.Primitives.UnitSystems
+open Fortress.UnitSystems
 open FSharp.Data.UnitSystems.SI.UnitSymbols
 
 type UKConcreteGrade =

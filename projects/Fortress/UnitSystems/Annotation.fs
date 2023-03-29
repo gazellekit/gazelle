@@ -1,4 +1,4 @@
-namespace Fortress.Primitives.UnitSystems
+namespace Fortress.UnitSystems
 
 /// <summary>
 /// Remove unit-of-measure type annotations from various types.

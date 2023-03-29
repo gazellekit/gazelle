@@ -1,4 +1,4 @@
-namespace Fortress.Primitives.UnitSystems
+namespace Fortress.UnitSystems
 
 /// <summary>
 /// Collection of mathematical modules that operate on
