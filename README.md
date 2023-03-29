@@ -74,5 +74,5 @@ If you'd like to help build Fortress, please check out <a href="./CONTRIBUTING.m
 ## Sponsors
 
 <p align="justify"> 
-For those who believe in this project and wish to keep its momentum alive, please check out my <a href="https://github.com/sponsors/jamesbayley/dashboard" target="_blank">GitHub Sponsors</a> page.
+Please check out my <a href="https://github.com/sponsors/jamesbayley/dashboard" target="_blank">GitHub Sponsors</a> page to support this project.
 </p>
