@@ -1,5 +1,5 @@
 namespace Fortress.Interop.JS
 
-module fortress = 
+module fortress =
 
-  let sayHello () = "Hello, Fortress!"
+    let sayHello () = "Hello, Fortress!"

@@ -1,29 +1,29 @@
 namespace Fortress.Primitives.UnitSystems
 
 /// <summary>
-/// Collection of mathematical modules that operate on  
+/// Collection of mathematical modules that operate on
 /// values with unit-of-measure type annotations.
 /// </summary>
 [<RequireQualifiedAccess>]
-module Math = 
+module Math =
 
     /// <summary>
     /// Unit safe exponentiation function raised to the power of 2.
     /// </summary>
     /// <param name="n">Original value.</param>
     /// <returns>Value raised to the power of 2.</returns>
-    let pow2 (n: float<'T>): float<'T^2> = n * n
+    let pow2 (n: float<'T>) : float<'T^2> = n * n
 
     /// <summary>
     /// Unit safe exponentiation function raised to the power of 3.
     /// </summary>
     /// <param name="n">Original value.</param>
     /// <returns>Value raised to the power of 3.</returns>
-    let pow3 (n: float<'T>): float<'T^3> = n * n * n
+    let pow3 (n: float<'T>) : float<'T^3> = n * n * n
 
     /// <summary>
     /// Unit safe exponentiation function raised to the power of 4.
     /// </summary>
     /// <param name="n">Original value.</param>
     /// <returns>Value raised to the power of 4.</returns>
-    let pow4 (n: float<'T>): float<'T^4> = n * n * n * n
+    let pow4 (n: float<'T>) : float<'T^4> = n * n * n * n

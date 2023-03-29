@@ -20,8 +20,18 @@ type UKConcreteGrade =
     | Fck90
 
 type CylinderStrength = UK of UKConcreteGrade
-type Aggregate = Basalt | Limestone | Sandstone | Quartzite
-type Cement = ClassR | ClassN | ClassS
+
+type Aggregate =
+    | Basalt
+    | Limestone
+    | Sandstone
+    | Quartzite
+
+type Cement =
+    | ClassR
+    | ClassN
+    | ClassS
+
 type WeightClass = NormalWeight
 type Age = Age of int<days>
 
@@ -35,106 +45,110 @@ type Concrete =
 [<RequireQualifiedAccess>]
 module Concrete =
 
-    let private validateAge (age: int<days>) = 
-        match age with 
+    let private validateAge (age: int<days>) =
+        match age with
         | age when age <= 0<days> -> invalidArg $"{nameof (age)}" "Concrete age <= 0 days."
         | age when age <= 3<days> -> invalidArg $"{nameof (age)}" "In-situ strength tests required for age <= 3 days."
         | _ -> Age age
 
-    let tryCreate (fck: CylinderStrength) (agg: Aggregate) (cem: Cement) (w: WeightClass) (age: int<days>) = 
-        let validAge = validateAge age 
+    let tryCreate (fck: CylinderStrength) (agg: Aggregate) (cem: Cement) (w: WeightClass) (age: int<days>) =
+        let validAge = validateAge age
+
         { Age = validAge
-          Aggregate = agg 
-          Cement = cem 
-          Grade = fck 
+          Aggregate = agg
+          Cement = cem
+          Grade = fck
           WeightClass = w }
 
     [<RequireQualifiedAccess>]
-    module BasicProperties = 
+    module BasicProperties =
 
         [<RequireQualifiedAccess>]
-        module Density = 
+        module Density =
 
             let unreinforced (w: WeightClass) =
-                match w with NormalWeight -> Density 2400.0<kg/m^3>
+                match w with
+                | NormalWeight -> Density 2400.0<kg / m^3>
 
-            let reinforced (w: WeightClass) = 
-                match w with NormalWeight -> Density 2500.0<kg/m^3>
+            let reinforced (w: WeightClass) =
+                match w with
+                | NormalWeight -> Density 2500.0<kg / m^3>
 
         [<RequireQualifiedAccess>]
-        module Strength = 
-        
+        module Strength =
+
             let fck (fck: CylinderStrength) =
                 match fck with
-                | UK Fck12 -> 12.0<N/mm^2>
-                | UK Fck16 -> 16.0<N/mm^2>
-                | UK Fck20 -> 20.0<N/mm^2>
-                | UK Fck25 -> 25.0<N/mm^2>
-                | UK Fck30 -> 30.0<N/mm^2>
-                | UK Fck35 -> 35.0<N/mm^2>
-                | UK Fck40 -> 40.0<N/mm^2>
-                | UK Fck45 -> 45.0<N/mm^2>
-                | UK Fck50 -> 50.0<N/mm^2>
-                | UK Fck55 -> 55.0<N/mm^2>
-                | UK Fck60 -> 60.0<N/mm^2>
-                | UK Fck70 -> 70.0<N/mm^2>
-                | UK Fck80 -> 80.0<N/mm^2>
-                | UK Fck90 -> 90.0<N/mm^2>
+                | UK Fck12 -> 12.0<N / mm^2>
+                | UK Fck16 -> 16.0<N / mm^2>
+                | UK Fck20 -> 20.0<N / mm^2>
+                | UK Fck25 -> 25.0<N / mm^2>
+                | UK Fck30 -> 30.0<N / mm^2>
+                | UK Fck35 -> 35.0<N / mm^2>
+                | UK Fck40 -> 40.0<N / mm^2>
+                | UK Fck45 -> 45.0<N / mm^2>
+                | UK Fck50 -> 50.0<N / mm^2>
+                | UK Fck55 -> 55.0<N / mm^2>
+                | UK Fck60 -> 60.0<N / mm^2>
+                | UK Fck70 -> 70.0<N / mm^2>
+                | UK Fck80 -> 80.0<N / mm^2>
+                | UK Fck90 -> 90.0<N / mm^2>
 
             let fcm (fck: CylinderStrength) =
                 match fck with
-                | UK Fck12 -> 20.0<N/mm^2>
-                | UK Fck16 -> 24.0<N/mm^2>
-                | UK Fck20 -> 28.0<N/mm^2>
-                | UK Fck25 -> 33.0<N/mm^2>
-                | UK Fck30 -> 38.0<N/mm^2>
-                | UK Fck35 -> 43.0<N/mm^2>
-                | UK Fck40 -> 48.0<N/mm^2>
-                | UK Fck45 -> 53.0<N/mm^2>
-                | UK Fck50 -> 58.0<N/mm^2>
-                | UK Fck55 -> 63.0<N/mm^2>
-                | UK Fck60 -> 68.0<N/mm^2>
-                | UK Fck70 -> 78.0<N/mm^2>
-                | UK Fck80 -> 88.0<N/mm^2>
-                | UK Fck90 -> 98.0<N/mm^2>
+                | UK Fck12 -> 20.0<N / mm^2>
+                | UK Fck16 -> 24.0<N / mm^2>
+                | UK Fck20 -> 28.0<N / mm^2>
+                | UK Fck25 -> 33.0<N / mm^2>
+                | UK Fck30 -> 38.0<N / mm^2>
+                | UK Fck35 -> 43.0<N / mm^2>
+                | UK Fck40 -> 48.0<N / mm^2>
+                | UK Fck45 -> 53.0<N / mm^2>
+                | UK Fck50 -> 58.0<N / mm^2>
+                | UK Fck55 -> 63.0<N / mm^2>
+                | UK Fck60 -> 68.0<N / mm^2>
+                | UK Fck70 -> 78.0<N / mm^2>
+                | UK Fck80 -> 88.0<N / mm^2>
+                | UK Fck90 -> 98.0<N / mm^2>
 
             let fctm (fck: CylinderStrength) =
                 match fck with
-                | UK Fck12 -> 1.6<N/mm^2>
-                | UK Fck16 -> 1.9<N/mm^2>
-                | UK Fck20 -> 2.2<N/mm^2>
-                | UK Fck25 -> 2.6<N/mm^2>
-                | UK Fck30 -> 2.9<N/mm^2>
-                | UK Fck35 -> 3.2<N/mm^2>
-                | UK Fck40 -> 3.5<N/mm^2>
-                | UK Fck45 -> 3.8<N/mm^2>
-                | UK Fck50 -> 4.1<N/mm^2>
-                | UK Fck55 -> 4.2<N/mm^2>
-                | UK Fck60 -> 4.4<N/mm^2>
-                | UK Fck70 -> 4.6<N/mm^2>
-                | UK Fck80 -> 4.8<N/mm^2>
-                | UK Fck90 -> 5.0<N/mm^2>
+                | UK Fck12 -> 1.6<N / mm^2>
+                | UK Fck16 -> 1.9<N / mm^2>
+                | UK Fck20 -> 2.2<N / mm^2>
+                | UK Fck25 -> 2.6<N / mm^2>
+                | UK Fck30 -> 2.9<N / mm^2>
+                | UK Fck35 -> 3.2<N / mm^2>
+                | UK Fck40 -> 3.5<N / mm^2>
+                | UK Fck45 -> 3.8<N / mm^2>
+                | UK Fck50 -> 4.1<N / mm^2>
+                | UK Fck55 -> 4.2<N / mm^2>
+                | UK Fck60 -> 4.4<N / mm^2>
+                | UK Fck70 -> 4.6<N / mm^2>
+                | UK Fck80 -> 4.8<N / mm^2>
+                | UK Fck90 -> 5.0<N / mm^2>
 
         [<RequireQualifiedAccess>]
-        module ElasticModulus = 
+        module ElasticModulus =
 
             let Ecm (fck: CylinderStrength) (agg: Aggregate) =
                 let Ecm =
                     match fck with
-                    | UK Fck12 -> 27_000.0<N/mm^2>
-                    | UK Fck16 -> 29_000.0<N/mm^2>
-                    | UK Fck20 -> 30_000.0<N/mm^2>
-                    | UK Fck25 -> 31_000.0<N/mm^2>
-                    | UK Fck30 -> 33_000.0<N/mm^2>
-                    | UK Fck35 -> 34_000.0<N/mm^2>
-                    | UK Fck40 -> 35_000.0<N/mm^2>
-                    | UK Fck45 -> 36_000.0<N/mm^2>
-                    | UK Fck50 -> 37_000.0<N/mm^2>
-                    | UK Fck55 -> 38_000.0<N/mm^2>
-                    | UK Fck60 -> 39_000.0<N/mm^2>
-                    | UK Fck70 -> 41_000.0<N/mm^2>
-                    | UK Fck80 -> 42_000.0<N/mm^2>
-                    | UK Fck90 -> 44_000.0<N/mm^2>
+                    | UK Fck12 -> 27_000.0<N / mm^2>
+                    | UK Fck16 -> 29_000.0<N / mm^2>
+                    | UK Fck20 -> 30_000.0<N / mm^2>
+                    | UK Fck25 -> 31_000.0<N / mm^2>
+                    | UK Fck30 -> 33_000.0<N / mm^2>
+                    | UK Fck35 -> 34_000.0<N / mm^2>
+                    | UK Fck40 -> 35_000.0<N / mm^2>
+                    | UK Fck45 -> 36_000.0<N / mm^2>
+                    | UK Fck50 -> 37_000.0<N / mm^2>
+                    | UK Fck55 -> 38_000.0<N / mm^2>
+                    | UK Fck60 -> 39_000.0<N / mm^2>
+                    | UK Fck70 -> 41_000.0<N / mm^2>
+                    | UK Fck80 -> 42_000.0<N / mm^2>
+                    | UK Fck90 -> 44_000.0<N / mm^2>
+
                 match agg with
                 | Quartzite -> Ecm * 1.0
                 | Limestone -> Ecm * 0.9
@@ -142,7 +156,7 @@ module Concrete =
                 | Basalt -> Ecm * 1.2
 
         [<RequireQualifiedAccess>]
-        module Strain = 
+        module Strain =
 
             let c1 (fck: CylinderStrength) =
                 match fck with
@@ -264,7 +278,7 @@ module Concrete =
                 | UK Fck90 -> 1.4
 
     [<RequireQualifiedAccess>]
-    module TimeDependentProperties = 
+    module TimeDependentProperties =
 
         let private s cement =
             match cement with
@@ -277,28 +291,26 @@ module Concrete =
             | (Age age) when age < 28<days> -> 1.0
             | _ -> (2.0 / 3.0)
 
-        let private βcc_t cement age = 
+        let private βcc_t cement age =
             let (Age age) = age
-            s cement 
-            |> exp 
-            |> (*) (1.0 - sqrt (28.0 / float age))
-    
+            s cement |> exp |> (*) (1.0 - sqrt (28.0 / float age))
+
         [<RequireQualifiedAccess>]
-        module Strength = 
-            
-            let fcm_t (fck: CylinderStrength) (cem: Cement) (age: Age) = 
+        module Strength =
+
+            let fcm_t (fck: CylinderStrength) (cem: Cement) (age: Age) =
                 let βcc_t = βcc_t cem age
-                let fcm_basic = BasicProperties.Strength.fcm fck 
+                let fcm_basic = BasicProperties.Strength.fcm fck
                 βcc_t * fcm_basic
 
-            let fctm_t (fck: CylinderStrength) (cem: Cement) (age: Age) = 
+            let fctm_t (fck: CylinderStrength) (cem: Cement) (age: Age) =
                 let βcc_t = βcc_t cem age
                 let fctm_basic = BasicProperties.Strength.fctm fck
-                (βcc_t ** (α age)) * fctm_basic 
+                (βcc_t ** (α age)) * fctm_basic
 
         [<RequireQualifiedAccess>]
-        module ElasticModulus = 
-            
+        module ElasticModulus =
+
             let Ecm_t (fck: CylinderStrength) (cem: Cement) (agg: Aggregate) (age: Age) =
                 let fcm = BasicProperties.Strength.fcm fck
                 let fcm_timeDep = Strength.fcm_t fck cem age
