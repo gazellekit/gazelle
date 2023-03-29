@@ -11,8 +11,7 @@
     <Version>0.0.1</Version>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Geometry/Properties.fs" />
-    <Compile Include="Geometry/Properties.fs" />
+    <Compile Include="Geometry\Properties.fs" />
     <Compile Include="Primitives\UnitSystems\Units.fs" />
     <Compile Include="Primitives\UnitSystems\Annotation.fs" />
     <Compile Include="Primitives\UnitSystems\Conversion.fs" />
