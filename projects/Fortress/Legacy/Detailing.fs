@@ -15,28 +15,28 @@ namespace Fortress
 //type NumberOfBarsAndBarSize = { NumberOfBars: NumberOfBars; BarSize: BarSize }
 //type LinkSpacingAndLinkSize = { LinkSpacing: BarSpacing; LinkSize: BarSize }
 
-//module Detailing = 
+//module Detailing =
 
-//    /// Returns no. of intermediate bars along a given length at the prescribed spacing. 
+//    /// Returns no. of intermediate bars along a given length at the prescribed spacing.
 //    /// This does NOT consider bars at the start or end (i.e. at x = 0 and x = L).
 //    /// For a 1000mm length at 250mm spacing, the equations returns 3 intermediate bars.
 //    let getNumberOfIntermediateBars (BarSpacing sp) (Length l) =
-//        int (Math.Ceiling (l / sp)) - 1 
+//        int (Math.Ceiling (l / sp)) - 1
 //        |> AddUnitsToInteger32
 //        |> NumberOfBars
 
 //    /// Calculates bar spacing for intermediate bars along a given length.
 //    /// This does NOT consider bars at the start or end (i.e. at x = 0 and x = L).
-//    /// For a 1000mm length with 3 inner bars and 2 end bars (5 bars in total), 
+//    /// For a 1000mm length with 3 inner bars and 2 end bars (5 bars in total),
 //    /// the equation ignores the end bars and returns a spacing of 250mm.
 //    let getIntermediateBarSpacing (NumberOfBars n) (Length l) = BarSpacing (l / (float n + 1.0))
 
 //    /// Returns the minimum permissible clear spacing between adjacent bars.
 //    let getMinimumClearBarSpacing (barSize: BarSize) = ClearSpace barSize.diameter
 
-//    /// Calculates clear spacing between two straight bars by comparing the pythagorean 
+//    /// Calculates clear spacing between two straight bars by comparing the pythagorean
 //    /// distance between their respective cross-section centroids in 3D space.
-//    let clearSpaceBetweenBars (bar1: StraightBar) (bar2: StraightBar) = 
+//    let clearSpaceBetweenBars (bar1: StraightBar) (bar2: StraightBar) =
 //        let p1 = bar1.Geometry.StartPoint
 //        let p2 = bar2.Geometry.StartPoint
 //        let halfΦ1 = (bar1.BarSize.diameter / 2.0) |> UnitAnnotation.stripUnitsFromFloat

@@ -1,12 +1,12 @@
 namespace Fortress
 
 //[<RequireQualifiedAccess>]
-//module RCPier = 
+//module RCPier =
 
-//    type RCPier = 
-//        { Section: RCSection 
+//    type RCPier =
+//        { Section: RCSection
 //          PierDefinition: Pier }
-         
-//    let create pierDef rcSection = 
+
+//    let create pierDef rcSection =
 //        { Section = rcSection
 //          PierDefinition = pierDef }
