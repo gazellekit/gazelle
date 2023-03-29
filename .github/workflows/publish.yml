@@ -36,7 +36,7 @@ jobs:
       - name: Check Code Formatting
         run: |
           Set-Location "./projects"
-          dotnet fantomas --path "." --recurse --check
+          dotnet fantomas "." --recurse --check
 
       - name: Build Projects
         run: |
