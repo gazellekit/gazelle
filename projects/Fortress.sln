@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fortress", "Fortress\Fortress.fsproj", "{FBADC6E0-8C29-4710-9D37-97D98490016E}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fortress.Tests", "Fortress.Tests\Fortress.Tests.fsproj", "{CBA70A0C-1DB2-432D-ADE7-5CFF0FDB9FD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,5 +24,9 @@ Global
 		{FBADC6E0-8C29-4710-9D37-97D98490016E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBADC6E0-8C29-4710-9D37-97D98490016E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBADC6E0-8C29-4710-9D37-97D98490016E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA70A0C-1DB2-432D-ADE7-5CFF0FDB9FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA70A0C-1DB2-432D-ADE7-5CFF0FDB9FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA70A0C-1DB2-432D-ADE7-5CFF0FDB9FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA70A0C-1DB2-432D-ADE7-5CFF0FDB9FD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

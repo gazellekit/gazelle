@@ -14,11 +14,13 @@
 
 ## Table of Contents
 
-1. [Why?](#why)
-2. [What?](#what)
-3. [Values](#values)
-4. [Open-Source](#open-source)
-5. [Sponsors](#sponsors)
+- [Table of Contents](#table-of-contents)
+- [Why?](#why)
+- [What?](#what)
+- [Values](#values)
+- [Open-Source](#open-source)
+- [Contributing](#contributing)
+- [Sponsors](#sponsors)
 
 ## Why?
 
@@ -63,10 +65,14 @@ I genuinely understand how overwhelming it can be to explore the various rabbit-
 For the AEC development ecosystem to thrive, I believe that it falls upon <em>us</em> in the open-source community to innovate, collaborate and share our combined experiences and intellects to build the infrastructure we deserve.
 </p>
 
+## Contributing
+
+<p align="justify">
+If you'd like to help build Fortress, please check out <a href="./CONTRIBUTING.md" target="_blank">CONTRIBUTING.md</a>.
+</p>
+
 ## Sponsors
 
 <p align="justify"> 
-I work on this project entirely in my spare time, because I believe in a more <em>open</em> AEC industry. Nevertheless, server costs and admin fees are real! I welcome all financial contributions that can help to keep the vision alive. Please check out my <strong>GitHub Sponsors</strong> link if you'd like to donate.
+Please check out my <a href="https://github.com/sponsors/jamesbayley/dashboard" target="_blank">GitHub Sponsors</a> page to support this project.
 </p>
-
-Thank You.
