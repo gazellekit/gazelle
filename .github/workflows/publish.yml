@@ -35,5 +35,5 @@ jobs:
 
       - name: Run Test Suite
         run: |
-          ./projects
+          Set-Location "./projects"
           dotnet test
