@@ -3,16 +3,16 @@ name: Production
 on:
   push:
     branches: main
-    
+
 jobs:
   build-fortress:
     name: Build Fortress
     runs-on: ubuntu-latest
     environment: Production
+
     defaults:
       run:
         shell: pwsh
-        working-directory: projects
 
     steps:
       - name: Checkout Repository
@@ -23,18 +23,17 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '7.0.x'
-          include-prerelease: true
-
-      - name: Install .NET Tools
-        run: dotnet tool restore
+          dotnet-version: "7.0.x"
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
-      - name: Install NPM Packages.
+      - name: Restore Projects
+        run: ./scripts/Restore-Project.ps1
+
+      - name: Run Test Suite
         run: |
-          cd Fortress
-          npm ci
+          Set-Location "./projects"
+          dotnet test
