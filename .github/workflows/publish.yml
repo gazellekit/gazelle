@@ -33,6 +33,11 @@ jobs:
       - name: Restore Projects
         run: ./scripts/Restore-Project.ps1
 
+      - name: Check Code Formatting
+        run: |
+          Set-Location "./projects"
+          dotnet fantomas --path "." --recurse --check
+
       - name: Run Test Suite
         run: |
           Set-Location "./projects"
