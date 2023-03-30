@@ -1,14 +1,14 @@
-name: Production
+name: Development
 
 on:
   push:
-    branches: main
+    branches: dev/**
 
 jobs:
   build-fortress:
     name: Build Fortress
     runs-on: ubuntu-latest
-    environment: Production
+    environment: Development
 
     defaults:
       run:
@@ -17,8 +17,6 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-        with:
-          submodules: true
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
