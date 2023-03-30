@@ -19,19 +19,6 @@
     <Compile Include="UnitSystems\Conversion.fs" />
     <Compile Include="UnitSystems\Math.fs" />
     <Compile Include="Legacy\Concrete.fs" />
-    <!-- <Compile Include="Geometry.fs" />
-        <Compile Include="DesignCodes.fs" />
-        <Compile Include="LimitStates.fs" />
-        <Compile Include="DomainError.fs" />
-        <Compile Include="Concrete.fs" />
-        <Compile Include="Creep.fs" />
-        <Compile Include="Cages.fs" />
-        <Compile Include="Detailing.fs" />
-        <Compile Include="Rebar.fs" />
-        <Compile Include="RCPier.fs" />
-        <Compile Include="RCSection.fs" />
-        <Compile Include="Durability.fs" />
-        <Compile Include="ConcreteSerializer.fs" /> -->
     <Compile Include="Interop\JS.fs" />
   </ItemGroup>
 
