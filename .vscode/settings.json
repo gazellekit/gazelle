@@ -1,4 +1,16 @@
 {
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.rulers": [100],
+  "editor.tabSize": 2,
+
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.wrapTabs": true,
+
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
