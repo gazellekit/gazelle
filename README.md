@@ -8,7 +8,8 @@
   <h1>Fortress</h1>
   <p>Robust & Transparent Structural Design</p>
 
-  [![Production](https://github.com/jamesbayley/Fortress/actions/workflows/publish.yml/badge.svg)](https://github.com/jamesbayley/Fortress/actions/workflows/publish.yml)
+  [![Production](https://github.com/jamesbayley/Fortress/actions/workflows/publish-prod.yml/badge.svg)](https://github.com/jamesbayley/Fortress/actions/workflows/publish-prod.yml)
+  [![Development](https://github.com/jamesbayley/Fortress/actions/workflows/publish-dev.yml/badge.svg)](https://github.com/jamesbayley/Fortress/actions/workflows/publish-dev.yml)
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 </div>
 

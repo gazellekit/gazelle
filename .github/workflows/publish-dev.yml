@@ -2,7 +2,7 @@ name: Development
 
 on:
   push:
-    branches: dev/**
+    branches: dev
 
 jobs:
   build-fortress:
