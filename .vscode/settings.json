@@ -34,9 +34,9 @@
   "[python]": {
     "editor.formatOnSave": true,
   },
-  "python.defaultInterpreterPath": "/usr/local/bin/python",
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
+  "python.defaultInterpreterPath": "/usr/bin/python3",
   "python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
   "python.formatting.blackPath": "/usr/local/py-utils/bin/black",
   "python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
