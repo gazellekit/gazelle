@@ -21,7 +21,6 @@
 - [Values](#values)
 - [Open-Source](#open-source)
 - [Contributing](#contributing)
-- [Sponsors](#sponsors)
 
 ## Why?
 
@@ -70,10 +69,4 @@ For the AEC development ecosystem to thrive, I believe that it falls upon <em>us
 
 <p align="justify">
 If you'd like to help build Fortress, please check out <a href="./CONTRIBUTING.md" target="_blank">CONTRIBUTING.md</a>.
-</p>
-
-## Sponsors
-
-<p align="justify"> 
-To support this project, please visit my <a href="https://github.com/sponsors/jamesbayley/dashboard" target="_blank">GitHub Sponsors</a> page.
 </p>
