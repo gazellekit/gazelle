@@ -7,6 +7,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fortress", "Fortress\Fortre
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fortress.Tests", "Fortress.Tests\Fortress.Tests.fsproj", "{CBA70A0C-1DB2-432D-ADE7-5CFF0FDB9FD5}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fortress.Api", "Fortress.Api\Fortress.Api.fsproj", "{BB2F8B22-B3A5-4378-8308-AB30A577717A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,5 +30,9 @@ Global
 		{CBA70A0C-1DB2-432D-ADE7-5CFF0FDB9FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBA70A0C-1DB2-432D-ADE7-5CFF0FDB9FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBA70A0C-1DB2-432D-ADE7-5CFF0FDB9FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB2F8B22-B3A5-4378-8308-AB30A577717A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2F8B22-B3A5-4378-8308-AB30A577717A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2F8B22-B3A5-4378-8308-AB30A577717A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2F8B22-B3A5-4378-8308-AB30A577717A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,4 @@
-namespace Fortress.WebApi
+namespace Fortress.Api
 
 open System
 

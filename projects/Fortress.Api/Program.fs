@@ -1,4 +1,4 @@
-namespace Fortress.WebApi
+namespace Fortress.Api
 #nowarn "20"
 open System
 open System.Collections.Generic
