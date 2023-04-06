@@ -36,12 +36,36 @@ jobs:
           Set-Location "./projects"
           dotnet fantomas "." --recurse --check
 
-      - name: Build Projects
-        run: |
-          Set-Location "./projects"
-          dotnet build
-
       - name: Run Test Suite
         run: |
           Set-Location "./projects"
           dotnet test
+
+      - name: Build Projects
+        run: |
+          Set-Location "./projects"
+          dotnet build --configuration "Release"
+
+      - name: Upload NuGet Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: nuget-package
+          path: ./projects/Fortress/bin/Release/*.nupkg
+
+  publish-to-nuget-gallery:
+    name: Publish to NuGet Gallery
+    runs-on: ubuntu-latest
+    needs: build-fortress
+
+    steps:
+      - name: Download NuGet Artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: nuget-package
+
+      - name: Publish to NuGet Gallery
+        shell: pwsh
+        run: |
+          dotnet nuget push *.nupkg ` 
+            --api-key ${{ secrets.NUGET_KEY }} `
+            --source "https://api.nuget.org/v3/index.json"
