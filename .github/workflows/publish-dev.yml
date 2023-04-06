@@ -36,12 +36,12 @@ jobs:
           Set-Location "./projects"
           dotnet fantomas "." --recurse --check
 
-      - name: Build Projects
-        run: |
-          Set-Location "./projects"
-          dotnet build
-
       - name: Run Test Suite
         run: |
           Set-Location "./projects"
           dotnet test
+
+      - name: Build Projects
+        run: |
+          Set-Location "./projects"
+          dotnet build
