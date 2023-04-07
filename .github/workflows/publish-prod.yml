@@ -7,7 +7,7 @@ on:
 jobs:
   build-fortress:
     name: Build Fortress
-    runs-on: ubuntu-latest
+    runs-on: Ubuntu-Latest
     environment: Production
 
     defaults:
@@ -54,7 +54,8 @@ jobs:
 
   publish-to-nuget-gallery:
     name: Publish to NuGet Gallery
-    runs-on: ubuntu-latest
+    runs-on: Ubuntu-Latest
+    environment: Production
     needs: build-fortress
 
     defaults:
@@ -66,11 +67,6 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: nuget-package
-
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: "7.0.x"
 
       - name: Publish to NuGet Gallery
         run: | 
