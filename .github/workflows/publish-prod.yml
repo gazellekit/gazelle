@@ -68,7 +68,4 @@ jobs:
 
       - name: Publish to NuGet Gallery
         shell: pwsh
-        run: |
-          dotnet nuget push *.nupkg ` 
-            --api-key $Env:NUGET_KEY `
-            --source "https://api.nuget.org/v3/index.json"
+        run: dotnet nuget push *.nupkg -k $Env:NUGET_KEY -s "https://api.nuget.org/v3/index.json"
