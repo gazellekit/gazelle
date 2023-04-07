@@ -57,6 +57,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build-fortress
 
+    defaults:
+      run:
+        shell: pwsh
+
     steps:
       - name: Download NuGet Artifact
         uses: actions/download-artifact@v3
@@ -64,8 +68,7 @@ jobs:
           name: nuget-package
 
       - name: Publish to NuGet Gallery
-        shell: pwsh
         run: | 
-          $Key = ${{ secrets.NUGET_KEY }}
-          $Source = "https://api.nuget.org/v3/index.json"
-          dotnet nuget push *.nupkg --api-key $Key --source $Source 
+          dotnet nuget push *.nupkg ` 
+            --api-key ${{ secrets.NUGET_KEY }} `
+            --source "https://api.nuget.org/v3/index.json"
