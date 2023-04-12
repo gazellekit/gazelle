@@ -71,4 +71,5 @@ jobs:
         run: | 
           dotnet nuget push *.nupkg `
             --api-key ${{ secrets.NUGET_KEY }} `
-            --source "https://api.nuget.org/v3/index.json"
+            --source "https://api.nuget.org/v3/index.json" `
+            --skip-duplicate
