@@ -8,7 +8,6 @@ jobs:
   build-fortress:
     name: Build Fortress
     runs-on: Ubuntu-Latest
-    environment: Production
 
     defaults:
       run:
