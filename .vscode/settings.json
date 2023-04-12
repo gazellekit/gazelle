@@ -33,6 +33,8 @@
     "editor.defaultFormatter": "Ionide.Ionide-fsharp"
   },
 
+  "powershell.integratedConsole.showOnStartup": false,
+
   "[python]": {
     "editor.formatOnSave": true,
   },
