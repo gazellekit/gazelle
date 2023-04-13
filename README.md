@@ -6,10 +6,14 @@
   />
 
   <h1>Fortress</h1>
-  <p>Robust & Transparent Structural Design</p>
+  <p>Robust, Transparent Structural Design</p>
 
   [![Production](https://github.com/jamesbayley/Fortress/actions/workflows/publish-prod.yml/badge.svg)](https://github.com/jamesbayley/Fortress/actions/workflows/publish-prod.yml)
   [![Development](https://github.com/jamesbayley/Fortress/actions/workflows/publish-dev.yml/badge.svg)](https://github.com/jamesbayley/Fortress/actions/workflows/publish-dev.yml)
+ 
+  [![Runtime: .NET 7](https://img.shields.io/badge/Runtime-.NET_7-blueviolet)](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+  [![Language: F#](https://img.shields.io/badge/Language-F%23-blueviolet)](https://learn.microsoft.com/en-us/dotnet/fsharp/what-is-fsharp)
+  
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 </div>
 
