@@ -1,7 +1,16 @@
 {
   "name": "fortress",
-  "version": "0.0.3",
-  "private": true,
+  "description": "Robust, Transparent Structural Design.",
+  "author": "James S. Bayley",
+  "version": "{{ VERSION }}",
+  "private": false,
+  "keywords": [
+    "engineering", 
+    "structures", 
+    "design", 
+    "buildings", 
+    "bridges"
+  ],
   "scripts": {
     "prebuild": "dotnet tool restore",
     "build": "dotnet fable --lang javascript && node esbuild.config.mjs"
