@@ -40,10 +40,14 @@ jobs:
           Set-Location "./projects"
           dotnet test
 
-      - name: Build Projects
+      - name: Build .NET Projects
         run: |
           Set-Location "./projects"
           dotnet build --configuration "Release"
+      
+      - name: Invoke Fable Transpiler
+        run: |
+          Set-Location "./projects/Fortress"
           npm run build
 
       - name: Upload NuGet Artifact
