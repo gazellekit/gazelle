@@ -4,6 +4,7 @@ obj/
 .fake
 
 # Fable
+fable_build/
 fable_modules/
 *.fs.js
 
@@ -11,7 +12,7 @@ fable_modules/
 node_modules/
 
 # JavaScript
-**/www/build/
+**/build/
 
 # Python
 *.py

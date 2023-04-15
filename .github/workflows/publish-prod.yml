@@ -44,12 +44,19 @@ jobs:
         run: |
           Set-Location "./projects"
           dotnet build --configuration "Release"
+          npm run build
 
       - name: Upload NuGet Artifact
         uses: actions/upload-artifact@v3
         with:
           name: nuget-package
           path: ./projects/Fortress/bin/Release/*.nupkg
+
+      - name: Upload JS Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: js-artifacts
+          path: ./projects/Fortress/fable_build/*.js
 
   publish-to-nuget-gallery:
     name: Publish to NuGet Gallery

@@ -1,9 +1,12 @@
 {
   "name": "fortress",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": true,
+  "scripts": {
+    "prebuild": "dotnet tool restore",
+    "build": "dotnet fable --lang javascript && node esbuild.config.mjs"
+  },
   "devDependencies": {
-    "webpack": "^5.75.0",
-    "webpack-cli": "^4.10.0"
+    "esbuild": "0.17.16"
   }
 }

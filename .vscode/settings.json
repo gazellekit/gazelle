@@ -20,12 +20,15 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
+    "**/bin": true,
     "**/obj": true,
     "**/.idea": true,
     "**/*.py": true,
+    "**/fable_*": true,
     "**/*.fs.js": true,
     "**/__pycache__": true,
-    "*.sln.DotSettings.user": true
+    "**/node_modules": true,
+    "*.sln.DotSettings.user": true,
   },
 
   "[fsharp]": {
