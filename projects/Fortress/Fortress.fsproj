@@ -11,7 +11,7 @@
     <PackageReadmeFile>NuGet.md</PackageReadmeFile>
     <PackageId>Fortress</PackageId>
     <IsPackable>true</IsPackable>
-    <Version>0.0.3</Version>
+    <Version>{{ VERSION }}</Version>
   </PropertyGroup>
 
   <ItemGroup>
