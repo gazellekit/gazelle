@@ -5,3 +5,5 @@ $PackageVersion = (Get-Content "global.config" | ConvertFrom-Json).version
 @("Fortress.fsproj", "package.json") | ForEach-Object { 
   (Get-Content $_).Replace("{{ VERSION }}", $PackageVersion) | Set-Content $_
 }
+
+Write-Host "Package Version: $PackageVersion." -ForegroundColor Green
