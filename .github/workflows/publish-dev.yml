@@ -27,11 +27,11 @@ jobs:
         with:
           node-version: 18
 
-      - name: Restore Projects
-        run: ./scripts/Restore-Project.ps1
-
       - name: Set Package Version
         run: ./scripts/Set-PackageVersion.ps1
+
+      - name: Restore Projects
+        run: ./scripts/Restore-Project.ps1
 
       - name: Check Code Formatting
         run: |
