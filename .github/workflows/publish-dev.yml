@@ -48,6 +48,4 @@ jobs:
       - name: Invoke Fable Transpiler
         run: |
           Set-Location "./projects/Fortress"
-          dotnet fable --lang javascript
-          Get-Content "./Interop/JS.fs.js"
-          # npm run build
+          npm run build

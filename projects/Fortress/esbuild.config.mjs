@@ -1,7 +1,7 @@
 import * as esbuild from 'esbuild';
 
 await esbuild.build({
-  entryPoints: ['./interop/JS.fs.js'],
+  entryPoints: ['./Interop/JS.fs.js'],
   bundle: true,
   minify: true,
   sourcemap: false,
@@ -12,7 +12,7 @@ await esbuild.build({
 });
 
 await esbuild.build({
-  entryPoints: ['./interop/JS.fs.js'],
+  entryPoints: ['./Interop/JS.fs.js'],
   bundle: true,
   minify: false,
   sourcemap: false,
