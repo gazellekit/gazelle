@@ -22,6 +22,7 @@
 				"ms-vscode.powershell",
 				"ms-dotnettools.csharp",
 				"ms-python.vscode-pylance",
+				"ms-azuretools.vscode-bicep",
 				"ms-azuretools.vscode-docker",
 				"ritwickdey.liveserver",
 				"esbenp.prettier-vscode",
