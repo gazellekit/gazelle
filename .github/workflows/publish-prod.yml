@@ -27,8 +27,8 @@ jobs:
         with:
           node-version: 18
 
-      - name: Set Package Version
-        run: ./scripts/Set-PackageVersion.ps1
+      - name: Get Package Version
+        run: $Env:VERSION = ./scripts/Get-PackageVersion.ps1
 
       - name: Restore Projects
         run: ./scripts/Restore-Project.ps1
@@ -46,11 +46,14 @@ jobs:
       - name: Build .NET Projects
         run: |
           Set-Location "./projects"
-          dotnet build --configuration "Release"
+          dotnet build `
+            --configuration "Release" `
+            --version-suffix $Env:VERSION
       
       - name: Invoke Fable Transpiler
         run: |
           Set-Location "./projects/Fortress"
+          npm version $Env:VERSION
           npm run build
 
       - name: Upload NuGet Artifact

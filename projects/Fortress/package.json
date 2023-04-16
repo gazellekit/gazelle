@@ -2,15 +2,26 @@
   "name": "fortress",
   "description": "Robust, Transparent Structural Design.",
   "author": "James S. Bayley",
-  "version": "{{ VERSION }}",
-  "private": false,
+  "license": "AGPL-3.0-or-later",
+  "browser": "fable_build/fortress.js",
+  "files": [
+    "fable_build/**"
+  ],
   "keywords": [
-    "engineering", 
-    "structures", 
-    "design", 
-    "buildings", 
+    "engineering",
+    "structures",
+    "design",
+    "buildings",
     "bridges"
   ],
+  "funding": {
+    "type": "github sponsors",
+    "url": "https://github.com/sponsors/jamesbayley"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesbayley/Fortress"
+  },
   "scripts": {
     "prebuild": "dotnet tool restore",
     "build": "dotnet fable --lang javascript && node esbuild.config.mjs"
