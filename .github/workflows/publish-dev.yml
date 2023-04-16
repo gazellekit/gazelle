@@ -49,8 +49,7 @@ jobs:
       - name: Build .NET Projects
         run: |
           Set-Location "./projects"
-          dotnet build --configuration "Release"
-          dotnet pack -p:PackageVersion=${{ env.PACKAGE_VERSION }} --no-build
+          dotnet build -c "Release" -p:PackageVersion=${{ env.PACKAGE_VERSION }}
 
       - name: Invoke Fable Transpiler
         run: |
