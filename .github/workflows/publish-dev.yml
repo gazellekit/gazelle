@@ -36,9 +36,6 @@ jobs:
       - name: Restore Projects
         run: ./scripts/Restore-Project.ps1
 
-      - name: Write Package Version
-        run: ./scripts/Write-Version.ps1
-
       - name: Check Code Formatting
         run: |
           Set-Location "./projects"
