@@ -5,13 +5,12 @@
     <TargetFramework>net7.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <RepositoryUrl>https://github.com/jamesbayley/Fortress</RepositoryUrl>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <PackageReadmeFile>NuGet.md</PackageReadmeFile>
     <PackageId>Fortress</PackageId>
     <IsPackable>true</IsPackable>
-    <Version>$(Version)</Version>
   </PropertyGroup>
 
   <ItemGroup>
