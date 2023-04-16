@@ -27,11 +27,11 @@ jobs:
         with:
           node-version: 18
 
-      - name: Restore Projects
-        run: ./scripts/Restore-Project.ps1
-
       - name: Set Package Version
         run: ./scripts/Set-PackageVersion.ps1
+
+      - name: Restore Projects
+        run: ./scripts/Restore-Project.ps1
 
       - name: Check Code Formatting
         run: |
@@ -87,3 +87,28 @@ jobs:
             --api-key ${{ secrets.NUGET_KEY }} `
             --source "https://api.nuget.org/v3/index.json" `
             --skip-duplicate
+
+  # build_azure_resources:
+  #   name: Build Azure Resources
+  #   runs-on: Ubuntu-Latest
+  #   environment: Production
+
+  #   steps:
+  #     - name: Login to Azure
+  #       uses: azure/login@v1
+  #       with:
+  #         creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+  #     - name: Checkout Repository
+  #       uses: actions/checkout@v3
+
+  #     - name: Deploy Infrastructure
+  #       uses: azure/arm-deploy@v1
+  #       with:
+  #         template: .azure/templates/main.bicep
+  #         parameters: web_app_name=${{ vars.AZURE_WEB_APP_NAME }}
+  #         resourceGroupName: ${{ secrets.AZURE_RESOURCE_GROUP_NAME }}
+  #         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+  #         deploymentName: fortress-${{ github.run_id }}
+  #         deploymentMode: complete
+  #         failOnStdErr: true
