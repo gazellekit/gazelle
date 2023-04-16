@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 18
 
-      - name: Set Package Version as Env. Variable
+      - name: Get Package Version
         run: |
           Set-Location "./projects/Fortress"
           $PackageVersion = (Get-Content "global.config" | ConvertFrom-Json).version
