@@ -43,18 +43,18 @@ jobs:
           Set-Location "./projects"
           dotnet fantomas "." --recurse --check
 
-      - name: Run Test Suite
-        run: |
-          Set-Location "./projects"
-          dotnet test
-
       - name: Build .NET Projects
         run: |
           Set-Location "./projects"
           dotnet build `
             --configuration "Release" `
             --version-suffix ${{ env.PACKAGE_VERSION }}
-      
+
+      - name: Run Test Suite
+        run: |
+          Set-Location "./projects"
+          dotnet test --no-build
+
       - name: Invoke Fable Transpiler
         run: |
           Set-Location "./projects/Fortress"
