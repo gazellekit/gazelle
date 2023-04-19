@@ -2,9 +2,10 @@ param location string = resourceGroup().location
 param webAppName string
 
 @allowed([
+  'F1'
   'B1'
 ])
-param sku string = 'B1'
+param sku string = 'F1'
 
 resource appServicePlan 'Microsoft.Web/serverfarms@2020-06-01' = {
   name: 'plan-${toLower(webAppName)}'
