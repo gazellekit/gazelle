@@ -1,3 +1,4 @@
+/*
 param location string = resourceGroup().location
 param webAppName string
 
@@ -29,3 +30,4 @@ resource appService 'Microsoft.Web/sites@2020-06-01' = {
     }
   }
 }
+*/

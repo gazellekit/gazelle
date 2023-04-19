@@ -110,8 +110,9 @@ jobs:
         uses: azure/arm-deploy@v1
         with:
           template: ./.azure/templates/main.bicep
-          parameters: webAppName=${{ secrets.AZURE_WEB_APP_NAME }}
-          resourceGroupName: ${{ secrets.AZURE_RESOURCE_GROUP_NAME }}
-          deploymentName: fortress-run-${{ github.run_id }}
-          deploymentMode: complete
           failOnStdErr: true
+          deploymentMode: complete
+          deploymentName: fortress-run-${{ github.run_id }}
+          subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          resourceGroupName: ${{ secrets.AZURE_RESOURCE_GROUP_NAME }}
+          parameters: webAppName=${{ secrets.AZURE_WEB_APP_NAME }}
