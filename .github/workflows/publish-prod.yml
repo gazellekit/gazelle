@@ -153,5 +153,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           slot-name: Production
-          app-name: ${{ secrets.AZURE_WEB_APP_NAME }}
+          app-name: app-${{ secrets.AZURE_WEB_APP_NAME }}
           package: dotnet-app
