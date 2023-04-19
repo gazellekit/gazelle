@@ -51,8 +51,7 @@ jobs:
           Set-Location "./projects"
           dotnet publish `
             -c "Release" `
-            -p:PackageVersion=${{ env.PACKAGE_VERSION }} `
-            -o ${{ env.DOTNET_ROOT }}/app
+            -p:PackageVersion=${{ env.PACKAGE_VERSION }}
       
       - name: Invoke Fable Transpiler
         run: |
@@ -64,7 +63,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: dotnet-app
-          path: ${{ env.DOTNET_ROOT }}/app
+          path: ./projects/Fortress/bin/Release/net7.0/publish/
 
       - name: Upload NuGet Artifact
         uses: actions/upload-artifact@v3
@@ -139,15 +138,18 @@ jobs:
         shell: pwsh
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
       - name: Login to Azure
         run: |
           az login --service-principal `
             -u ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_ID }} `
             -p ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_SECRET }} `
             --tenant ${{ secrets.AZURE_TENANT_ID }}
+
+      - name: Download Build Artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: dotnet-app
+          path: dotnet-app
 
       - name: Publish to App Service
         uses: azure/webapps-deploy@v2
