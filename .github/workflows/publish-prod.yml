@@ -59,11 +59,11 @@ jobs:
           npm version ${{ env.PACKAGE_VERSION }}
           npm run build
 
-      - name: Upload .NET Web App Artifacts
+      - name: Upload .NET API Artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: dotnet-app
-          path: ./projects/Fortress/bin/Release/net7.0/publish/
+          name: fortress-api
+          path: ./projects/Fortress.Api/bin/Release/net7.0/publish/
 
       - name: Upload NuGet Artifact
         uses: actions/upload-artifact@v3
@@ -148,12 +148,12 @@ jobs:
       - name: Download Build Artifacts
         uses: actions/download-artifact@v3
         with:
-          name: dotnet-app
-          path: dotnet-app
+          name: fortress-api
+          path: fortress-api
 
       - name: Publish to App Service
         uses: azure/webapps-deploy@v2
         with:
           slot-name: Production
           app-name: app-${{ secrets.AZURE_WEB_APP_NAME }}
-          package: dotnet-app
+          package: fortress-api
