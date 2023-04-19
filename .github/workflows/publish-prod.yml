@@ -101,7 +101,7 @@ jobs:
             --source "https://api.nuget.org/v3/index.json" `
             --skip-duplicate
 
-  build_azure_resources:
+  build-azure-resources:
     name: Build Azure Resources
     runs-on: Ubuntu-Latest
     environment: Production
@@ -128,10 +128,30 @@ jobs:
             --template-file "./.azure/templates/main.bicep" `
             --parameters webAppName=${{ secrets.AZURE_WEB_APP_NAME }}
 
+  publish-web-app:
+    name: Publish Web App
+    runs-on: Ubuntu-Latest
+    environment: Production
+    needs: [build-fortress, build_azure_resources]
+
+    defaults:
+      run:
+        shell: pwsh
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Login to Azure
+        run: |
+          az login --service-principal `
+            -u ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_ID }} `
+            -p ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_SECRET }} `
+            --tenant ${{ secrets.AZURE_TENANT_ID }}
+
       - name: Publish to App Service
         uses: azure/webapps-deploy@v2
         with:
           slot-name: Production
           app-name: ${{ secrets.AZURE_WEB_APP_NAME }}
           package: dotnet-app
-      
