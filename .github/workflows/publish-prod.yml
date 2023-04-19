@@ -109,10 +109,9 @@ jobs:
       - name: Deploy Infrastructure
         uses: azure/arm-deploy@v1
         with:
-          template: "./.azure/templates/main.bicep"
+          template: ./.azure/templates/main.bicep
           parameters: webAppName=${{ secrets.AZURE_WEB_APP_NAME }}
           resourceGroupName: ${{ secrets.AZURE_RESOURCE_GROUP_NAME }}
-          subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
           deploymentName: fortress-run-${{ github.run_id }}
           deploymentMode: complete
           failOnStdErr: true
