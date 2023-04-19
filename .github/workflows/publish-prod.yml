@@ -116,7 +116,8 @@ jobs:
         run: |
           az deployment group create `
             --resource-group ${{ secrets.AZURE_RESOURCE_GROUP_NAME }} `
-            --template-file "./.azure/templates/main.bicep"
+            --template-file "./.azure/templates/main.bicep" `
+            --parameters webAppName=${{ secrets.AZURE_WEB_APP_NAME }}
 
         # uses: azure/arm-deploy@v1
         # with:
