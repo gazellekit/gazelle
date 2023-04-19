@@ -44,7 +44,6 @@ Web APIs are standardly built upon the HTTP/TLS network protocol, which is langu
 
 ## Values
 
-
 Three core values underpin all software design decisions in this project:
 
 1. Transparency, 
