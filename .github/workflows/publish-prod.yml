@@ -49,13 +49,22 @@ jobs:
       - name: Build .NET Projects
         run: |
           Set-Location "./projects"
-          dotnet build -c "Release" -p:PackageVersion=${{ env.PACKAGE_VERSION }}
+          dotnet publish `
+            -c "Release" `
+            -p:PackageVersion=${{ env.PACKAGE_VERSION }} `
+            -o ${{ env.DOTNET_ROOT }}/app
       
       - name: Invoke Fable Transpiler
         run: |
           Set-Location "./projects/Fortress"
           npm version ${{ env.PACKAGE_VERSION }}
           npm run build
+
+      - name: Upload .NET Web App Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: dotnet-app
+          path: ${{ env.DOTNET_ROOT }}/app
 
       - name: Upload NuGet Artifact
         uses: actions/upload-artifact@v3
@@ -118,3 +127,11 @@ jobs:
             --resource-group ${{ secrets.AZURE_RESOURCE_GROUP_NAME }} `
             --template-file "./.azure/templates/main.bicep" `
             --parameters webAppName=${{ secrets.AZURE_WEB_APP_NAME }}
+
+      - name: Publish to App Service
+        uses: azure/webapps-deploy@v2
+        with:
+          slot-name: Production
+          app-name: ${{ secrets.AZURE_WEB_APP_NAME }}
+          package: dotnet-app
+      
