@@ -97,21 +97,30 @@ jobs:
     runs-on: Ubuntu-Latest
     environment: Production
 
+    defaults:
+      run:
+        shell: pwsh
+
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
       - name: Login to Azure
         uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
       - name: Deploy Infrastructure
-        uses: azure/arm-deploy@v1
-        with:
-          template: ./.azure/templates/main.bicep
-          failOnStdErr: false
-          deploymentMode: complete
-          deploymentName: fortress-run-${{ github.run_id }}
-          subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-          resourceGroupName: ${{ secrets.AZURE_RESOURCE_GROUP_NAME }}
+        run: |
+          az deployment group create `
+            --resource-group ${{ secrets.AZURE_RESOURCE_GROUP_NAME }} `
+            --template-file "./.azure/templates/main.bicep"
+
+        # uses: azure/arm-deploy@v1
+        # with:
+        #   template: ./.azure/templates/main.bicep
+        #   failOnStdErr: false
+        #   deploymentMode: complete
+        #   deploymentName: fortress-run-${{ github.run_id }}
+        #   subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+        #   resourceGroupName: ${{ secrets.AZURE_RESOURCE_GROUP_NAME }}
