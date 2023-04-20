@@ -8,7 +8,7 @@ param webAppName string
 param sku string = 'F1'
 
 resource appServicePlan 'Microsoft.Web/serverfarms@2020-06-01' = {
-  name: 'plan-${toLower(webAppName)}'
+  name: '${toLower(webAppName)}-appserviceplan'
   location: location
   kind: 'linux'
   properties: {
@@ -20,7 +20,7 @@ resource appServicePlan 'Microsoft.Web/serverfarms@2020-06-01' = {
 }
 
 resource appService 'Microsoft.Web/sites@2020-06-01' = {
-  name: 'app-${toLower(webAppName)}'
+  name: '${toLower(webAppName)}-appservice'
   location: location
   properties: {
     serverFarmId: appServicePlan.id
