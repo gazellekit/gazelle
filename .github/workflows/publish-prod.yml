@@ -127,6 +127,13 @@ jobs:
             --template-file "./.azure/templates/main.bicep" `
             --parameters webAppName=${{ secrets.AZURE_WEB_APP_NAME }}
 
+      - name: Set Custom Domain
+        run: |
+          az webapp config hostname add `
+            --webapp-name ${{ secrets.AZURE_WEB_APP_NAME }}-appservice `
+            --resource-group ${{ secrets.AZURE_RESOURCE_GROUP_NAME }} `
+            --hostname ${{ secrets.CUSTOM_DOMAIN }}
+
   publish-web-app:
     name: Publish Web App
     runs-on: Ubuntu-Latest
