@@ -125,7 +125,9 @@ jobs:
           az deployment group create `
             --resource-group ${{ secrets.AZURE_RESOURCE_GROUP_NAME }} `
             --template-file "./.azure/templates/main.bicep" `
-            --parameters webAppName=${{ secrets.AZURE_WEB_APP_NAME }}
+            --parameters `
+              webAppName=${{ secrets.AZURE_WEB_APP_NAME }} `
+              sku=${{ secrets.AZURE_WEB_APP_SKU }}
 
       - name: Set Custom Domain
         run: |
