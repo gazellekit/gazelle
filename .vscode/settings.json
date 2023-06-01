@@ -1,20 +1,25 @@
 {
+  "diffEditor.ignoreTrimWhitespace": false,
+
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
   "editor.rulers": [100],
   "editor.tabSize": 2,
 
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.wrapTabs": true,
-
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
-
   "git.autofetch": true,
+  "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "diffEditor.ignoreTrimWhitespace": false,
+
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": false
+  },
 
   "files.exclude": {
-    "**/.git": true,
+    "**/.git": false,
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
@@ -23,7 +28,7 @@
     "**/bin": true,
     "**/obj": true,
     "**/.idea": true,
-    "**/*.py": true,
+    "**/*.py": false,
     "**/fable_*": true,
     "**/*.fs.js": true,
     "**/__pycache__": true,
@@ -37,6 +42,10 @@
   },
 
   "powershell.integratedConsole.showOnStartup": false,
+  "powershell.powerShellDefaultVersion": "/usr/bin/pwsh",
+  "powershell.powerShellAdditionalExePaths": {
+      "ubuntu": "/opt/microsoft/powershell/7/pwsh",
+  },
 
   "[python]": {
     "editor.formatOnSave": true,
@@ -53,4 +62,9 @@
   "python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
   "python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
   "python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
+
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco",
+
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.wrapTabs": true
 }
