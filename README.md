@@ -19,7 +19,6 @@
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Why?](#why)
 - [What?](#what)
 - [Values](#values)
