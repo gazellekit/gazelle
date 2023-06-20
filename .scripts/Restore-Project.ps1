@@ -1,6 +1,7 @@
 Set-Location "$PSScriptRoot/.."
 
 $DirectoryCommands = @(
+  @{ RelativePath = "."; Command = "npm install -g npm" }
   @{ RelativePath = "projects"; Command = "dotnet tool restore" }
   @{ RelativePath = "projects/Fortress"; Command = "dotnet restore" }
   @{ RelativePath = "projects/Fortress.Tests"; Command = "dotnet restore" }
