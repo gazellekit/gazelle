@@ -2,7 +2,7 @@
 	"name": "fortress",
 	"runArgs": ["--name", "fortress"],
 	"image": "mcr.microsoft.com/devcontainers/dotnet:7.0-bullseye",
-	"postCreateCommand": "pwsh scripts/Restore-Project.ps1",
+	"postCreateCommand": "pwsh .scripts/Restore-Project.ps1",
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/devcontainers/features/python:1": {},

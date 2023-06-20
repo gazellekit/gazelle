@@ -34,7 +34,7 @@ jobs:
           echo "PACKAGE_VERSION=$PackageVersion" | Out-File -FilePath $Env:GITHUB_ENV -Append
 
       - name: Restore Projects
-        run: ./scripts/Restore-Project.ps1
+        run: ./.scripts/Restore-Project.ps1
 
       - name: Check Code Formatting
         run: |
