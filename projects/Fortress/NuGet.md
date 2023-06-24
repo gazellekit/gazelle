@@ -23,12 +23,11 @@ Engineers accept phenomenal responsibility when dedicating their lives to improv
 
 ## What?
 
-Fortress is an AEC Developer Platform that offers API-as-a-Service infrastructure for Structural Engineers. The core library hosts an open-source collection of structural design algorithms, which are then exposed via RESTful API endpoints over the network allowing Technologists and Developers working in AEC organisations to integrate these fundamentals checks and calculations into their projects and products, regardless of their specific technology stack. 
+Fortress exposes structural engineering design algorithms and data services as RESTful Web API endpoints. This enables Technologists, Computational Designers and Software Developers working in AEC organisations to easily integrate structural design checks and calculations into their projects, regardless of their technology stack. 
 
-Web APIs are standardly built upon the HTTP/TLS network protocol, which is language-agnostic; whether you're developing desktop apps in C#, Machine Learning scripts in Python, or web apps in JavaScript, you can rely on these battle-tested Design APIs to power your applications and supercharge your workflows. This way, you can focus on developing the bespoke features that matter to your teams and clients: those that drive competitive business value. 
+Web APIs are typically built upon the language-agnostic HTTP/TLS network protocol. Whether you're developing desktop apps in C#, Machine Learning scripts in Python, or web apps in JavaScript, you can rely on these battle-tested structural design APIs to power your applications and supercharge your workflows. This way, you can focus on developing the bespoke features that matter to your teams and clients: those that drive competitive business value. 
 
 ## Values
-
 
 Three core values underpin all software design decisions in this project:
 
@@ -36,16 +35,14 @@ Three core values underpin all software design decisions in this project:
 2. Robustness, 
 3. Simplicity.
 
-Re-inventing the wheel is costly and it risks introducing errors into calculations. Fortress abstracts you away from the underlying implementation details by exposing developer-friendly entrypoints, whilst still allowing you the freedom to read, verify and validate the calculations for your own peace-of-mind.
+Re-inventing the wheel is costly and it risks introducing errors into calculations. Fortress abstracts you away from the underlying implementation details by exposing developer-friendly endpoints, whilst still allowing you the freedom to read, verify and validate the calculations for your own peace-of-mind.
 
 ## Open-Source
 
-A transparent, verifiable AEC Developer Platform designed specifically for Structural Engineers and BIM Professionals is certainly needed. However, no single engineering consultancy is incentivised to build such a platform. Quite simply, this is the platform I wish had existed when I started out as an AEC Developer. 
+A transparent, verifiable API-as-a-Service offering designed specifically for Structural Engineers and BIM Professionals is certainly required in our industry. However, no single engineering consultancy is incentivised to build such a platform. Quite simply, this is the platform I wish had existed when I started out as a Software Engineer in AEC. 
 
-I genuinely understand how overwhelming it can be to explore the various rabbit-holes that exist when transitioning into Software Engineering. Tutorials and API documentation often presume a programming background, which for many in AEC is simply not the case. My hope is that by (1) building this project in the open, (2) allowing any interested party to study the codebase, and (3) providing rich, intuitive documentation to ease onboarding, Engineers keen to develop new applications, scripts, tools and workflows can learn and grow in confidence.
-
-For the AEC development ecosystem to thrive, I believe that it falls upon <em>us</em> in the open-source community to innovate, collaborate and share our combined experiences and intellects to build the infrastructure we deserve.
+For the AEC technology ecosystem to thrive, I believe that it falls upon <em>us</em> in the open-source community to innovate, collaborate and share our combined experiences to build the services that we deserve.
 
 ## Contributing
 
-If you'd like to help build Fortress, please check out [CONTRIBUTING.md](https://github.com/jamesbayley/Fortress/blob/main/CONTRIBUTING.md).
+If you'd like to help build Fortress, please check out <a href="./CONTRIBUTING.md" target="_blank">CONTRIBUTING.md</a>.
