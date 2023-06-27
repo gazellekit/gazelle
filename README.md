@@ -9,9 +9,7 @@
   [![GitHub: Sponsors](https://img.shields.io/badge/GitHub-Sponsors-yellow)](https://www.github.com/sponsors/jamesbayley)
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blueviolet)](https://choosealicense.com/licenses/agpl-3.0/)
 
-  [![Vanilla: TS](https://img.shields.io/badge/Vanilla-TS-blue)](https://www.typescriptlang.org)
   [![Runtime: .NET 7](https://img.shields.io/badge/Runtime-.NET_7-blueviolet)](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
-  [![Language: F#](https://img.shields.io/badge/Language-F%23-blueviolet)](https://learn.microsoft.com/en-us/dotnet/fsharp/what-is-fsharp)
 </div>
 
 ## Table of Contents
