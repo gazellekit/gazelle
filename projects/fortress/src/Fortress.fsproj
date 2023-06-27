@@ -9,7 +9,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <PackageDescription>Robust, Transparent Structural Design Algorithms.</PackageDescription>
-    <PackageReadmeFile>NuGet.md</PackageReadmeFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageId>Fortress</PackageId>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
@@ -30,7 +30,6 @@
 
   <ItemGroup>
     <None Include="..\README.md" Pack="true" PackagePath="\" />
-    <None Include="..\fortress.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
