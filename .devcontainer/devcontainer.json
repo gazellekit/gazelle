@@ -1,6 +1,6 @@
 {
-	"name": "fortress",
-	"runArgs": ["--name", "fortress"],
+	"name": "calcpad.studio",
+	"runArgs": ["--name", "calcpad.studio"],
 	"image": "mcr.microsoft.com/devcontainers/dotnet:7.0-bullseye",
 	"postCreateCommand": "pwsh .scripts/Restore-Project.ps1",
 	"features": {
@@ -15,6 +15,7 @@
 		"vscode": {
 			"extensions": [
 				"github.copilot",
+				"github.vscode-github-actions",
 				"ionide.ionide-fsharp",
 				"ms-python.python",
 				"ms-vscode.powershell",
