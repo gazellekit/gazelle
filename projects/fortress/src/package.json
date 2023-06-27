@@ -1,6 +1,6 @@
 {
   "name": "fortress",
-  "description": "Robust, Transparent Structural Design.",
+  "description": "Robust, Transparent Structural Design Algorithms.",
   "author": "James S. Bayley",
   "license": "AGPL-3.0-or-later",
   "browser": "fable_build/fortress.js",
