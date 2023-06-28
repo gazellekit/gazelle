@@ -10,7 +10,7 @@
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <PackageDescription>Robust, Transparent Structural Design Algorithms.</PackageDescription>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageId>Calcpad.Studio</PackageId>
+    <PackageId>Calcpad.Studio.Core</PackageId>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
 
