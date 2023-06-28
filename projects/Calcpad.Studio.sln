@@ -11,6 +11,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.Studio.Core", "Calc
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.Studio.Core.Tests", "Calcpad.Studio.Core.Tests\Calcpad.Studio.Core.Tests.fsproj", "{1BB6E259-532F-4FD8-83DD-D8C049F6195C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calcpad.Studio.CLI", "Calcpad.Studio.CLI\Calcpad.Studio.CLI.csproj", "{32BFE979-6FAB-491C-89FB-7C0EF832F32B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{1BB6E259-532F-4FD8-83DD-D8C049F6195C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BB6E259-532F-4FD8-83DD-D8C049F6195C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BB6E259-532F-4FD8-83DD-D8C049F6195C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32BFE979-6FAB-491C-89FB-7C0EF832F32B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BFE979-6FAB-491C-89FB-7C0EF832F32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BFE979-6FAB-491C-89FB-7C0EF832F32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BFE979-6FAB-491C-89FB-7C0EF832F32B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
