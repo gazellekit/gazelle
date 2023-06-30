@@ -32,8 +32,8 @@ jobs:
             --template-file "./.azure/templates/main.bicep" `
             --parameters githubToken=${{ secrets.ADMIN_GITHUB_TOKEN }}
 
-  build-calcpad-studio:
-    name: Build Calcpad.Studio
+  build-and-deploy-calcpad-studio:
+    name: Build & Deploy Calcpad.Studio
     runs-on: Ubuntu-Latest
 
     defaults:
@@ -69,8 +69,21 @@ jobs:
       - name: Run Test Suite
         run: dotnet test
 
-      # - name: Build Solution
-      #   run: dotnet publish -c "Release"
+      - name: Build Solution
+        run: dotnet publish -c "Release"
+
+      - name: Deploy Static Web App
+        uses: azure/static-web-apps-deploy@v1
+        id: deploy
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_SWA_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: "upload"
+          api_location: ""
+          app_location: "src/Calcpad.Studio.Web"
+          output_location: "wwwroot"
+          skip_app_build: false
+          skip_api_build: true
 
       # - name: Invoke Fable Transpiler
       #   run: |
@@ -90,40 +103,7 @@ jobs:
       #     name: calcpad-studio-core-js
       #     path: ./projects/Calcpad.Studio.Core/fable_build/*.js
 
-  deploy-static-web-app:
-    name: Deploy Web App
-    runs-on: Ubuntu-Latest
-    needs: [deploy-infrastructure, build-calcpad-studio]
-    
-    environment: 
-      name: Production
-      url: ${{ vars.CUSTOM_DOMAIN }}
-
-    defaults:
-      run:
-        shell: pwsh
-        
-    steps:
-      # - name: Login to Azure
-      #   run: |
-      #     az login --service-principal `
-      #       -u ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_ID }} `
-      #       -p ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_SECRET }} `
-      #       --tenant ${{ secrets.AZURE_TENANT_ID }}
-         
-      - name: Deploy Static Web App
-        uses: azure/static-web-apps-deploy@v1
-        id: deploy
-        with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_SWA_TOKEN }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          action: "upload"
-          api_location: ""
-          app_location: "./src/Calcpad.Studio.Web"
-          output_location: ""
-          skip_app_build: false
-          skip_api_build: true
-            
+           
   # publish-library-packages:
   #   name: Publish Library Packages
   #   runs-on: Ubuntu-Latest
