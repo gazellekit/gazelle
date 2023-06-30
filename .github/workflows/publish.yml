@@ -5,8 +5,8 @@ on:
     branches: main
 
 jobs:
-  build-fortress:
-    name: Build Fortress
+  build-calcpad-studio:
+    name: Build Calcpad.Studio
     runs-on: Ubuntu-Latest
 
     defaults:
@@ -22,14 +22,14 @@ jobs:
         with:
           dotnet-version: "7.0.x"
 
-      # - name: Setup Node.js
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: 18
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
 
       # - name: Get Package Version
       #   run: |
-      #     Set-Location "./projects/fortress/src"
+      #     Set-Location "./projects/Calcpad.Studio.Core"
       #     $PackageVersion = (Get-Content "global.config" | ConvertFrom-Json).version
       #     echo "PACKAGE_VERSION=$PackageVersion" | Out-File -FilePath $Env:GITHUB_ENV -Append
 
@@ -39,53 +39,70 @@ jobs:
       - name: Check Code Formatting
         run: |
           Set-Location "./projects"
-          dotnet fantomas "." --recurse --check
+          dotnet fantomas "." --check
 
       - name: Run Test Suite
         run: |
           Set-Location "./projects"
           dotnet test
 
-      # - name: Build .NET Projects
+      # - name: Build Calcpad.Studio.Core
       #   run: |
-      #     Set-Location "./projects"
+      #     Set-Location "./projects/Calcpad.Studio.Core"
       #     dotnet publish `
       #       -c "Release" `
       #       -p:PackageVersion=${{ env.PACKAGE_VERSION }}
       
       # - name: Invoke Fable Transpiler
       #   run: |
-      #     Set-Location "./projects/fortress/src"
+      #     Set-Location "./projects/Calcpad.Studio.Core"
       #     npm version ${{ env.PACKAGE_VERSION }}
       #     npm run build
-
-      # - name: Upload .NET API Artifacts
-      #   uses: actions/upload-artifact@v3
-      #   with:
-      #     name: fortress-api
-      #     path: ./projects/Fortress.Api/bin/Release/net7.0/publish/
 
       # - name: Upload NuGet Artifact
       #   uses: actions/upload-artifact@v3
       #   with:
-      #     name: nuget-package
-      #     path: ./projects/Fortress/bin/Release/*.nupkg
-
-      # Publishing to GitHub Packages.
-      # dotnet nuget push "./bin/Release/net5.0/$latestPackageBaseName.nupkg" `
-      #   --skip-duplicate -s "github"
+      #     name: calcpad-studio-core-nupkg
+      #     path: ./projects/Calcpad.Studio.Core/bin/Release/*.nupkg
 
       # - name: Upload JS Artifacts
       #   uses: actions/upload-artifact@v3
       #   with:
-      #     name: js-artifacts
-      #     path: ./projects/Fortress/fable_build/*.js
+      #     name: calcpad-studio-core-js
+      #     path: ./projects/Calcpad.Studio.Core/fable_build/*.js
 
-  # publish-to-nuget-gallery:
-  #   name: Publish to NuGet Gallery
+  build-azure-resources:
+    name: Build Azure Resources
+    runs-on: Ubuntu-Latest
+    environment: Production
+
+    defaults:
+      run:
+        shell: pwsh
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Login to Azure
+        run: |
+          az login --service-principal `
+            -u ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_ID }} `
+            -p ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_SECRET }} `
+            --tenant ${{ secrets.AZURE_TENANT_ID }}
+
+      - name: Deploy Infrastructure
+        run: |
+          az deployment group create `
+            --resource-group ${{ secrets.AZURE_RESOURCE_GROUP_NAME }} `
+            --template-file "./.azure/templates/main.bicep" `
+            --parameters githubToken=${{ secrets.GITHUB_TOKEN }}
+
+  # publish-library-packages:
+  #   name: Publish Library Packages
   #   runs-on: Ubuntu-Latest
   #   environment: Production
-  #   needs: build-fortress
+  #   needs: build-calcpad-studio
 
   #   defaults:
   #     run:
@@ -95,78 +112,18 @@ jobs:
   #     - name: Download NuGet Artifact
   #       uses: actions/download-artifact@v3
   #       with:
-  #         name: nuget-package
+  #         name: calcpad-studio-core-nupkg
 
   #     - name: Publish to NuGet Gallery
-  #       run: | 
-  #         dotnet nuget push *.nupkg `
+  #       run: |
+  #         dotnet nuget push Calcpad.Studio.Core.nupkg `
   #           --api-key ${{ secrets.NUGET_KEY }} `
-  #           --source "https://api.nuget.org/v3/index.json" `
+  #           --source "nuget" `
   #           --skip-duplicate
 
-  # build-azure-resources:
-  #   name: Build Azure Resources
-  #   runs-on: Ubuntu-Latest
-  #   environment: Production
-
-  #   defaults:
-  #     run:
-  #       shell: pwsh
-
-  #   steps:
-  #     - name: Checkout Repository
-  #       uses: actions/checkout@v3
-
-  #     - name: Login to Azure
+  #     - name: Publish to GitHub Packages
   #       run: |
-  #         az login --service-principal `
-  #           -u ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_ID }} `
-  #           -p ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_SECRET }} `
-  #           --tenant ${{ secrets.AZURE_TENANT_ID }}
-
-  #     - name: Deploy Infrastructure
-  #       run: |
-  #         az deployment group create `
-  #           --resource-group ${{ secrets.AZURE_RESOURCE_GROUP_NAME }} `
-  #           --template-file "./.azure/templates/main.bicep" `
-  #           --parameters `
-  #             webAppName=${{ secrets.AZURE_WEB_APP_NAME }} `
-  #             sku=${{ secrets.AZURE_WEB_APP_SKU }}
-
-  #     - name: Set Custom Domain
-  #       run: |
-  #         az webapp config hostname add `
-  #           --webapp-name ${{ secrets.AZURE_WEB_APP_NAME }}-appservice `
-  #           --resource-group ${{ secrets.AZURE_RESOURCE_GROUP_NAME }} `
-  #           --hostname ${{ secrets.CUSTOM_DOMAIN }}
-
-  # publish-web-app:
-  #   name: Publish Web App
-  #   runs-on: Ubuntu-Latest
-  #   environment: Production
-  #   needs: [build-fortress, build-azure-resources]
-
-  #   defaults:
-  #     run:
-  #       shell: pwsh
-
-  #   steps:
-  #     - name: Login to Azure
-  #       run: |
-  #         az login --service-principal `
-  #           -u ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_ID }} `
-  #           -p ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_SECRET }} `
-  #           --tenant ${{ secrets.AZURE_TENANT_ID }}
-
-  #     - name: Download Build Artifacts
-  #       uses: actions/download-artifact@v3
-  #       with:
-  #         name: fortress-api
-  #         path: fortress-api
-
-  #     - name: Publish to App Service
-  #       uses: azure/webapps-deploy@v2
-  #       with:
-  #         slot-name: Production
-  #         app-name: ${{ secrets.AZURE_WEB_APP_NAME }}-appservice
-  #         package: fortress-api
+  #         dotnet nuget push Calcpad.Studio.Core.nupkg `
+  #           --api-key ${{ secrets.GITHUB_TOKEN }} `
+  #           --source "github" `
+  #           --skip-duplicate
