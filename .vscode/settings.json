@@ -42,7 +42,6 @@
   },
 
   "powershell.integratedConsole.showOnStartup": false,
-  "powershell.powerShellDefaultVersion": "/usr/bin/pwsh",
   "powershell.powerShellAdditionalExePaths": {
       "ubuntu": "/opt/microsoft/powershell/7/pwsh",
   },
