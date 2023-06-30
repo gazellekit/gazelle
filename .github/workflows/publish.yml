@@ -71,6 +71,10 @@ jobs:
       #     name: nuget-package
       #     path: ./projects/Fortress/bin/Release/*.nupkg
 
+      # Publishing to GitHub Packages.
+      # dotnet nuget push "./bin/Release/net5.0/$latestPackageBaseName.nupkg" `
+      #   --skip-duplicate -s "github"
+
       # - name: Upload JS Artifacts
       #   uses: actions/upload-artifact@v3
       #   with:
