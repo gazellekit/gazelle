@@ -17,6 +17,6 @@
 
 namespace Calcpad.Studio.Core.Interop.JS
 
-module calcpad.studio =
+module CalcpadStudio =
 
     let sayHello () = "Hello, Fortress!"
