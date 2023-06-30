@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>0.0.1</Version>
+    <Authors>James Bayley</Authors>
+    <Company>Calcpad.Studio</Company>
+    <TargetFramework>net48</TargetFramework>
+    <RepositoryUrl>https://github.com/jamesbayley/Calcpad.Studio</RepositoryUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Calcpad.Studio.Interop.CSI</PackageId>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include=".\DLLs\ETABSv1.dll">
+      <HintPath>ETABSv1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+	  </Reference>
+    <Reference Include=".\DLLs\ETABSv17.dll">
+      <HintPath>ETABSv17.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include=".\Shared\UnvalidatedTypes.fs" /> 
+    <Compile Include=".\Shared\ValidatedTypes.fs" /> 
+    <Compile Include=".\Shared\Unwrap.fs" /> 
+    <Compile Include=".\Shared\Messages.fs" />
+    <Compile Include=".\Shared\ErrorHandling.fs" />
+    <Compile Include=".\Shared\IO.fs" />
+    <Compile Include=".\Shared\Model.fs" /> 
+    <Compile Include=".\ETABS\Types.fs" />
+    <Compile Include=".\ETABS\ETABS.fs" />
+    <Compile Include=".\ETABS\Renderer.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="7.0.3" />
+  </ItemGroup>
+
+</Project>
