@@ -119,7 +119,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           api_location: ""
-          app_location: src/Calcpad.Studio.Web
+          app_location: "./src/Calcpad.Studio.Web"
           output_location: ""
           skip_app_build: false
           skip_api_build: true
