@@ -2,7 +2,7 @@ Set-Location "$PSScriptRoot/.."
 
 $DirectoryCommands = @(
   @{ RelativePath = "."; Command = "npm install -g npm" }
-  @{ RelativePath = "projects"; Command = "dotnet tool restore" }
+  @{ RelativePath = "."; Command = "dotnet tool restore" }
   @{ RelativePath = "projects"; Command = "dotnet restore" }
   @{ RelativePath = "projects/Calcpad.Studio.Core"; Command = "npm install" }
 ) 
