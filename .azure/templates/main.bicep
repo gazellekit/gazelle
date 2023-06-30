@@ -19,6 +19,7 @@ resource swa 'Microsoft.Web/staticSites@2022-03-01' = {
   location: staticWebApp.location
   sku: staticWebApp.sku
   properties: {
+    branch: staticWebApp.branch
     repositoryToken: githubToken
     repositoryUrl: staticWebApp.repositoryUrl
     stagingEnvironmentPolicy: staticWebApp.stagingEnvironmentPolicy
