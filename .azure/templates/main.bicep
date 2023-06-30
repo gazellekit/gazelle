@@ -1,31 +1,35 @@
-param location string = resourceGroup().location
-param webAppName string
+@secure()
+param githubToken string
 
-@allowed([
-  'F1'
-  'B1'
-])
-param sku string = 'F1'
-
-resource appServicePlan 'Microsoft.Web/serverfarms@2020-06-01' = {
-  name: '${toLower(webAppName)}-appserviceplan'
-  location: location
-  kind: 'linux'
-  properties: {
-    reserved: true
+param staticWebApp object = { 
+  name: 'Calcpad.Studio'
+  location: 'westeurope'
+  sku: { 
+    name: 'Standard'
+    size: 'Standard'
   }
-  sku: {
-    name: sku
+  branch: 'main'
+  repositoryUrl: 'https://github.com/jamesbayley/Calcpad.Studio'
+  stagingEnvironmentPolicy: 'Enabled'
+  buildProperties: { 
+    appLocation: 'projects/Calcpad.Studio.Web'
   }
 }
 
-resource appService 'Microsoft.Web/sites@2020-06-01' = {
-  name: '${toLower(webAppName)}-appservice'
-  location: location
+resource swa 'Microsoft.Web/staticSites@2022-03-01' = {
+  name: staticWebApp.name
+  location: staticWebApp.location
+  sku: staticWebApp.sku
   properties: {
-    serverFarmId: appServicePlan.id
-    siteConfig: {
-      linuxFxVersion: 'DOTNETCORE|7.0'
+    branch: staticWebApp.branch
+    repositoryToken: githubToken
+    repositoryUrl: staticWebApp.repositoryUrl
+    stagingEnvironmentPolicy: staticWebApp.stagingEnvironmentPolicy
+    buildProperties: {
+      appLocation: staticWebApp.buildProperties.appLocation
+      githubActionSecretNameOverride: 'AZURE_SWA_TOKEN'
+      skipGithubActionWorkflowGeneration: true
     }
   }
+  tags: null
 }
