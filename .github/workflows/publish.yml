@@ -37,14 +37,10 @@ jobs:
         run: ./.scripts/Restore-Project.ps1
 
       - name: Check Code Formatting
-        run: |
-          Set-Location "./projects"
-          dotnet fantomas "." --check
+        run: dotnet fantomas "." --check
 
       - name: Run Test Suite
-        run: |
-          Set-Location "./projects"
-          dotnet test
+        run: dotnet test
 
       # - name: Build Calcpad.Studio.Core
       #   run: |
