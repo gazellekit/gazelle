@@ -11,9 +11,7 @@ param staticWebApp object = {
   branch: 'main'
   repositoryUrl: 'https://github.com/jamesbayley/Calcpad.Studio'
   stagingEnvironmentPolicy: 'Enabled'
-  buildProperties: { 
-    appLocation: 'projects/Calcpad.Studio.Web'
-  }
+  enterpriseGradeCdnStatus: 'Disabled'
 }
 
 resource swa 'Microsoft.Web/staticSites@2022-03-01' = {
@@ -21,14 +19,13 @@ resource swa 'Microsoft.Web/staticSites@2022-03-01' = {
   location: staticWebApp.location
   sku: staticWebApp.sku
   properties: {
-    branch: staticWebApp.branch
     repositoryToken: githubToken
     repositoryUrl: staticWebApp.repositoryUrl
     stagingEnvironmentPolicy: staticWebApp.stagingEnvironmentPolicy
+    enterpriseGradeCdnStatus: staticWebApp.enterpriseGradeCdnStatus
     buildProperties: {
-      appLocation: staticWebApp.buildProperties.appLocation
-      githubActionSecretNameOverride: 'AZURE_SWA_TOKEN'
       skipGithubActionWorkflowGeneration: true
+      githubActionSecretNameOverride: 'AZURE_SWA_TOKEN'
     }
   }
   tags: null

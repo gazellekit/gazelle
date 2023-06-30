@@ -5,6 +5,33 @@ on:
     branches: main
 
 jobs:
+  deploy-infrastructure:
+    name: deploy Infrastructure
+    runs-on: Ubuntu-Latest
+    environment: Production
+
+    defaults:
+      run:
+        shell: pwsh
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Login to Azure
+        run: |
+          az login --service-principal `
+            -u ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_ID }} `
+            -p ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_SECRET }} `
+            --tenant ${{ secrets.AZURE_TENANT_ID }}
+
+      - name: Deploy Azure Resources
+        run: |
+          az deployment group create `
+            --resource-group ${{ secrets.AZURE_RESOURCE_GROUP_NAME }} `
+            --template-file "./.azure/templates/main.bicep" `
+            --parameters githubToken=${{ secrets.ADMIN_GITHUB_TOKEN }}
+
   build-calcpad-studio:
     name: Build Calcpad.Studio
     runs-on: Ubuntu-Latest
@@ -33,8 +60,8 @@ jobs:
       #     $PackageVersion = (Get-Content "global.config" | ConvertFrom-Json).version
       #     echo "PACKAGE_VERSION=$PackageVersion" | Out-File -FilePath $Env:GITHUB_ENV -Append
 
-      - name: Restore Projects
-        run: ./.scripts/Restore-Project.ps1
+      - name: Restore Solution
+        run: ./.scripts/Restore-Solution.ps1
 
       - name: Check Code Formatting
         run: dotnet fantomas "." --check
@@ -42,13 +69,9 @@ jobs:
       - name: Run Test Suite
         run: dotnet test
 
-      # - name: Build Calcpad.Studio.Core
-      #   run: |
-      #     Set-Location "./projects/Calcpad.Studio.Core"
-      #     dotnet publish `
-      #       -c "Release" `
-      #       -p:PackageVersion=${{ env.PACKAGE_VERSION }}
-      
+      # - name: Build Solution
+      #   run: dotnet publish -c "Release"
+
       # - name: Invoke Fable Transpiler
       #   run: |
       #     Set-Location "./projects/Calcpad.Studio.Core"
@@ -67,34 +90,40 @@ jobs:
       #     name: calcpad-studio-core-js
       #     path: ./projects/Calcpad.Studio.Core/fable_build/*.js
 
-  build-azure-resources:
-    name: Build Azure Resources
+  deploy-static-web-app:
+    name: Deploy Web App
     runs-on: Ubuntu-Latest
-    environment: Production
-    needs: build-calcpad-studio
+    needs: [deploy-infrastructure, build-calcpad-studio]
+    
+    environment: 
+      name: Production
+      url: ${{ vars.CUSTOM_DOMAIN }}
 
     defaults:
       run:
         shell: pwsh
-
+        
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Login to Azure
-        run: |
-          az login --service-principal `
-            -u ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_ID }} `
-            -p ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_SECRET }} `
-            --tenant ${{ secrets.AZURE_TENANT_ID }}
-
-      - name: Deploy Infrastructure
-        run: |
-          az deployment group create `
-            --resource-group ${{ secrets.AZURE_RESOURCE_GROUP_NAME }} `
-            --template-file "./.azure/templates/main.bicep" `
-            --parameters githubToken=${{ secrets.ADMIN_TOKEN_GITHUB }}
-
+      # - name: Login to Azure
+      #   run: |
+      #     az login --service-principal `
+      #       -u ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_ID }} `
+      #       -p ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_SECRET }} `
+      #       --tenant ${{ secrets.AZURE_TENANT_ID }}
+         
+      - name: Deploy Static Web App
+        uses: azure/static-web-apps-deploy@v1
+        id: deploy
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_SWA_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: "upload"
+          api_location: ""
+          app_location: src/Calcpad.Studio.Web
+          output_location: ""
+          skip_app_build: false
+          skip_api_build: true
+            
   # publish-library-packages:
   #   name: Publish Library Packages
   #   runs-on: Ubuntu-Latest
