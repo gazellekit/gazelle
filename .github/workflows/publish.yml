@@ -97,7 +97,7 @@ jobs:
           az deployment group create `
             --resource-group ${{ secrets.AZURE_RESOURCE_GROUP_NAME }} `
             --template-file "./.azure/templates/main.bicep" `
-            --parameters githubToken=${{ secrets.GITHUB_TOKEN }}
+            --parameters githubToken=${{ secrets.ADMIN_TOKEN_GITHUB }}
 
   # publish-library-packages:
   #   name: Publish Library Packages
