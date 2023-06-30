@@ -4,26 +4,33 @@ on:
   push:
     branches: main
 
+defaults:
+  run:
+    shell: pwsh
+
 jobs:
-  deploy-infrastructure:
-    name: Deploy Infrastructure
+  login-to-azure:
+    name: Login to Azure
     runs-on: Ubuntu-Latest
     environment: Production
 
-    defaults:
-      run:
-        shell: pwsh
-
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
       - name: Login to Azure
         run: |
           az login --service-principal `
             -u ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_ID }} `
             -p ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_SECRET }} `
             --tenant ${{ secrets.AZURE_TENANT_ID }}
+
+  deploy-infrastructure:
+    name: Deploy Infrastructure
+    runs-on: Ubuntu-Latest
+    environment: Production
+    needs: login-to-azure
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
       - name: Deploy Azure Resources
         run: |
@@ -32,13 +39,14 @@ jobs:
             --template-file "./.azure/templates/main.bicep" `
             --parameters githubToken=${{ secrets.ADMIN_GITHUB_TOKEN }}
 
-  build-and-deploy-calcpad-studio:
-    name: Build & Deploy Calcpad.Studio
+  publish-calcpad-studio:
+    name: Publish Calcpad.Studio
     runs-on: Ubuntu-Latest
+    needs: deploy-infrastructure
 
-    defaults:
-      run:
-        shell: pwsh
+    environment:
+      name: Production
+      url: https://www.calcpad.studio
 
     steps:
       - name: Checkout Repository
@@ -54,12 +62,6 @@ jobs:
         with:
           node-version: 18
 
-      # - name: Get Package Version
-      #   run: |
-      #     Set-Location "./projects/Calcpad.Studio.Core"
-      #     $PackageVersion = (Get-Content "global.config" | ConvertFrom-Json).version
-      #     echo "PACKAGE_VERSION=$PackageVersion" | Out-File -FilePath $Env:GITHUB_ENV -Append
-
       - name: Restore Solution
         run: ./.scripts/Restore-Solution.ps1
 
@@ -69,10 +71,7 @@ jobs:
       - name: Run Test Suite
         run: dotnet test
 
-      - name: Build Solution
-        run: dotnet publish -c "Release"
-
-      - name: Deploy Static Web App
+      - name: Publish Calcpad.Studio
         uses: azure/static-web-apps-deploy@v1
         id: deploy
         with:
@@ -85,51 +84,3 @@ jobs:
           skip_app_build: false
           skip_api_build: true
 
-      # - name: Invoke Fable Transpiler
-      #   run: |
-      #     Set-Location "./projects/Calcpad.Studio.Core"
-      #     npm version ${{ env.PACKAGE_VERSION }}
-      #     npm run build
-
-      # - name: Upload NuGet Artifact
-      #   uses: actions/upload-artifact@v3
-      #   with:
-      #     name: calcpad-studio-core-nupkg
-      #     path: ./projects/Calcpad.Studio.Core/bin/Release/*.nupkg
-
-      # - name: Upload JS Artifacts
-      #   uses: actions/upload-artifact@v3
-      #   with:
-      #     name: calcpad-studio-core-js
-      #     path: ./projects/Calcpad.Studio.Core/fable_build/*.js
-
-           
-  # publish-library-packages:
-  #   name: Publish Library Packages
-  #   runs-on: Ubuntu-Latest
-  #   environment: Production
-  #   needs: build-calcpad-studio
-
-  #   defaults:
-  #     run:
-  #       shell: pwsh
-
-  #   steps:
-  #     - name: Download NuGet Artifact
-  #       uses: actions/download-artifact@v3
-  #       with:
-  #         name: calcpad-studio-core-nupkg
-
-  #     - name: Publish to NuGet Gallery
-  #       run: |
-  #         dotnet nuget push Calcpad.Studio.Core.nupkg `
-  #           --api-key ${{ secrets.NUGET_KEY }} `
-  #           --source "nuget" `
-  #           --skip-duplicate
-
-  #     - name: Publish to GitHub Packages
-  #       run: |
-  #         dotnet nuget push Calcpad.Studio.Core.nupkg `
-  #           --api-key ${{ secrets.GITHUB_TOKEN }} `
-  #           --source "github" `
-  #           --skip-duplicate
