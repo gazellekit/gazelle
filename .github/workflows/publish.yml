@@ -9,28 +9,21 @@ defaults:
     shell: pwsh
 
 jobs:
-  login-to-azure:
-    name: Login to Azure
+  deploy-infrastructure:
+    name: Deploy Infrastructure
     runs-on: Ubuntu-Latest
     environment: Production
 
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
       - name: Login to Azure
         run: |
           az login --service-principal `
             -u ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_ID }} `
             -p ${{ secrets.AZURE_SERVICE_PRINCIPAL_CLIENT_SECRET }} `
             --tenant ${{ secrets.AZURE_TENANT_ID }}
-
-  deploy-infrastructure:
-    name: Deploy Infrastructure
-    runs-on: Ubuntu-Latest
-    environment: Production
-    needs: login-to-azure
-
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
 
       - name: Deploy Azure Resources
         run: |
@@ -83,4 +76,3 @@ jobs:
           output_location: "wwwroot"
           skip_app_build: false
           skip_api_build: true
-
