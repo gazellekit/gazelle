@@ -21,7 +21,8 @@
   "files.exclude": {
     "**/.git": false,
     "**/.DS_Store": true,
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/build": true,
   },
 
   "liveServer.settings.port": 9001,
