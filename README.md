@@ -9,7 +9,7 @@
   [![GitHub: Sponsors](https://img.shields.io/badge/GitHub-Sponsors-yellow)](https://www.github.com/sponsors/jamesbayley)
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blueviolet)](https://choosealicense.com/licenses/agpl-3.0/)
 
-  [![Runtime: .NET 7](https://img.shields.io/badge/Runtime-.NET_7-blueviolet)](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+  [![Production](https://github.com/jamesbayley/Calcpad.Studio/actions/workflows/publish.yml/badge.svg)](https://github.com/jamesbayley/Calcpad.Studio/actions/workflows/publish.yml)
 </div>
 
 ## Table of Contents

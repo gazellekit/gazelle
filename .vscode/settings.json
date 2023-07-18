@@ -20,47 +20,14 @@
 
   "files.exclude": {
     "**/.git": false,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
     "**/.DS_Store": true,
-    "**/Thumbs.db": true,
-    "**/bin": true,
-    "**/obj": true,
-    "**/.idea": true,
-    "**/*.py": false,
-    "**/fable_*": true,
-    "**/*.fs.js": true,
-    "**/__pycache__": true,
-    "**/node_modules": true,
-    "*.sln.DotSettings.user": true,
-  },
-
-  "[fsharp]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
+    "**/node_modules": true
   },
 
   "powershell.integratedConsole.showOnStartup": false,
   "powershell.powerShellAdditionalExePaths": {
       "ubuntu": "/opt/microsoft/powershell/7/pwsh",
   },
-
-  "[python]": {
-    "editor.formatOnSave": true,
-  },
-  "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
-  "python.defaultInterpreterPath": "/usr/bin/python3",
-  "python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
-  "python.formatting.blackPath": "/usr/local/py-utils/bin/black",
-  "python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
-  "python.linting.banditPath": "/usr/local/py-utils/bin/bandit",
-  "python.linting.flake8Path": "/usr/local/py-utils/bin/flake8",
-  "python.linting.mypyPath": "/usr/local/py-utils/bin/mypy",
-  "python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
-  "python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
-  "python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
 
   "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco",
 
