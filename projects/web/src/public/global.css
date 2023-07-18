@@ -35,5 +35,6 @@ body {
   }
 
 h1 { 
+  margin-block: 3rem;
   text-align: center;
 }
