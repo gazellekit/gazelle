@@ -45,24 +45,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: "7.0.x"
-
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
 
-      - name: Restore Solution
-        run: ./.scripts/Restore-Solution.ps1
-
-      - name: Check Code Formatting
-        run: dotnet fantomas "." --check
-
-      - name: Run Test Suite
-        run: dotnet test
+      - name: Restore Projects
+        run: ./.scripts/Restore-Projects.ps1
 
       - name: Publish Calcpad.Studio
         uses: azure/static-web-apps-deploy@v1
@@ -72,7 +61,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           api_location: ""
-          app_location: "src/Calcpad.Studio.Web"
-          output_location: "wwwroot"
-          skip_app_build: false
+          app_location: "projects/web/src/public"
+          output_location: ""
+          skip_app_build: true
           skip_api_build: true
