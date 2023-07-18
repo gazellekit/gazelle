@@ -1,11 +1,10 @@
 {
 	"name": "calcpad.studio",
 	"runArgs": ["--name", "calcpad.studio"],
-	"image": "mcr.microsoft.com/devcontainers/dotnet:7.0-bullseye",
-	"postCreateCommand": "pwsh .scripts/Restore-Project.ps1",
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+	"postCreateCommand": "pwsh .scripts/Restore-Projects.ps1",
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {},
-		"ghcr.io/devcontainers/features/python:1": {},
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers/features/powershell:1": {},
@@ -16,16 +15,12 @@
 			"extensions": [
 				"github.copilot",
 				"github.vscode-github-actions",
-				"ionide.ionide-fsharp",
-				"ms-python.python",
 				"ms-vscode.powershell",
-				"ms-dotnettools.csharp",
-				"ms-python.vscode-pylance",
 				"ms-azuretools.vscode-bicep",
 				"ms-azuretools.vscode-docker",
+				"bierner.markdown-preview-github-styles",
 				"ritwickdey.liveserver",
-				"esbenp.prettier-vscode",
-				"bierner.markdown-preview-github-styles"
+				"esbenp.prettier-vscode"
 			]
 		}
 	}

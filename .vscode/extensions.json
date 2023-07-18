@@ -2,16 +2,11 @@
   "recommendations": [
     "github.copilot",
     "github.vscode-github-actions",
-    "ionide.ionide-fsharp",
-    "ms-python.python",
     "ms-vscode.powershell",
-    "ms-dotnettools.csharp",
-    "ms-python.vscode-pylance",
     "ms-azuretools.vscode-bicep",
     "ms-azuretools.vscode-docker",
-    "ms-dotnettools.blazorwasm-companion",
+    "bierner.markdown-preview-github-styles",
     "ritwickdey.liveserver",
-    "esbenp.prettier-vscode",
-    "bierner.markdown-preview-github-styles"
+    "esbenp.prettier-vscode"
   ]
 }
