@@ -2,7 +2,7 @@
 	"name": "calcpad.studio",
 	"runArgs": ["--name", "calcpad.studio"],
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
-	"postCreateCommand": "pwsh .scripts/Restore-Project.ps1",
+	"postCreateCommand": "pwsh .scripts/Restore-Projects.ps1",
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/devcontainers/features/git:1": {},
