@@ -24,6 +24,9 @@
     "**/node_modules": true
   },
 
+  "liveServer.settings.port": 9001,
+  "liveServer.settings.root": "/projects/web/src/public",
+
   "powershell.integratedConsole.showOnStartup": false,
   "powershell.powerShellAdditionalExePaths": {
       "ubuntu": "/opt/microsoft/powershell/7/pwsh",
