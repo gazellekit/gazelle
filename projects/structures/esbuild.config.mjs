@@ -1,7 +1,7 @@
 import * as esbuild from 'esbuild';
 
 await esbuild.build({
-  entryPoints: ['./src/main.ts'],
+  entryPoints: ['./src/structures.ts'],
   outfile: './build/structures.js',
   platform: 'node',
   format: 'esm',
@@ -12,7 +12,7 @@ await esbuild.build({
 });
 
 await esbuild.build({
-  entryPoints: ['./src/main.ts'],
+  entryPoints: ['./src/structures.ts'],
   outfile: './build/structures.min.js',
   platform: 'browser',
   format: 'iife',
