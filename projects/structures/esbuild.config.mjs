@@ -22,4 +22,3 @@ await esbuild.build({
   bundle: true,
   minify: true
 });
-
