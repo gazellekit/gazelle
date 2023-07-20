@@ -1,9 +1,12 @@
 {
-  "name": "core",
+  "name": "@calcpad.studio/structures",
   "description": "Structural Design Algorithms.",
   "author": "James S. Bayley",
   "license": "AGPL-3.0-or-later",
-  "main": "build/calcpad.js",
+  "exports": "./build/structures.js",
+  "unpkg": "./build/structures.min.js",
+  "types": "./build/structures.d.ts",
+  "type": "module",
   "keywords": [
     "engineering",
     "structures",
@@ -20,8 +23,8 @@
     "url": "https://github.com/jamesbayley/Calcpad.Studio"
   },
   "scripts": {
-    "build": "node_modules/.bin/tsc && node esbuild.config.mjs",
-    "watch": "node_modules/.bin/tsc -w"
+    "prepublishOnly": "npm run build",
+    "build": "node_modules/.bin/tsc && node esbuild.config.mjs"
   },
   "devDependencies": {
     "@types/jest": "^29.5.3",

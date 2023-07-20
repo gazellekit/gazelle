@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@calcpad.studio/structures": "file:../structures"
+  }
+}
