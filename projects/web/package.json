@@ -1,6 +1,7 @@
 {
   "type": "module",
   "dependencies": {
+    "@calcpad.studio/fortress": "file:../fortress/src",
     "@calcpad.studio/structures": "file:../structures"
   }
 }
