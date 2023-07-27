@@ -1,9 +1,9 @@
 # .NET
 bin/
 obj/
+.fake
 
 # Fable
-dist/
 build/
 fable_modules/
 *.fs.*
