@@ -1,7 +1,7 @@
 import * as esbuild from 'esbuild';
 
 await esbuild.build({
-  entryPoints: ['./Fortress.fs.ts'],
+  entryPoints: ['./src/Fortress.fs.ts'],
   outfile: './build/js/fortress.js',
   platform: 'node',
   format: 'esm',
@@ -12,7 +12,7 @@ await esbuild.build({
 });
 
 await esbuild.build({
-  entryPoints: ['./Fortress.fs.ts'],
+  entryPoints: ['./src/Fortress.fs.ts'],
   outfile: './build/js/fortress.min.js',
   platform: 'browser',
   format: 'iife',
