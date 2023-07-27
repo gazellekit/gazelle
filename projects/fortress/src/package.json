@@ -1,0 +1,37 @@
+{
+  "name": "@calcpad.studio/fortress",
+  "description": "Robust, Transparent Structural Design.",
+  "author": "James S. Bayley",
+  "license": "AGPL-3.0-or-later",
+  "exports": "./build/js/fortress.js",
+  "unpkg": "./build/js/fortress.min.js",
+  "types": "./build/js/fortress.d.ts",
+  "type": "module",
+  "keywords": [
+    "engineering",
+    "structures",
+    "eurocode",
+    "buildings",
+    "bridges"
+  ],
+  "funding": {
+    "type": "github sponsors",
+    "url": "https://github.com/sponsors/jamesbayley"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesbayley/Calcpad.Studio"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "prebuildjs": "dotnet tool restore",
+    "buildjs": "dotnet fable --lang typescript --noCache && node_modules/.bin/tsc && node esbuild.config.mjs",
+    "postbuildjs": "mv ./build/js/Fortress.fs.d.ts ./build/js/fortress.d.ts && mv ./build/js/Fortress.fs.d.ts.map ./build/js/fortress.d.ts.map",
+    "buildpy": "dotnet fable --lang python --noCache"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "esbuild": "0.17.16",
+    "typescript": "^5.1.6"
+  }
+}
