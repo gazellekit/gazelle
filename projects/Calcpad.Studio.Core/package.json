@@ -26,7 +26,7 @@
     "prepublishOnly": "npm run build",
     "prebuild": "dotnet tool restore",
     "build": "dotnet fable --lang typescript --noCache && node_modules/.bin/tsc && node esbuild.config.mjs",
-    "postbuild": "mv ./build/js/Structures.fs.d.ts ./build/js/structures.d.ts && mv ./build/js/Structures.fs.d.ts.map ./build/js/structures.d.ts.map"
+    "postbuild": "mv ./build/js/Core.fs.d.ts ./build/js/core.d.ts && mv ./build/js/Core.fs.d.ts.map ./build/js/core.d.ts.map"
   },
   "devDependencies": {
     "@types/node": "^20.4.5",
