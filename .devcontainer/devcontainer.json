@@ -6,7 +6,7 @@
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/node:1": {},
-		"ghcr.io/devcontainers/features/dotnet:1": {},
+		"ghcr.io/devcontainers/features/dotnet:1": {}, // Pin to .NET 7.
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers/features/powershell:1": {},
 		"ghcr.io/devcontainers/features/azure-cli:1": {} 
