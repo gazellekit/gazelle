@@ -4,7 +4,7 @@ $DirectoryCommands = @(
   @{ RelativePath = "."; Command = "npm install -g npm" }
   @{ RelativePath = "./projects"; Command = "dotnet tool restore" }
   @{ RelativePath = "projects/structures"; Command = "npm install" }
-  @{ RelativePath = "projects/fortress/src"; Command = "npm install" }
+  @{ RelativePath = "projects/fortress"; Command = "npm install" }
 ) 
 
 $DirectoryCommands | ForEach-Object { 
