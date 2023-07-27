@@ -1,15 +1,14 @@
 {
 	"name": "calcpad.studio",
 	"runArgs": ["--name", "calcpad.studio"],
-	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:7.0-bullseye",
 	"postCreateCommand": "pwsh .scripts/Restore-Projects.ps1",
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/node:1": {},
-		"ghcr.io/devcontainers/features/dotnet:1": {}, // Pin to .NET 7.
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers/features/powershell:1": {},
-		"ghcr.io/devcontainers/features/azure-cli:1": {} 
+		"ghcr.io/devcontainers/features/azure-cli:1": {}
 	},
 	"customizations": {
 		"vscode": {
