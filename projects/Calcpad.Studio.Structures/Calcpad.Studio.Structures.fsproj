@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>James S. Bayley</Authors>
+    <TargetFramework>net7.0</TargetFramework>
+    <RepositoryUrl>https://github.com/jamesbayley/Calcpad.Studio</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageDescription>Robust, Transparent Structural Design.</PackageDescription>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageId>Calcpad.Studio.Structures</PackageId>
+    <IsPackable>true</IsPackable>
+    <Version>0.0.4</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Legacy\Geometry.fs" />
+    <Compile Include="Legacy\Concrete.fs" />
+    <Compile Include="Legacy\Rebar.fs" />
+    <Compile Include="Structures.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fable.Core" Version="3.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Calcpad.Studio.Units\Calcpad.Studio.Units.fsproj" />
+    <ProjectReference Include="..\Calcpad.Studio.Geometry\Calcpad.Studio.Geometry.fsproj" />
+  </ItemGroup>
+</Project>
