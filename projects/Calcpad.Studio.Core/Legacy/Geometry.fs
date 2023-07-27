@@ -1,7 +1,7 @@
-namespace Calcpad.Studio.Structures
+namespace Calcpad.Studio.Core.Structures
 
 open System
-open Calcpad.Studio.Units
+open Calcpad.Studio.Core.Units
 
 /// Orthogonal geometric cross-sectional axes.
 type Axis =

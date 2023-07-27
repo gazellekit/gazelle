@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.Studio.Units", "Calcpad.Studio.Units\Calcpad.Studio.Units.fsproj", "{5BE04F1A-FA22-4801-ABAD-1AE39DB8FD92}"
-EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.Studio.Structures", "Calcpad.Studio.Structures\Calcpad.Studio.Structures.fsproj", "{FE607F54-4EF5-41FD-A352-7AC49E5F828F}"
-EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.Studio.Geometry", "Calcpad.Studio.Geometry\Calcpad.Studio.Geometry.fsproj", "{4D511100-DDDD-4DF9-95B6-D1C30E80C0A0}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.Studio.Core", "Calcpad.Studio.Core\Calcpad.Studio.Core.fsproj", "{FE607F54-4EF5-41FD-A352-7AC49E5F828F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

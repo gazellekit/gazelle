@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-namespace Calcpad.Studio.Geometry
+namespace Calcpad.Studio.Core.Geometry
 
 /// <summary>
 /// Orthogonal geometric axis.

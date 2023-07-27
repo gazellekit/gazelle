@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-namespace Calcpad.Studio.Structures
+namespace Calcpad.Studio.Core
 
-type ConcreteError = InvalidAge of message: string
+module Example =
 
-type ReinforcedConcreteError = ConcreteError of ConcreteError
+    let sayHello () = "Hello, Calcpad.Studio!"

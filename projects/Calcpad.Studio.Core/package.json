@@ -1,11 +1,11 @@
 {
-  "name": "@calcpad.studio/structures",
+  "name": "@calcpad.studio/core",
   "description": "Robust, Transparent Structural Design.",
   "author": "James S. Bayley",
   "license": "AGPL-3.0-or-later",
-  "exports": "./build/js/structures.js",
-  "unpkg": "./build/js/structures.min.js",
-  "types": "./build/js/structures.d.ts",
+  "exports": "./build/js/core.js",
+  "unpkg": "./build/js/core.min.js",
+  "types": "./build/js/core.d.ts",
   "type": "module",
   "keywords": [
     "engineering",

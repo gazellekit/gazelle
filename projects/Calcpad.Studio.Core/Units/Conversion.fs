@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-namespace Calcpad.Studio.Units
+namespace Calcpad.Studio.Core.Units
 
 open FSharp.Data.UnitSystems.SI.UnitSymbols
 

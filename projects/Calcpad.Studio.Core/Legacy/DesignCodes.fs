@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-namespace Calcpad.Studio.Structures
+namespace Calcpad.Studio.Core.Structures
 
-module API =
+/// Supported eurocodes (EC).
+type Eurocode = | UK
 
-    let sayHello () = "Hello, Calcpad.Studio!"
+/// Supported global design codes.
+type DesignCode = Eurocode of Eurocode

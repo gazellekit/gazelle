@@ -1,4 +1,4 @@
-namespace Calcpad.Studio.Structures
+namespace Calcpad.Studio.Core.Structures
 
 //[<RequireQualifiedAccess>]
 //module RCPier =

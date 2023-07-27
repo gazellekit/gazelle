@@ -1,6 +1,6 @@
-namespace Calcpad.Studio.Structures
+namespace Calcpad.Studio.Core.Structures
 
-open Calcpad.Studio.Units
+open Calcpad.Studio.Core.Units
 open FSharp.Data.UnitSystems.SI.UnitSymbols
 
 type UKSteelGrade =

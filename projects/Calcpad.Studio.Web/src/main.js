@@ -1,3 +1,3 @@
-import { sayHello } from '@calcpad.studio/structures';
+import { sayHello } from '@calcpad.studio/core';
 
 console.log(sayHello());

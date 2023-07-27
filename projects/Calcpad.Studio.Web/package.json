@@ -1,6 +1,6 @@
 {
   "type": "module",
   "dependencies": {
-    "@calcpad.studio/structures": "file:../Calcpad.Studio.Structures"
+    "@calcpad.studio/core": "file:../Calcpad.Studio.Core"
   }
 }

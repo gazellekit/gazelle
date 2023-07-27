@@ -9,16 +9,21 @@
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <PackageDescription>Robust, Transparent Structural Design.</PackageDescription>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageId>Calcpad.Studio.Structures</PackageId>
+    <PackageId>Calcpad.Studio.Core</PackageId>
     <IsPackable>true</IsPackable>
     <Version>0.0.4</Version>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Units\Units.fs" />
+    <Compile Include="Units\Annotation.fs" />
+    <Compile Include="Units\Conversion.fs" />
+    <Compile Include="Units\Math.fs" />
+    <Compile Include="Geometry\Properties.fs" />
     <Compile Include="Legacy\Geometry.fs" />
     <Compile Include="Legacy\Concrete.fs" />
     <Compile Include="Legacy\Rebar.fs" />
-    <Compile Include="Structures.fs" />
+    <Compile Include="Core.fs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,10 +32,5 @@
 
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Calcpad.Studio.Units\Calcpad.Studio.Units.fsproj" />
-    <ProjectReference Include="..\Calcpad.Studio.Geometry\Calcpad.Studio.Geometry.fsproj" />
   </ItemGroup>
 </Project>

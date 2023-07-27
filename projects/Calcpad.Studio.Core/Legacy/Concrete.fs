@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-namespace Calcpad.Studio.Structures
+namespace Calcpad.Studio.Core.Structures
 
-open Calcpad.Studio.Units
+open Calcpad.Studio.Core.Units
 open FSharp.Data.UnitSystems.SI.UnitSymbols
 
 type UKConcreteGrade =
