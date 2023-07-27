@@ -4,8 +4,9 @@
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
 	"postCreateCommand": "pwsh .scripts/Restore-Projects.ps1",
 	"features": {
-		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers/features/dotnet:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
 		"ghcr.io/devcontainers/features/powershell:1": {},
 		"ghcr.io/devcontainers/features/azure-cli:1": {} 
@@ -15,7 +16,9 @@
 			"extensions": [
 				"github.copilot",
 				"github.vscode-github-actions",
+				"ionide.ionide-fsharp",
 				"ms-vscode.powershell",
+				"ms-dotnettools.csharp",
 				"ms-azuretools.vscode-bicep",
 				"ms-azuretools.vscode-docker",
 				"bierner.markdown-preview-github-styles",
