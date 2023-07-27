@@ -2,7 +2,9 @@
   "recommendations": [
     "github.copilot",
     "github.vscode-github-actions",
+    "ionide.ionide-fsharp",
     "ms-vscode.powershell",
+    "ms-dotnettools.csharp",
     "ms-azuretools.vscode-bicep",
     "ms-azuretools.vscode-docker",
     "bierner.markdown-preview-github-styles",
