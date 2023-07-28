@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.Studio.Core", "Calcpad.Studio.Core\Calcpad.Studio.Core.fsproj", "{FE607F54-4EF5-41FD-A352-7AC49E5F828F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BE04F1A-FA22-4801-ABAD-1AE39DB8FD92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE04F1A-FA22-4801-ABAD-1AE39DB8FD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE04F1A-FA22-4801-ABAD-1AE39DB8FD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE04F1A-FA22-4801-ABAD-1AE39DB8FD92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE607F54-4EF5-41FD-A352-7AC49E5F828F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE607F54-4EF5-41FD-A352-7AC49E5F828F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE607F54-4EF5-41FD-A352-7AC49E5F828F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE607F54-4EF5-41FD-A352-7AC49E5F828F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D511100-DDDD-4DF9-95B6-D1C30E80C0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D511100-DDDD-4DF9-95B6-D1C30E80C0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D511100-DDDD-4DF9-95B6-D1C30E80C0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D511100-DDDD-4DF9-95B6-D1C30E80C0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

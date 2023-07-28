@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "allowJs": true,
+    "removeComments": true,
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "emitDeclarationOnly": true,
+    "declarationMap": true,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "build/js",
+  }
+}
