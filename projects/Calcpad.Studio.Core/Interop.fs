@@ -17,6 +17,6 @@
 
 namespace Calcpad.Studio.Core
 
-module Example =
+module Interop =
 
     let sayHello () = "Hello, Calcpad.Studio!"

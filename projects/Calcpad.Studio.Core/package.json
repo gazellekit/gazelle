@@ -3,9 +3,9 @@
   "description": "Robust, Transparent Structural Design.",
   "author": "James S. Bayley",
   "license": "AGPL-3.0-or-later",
-  "exports": "./build/js/core.js",
-  "unpkg": "./build/js/core.min.js",
-  "types": "./build/js/core.d.ts",
+  "exports": "./build/js/interop.js",
+  "unpkg": "./build/js/interop.min.js",
+  "types": "./build/js/interop.d.ts",
   "type": "module",
   "keywords": [
     "engineering",
@@ -26,7 +26,7 @@
     "prepublishOnly": "npm run build",
     "prebuild": "dotnet tool restore",
     "build": "dotnet fable --lang typescript --noCache && node_modules/.bin/tsc && node esbuild.config.mjs",
-    "postbuild": "mv ./build/js/Core.fs.d.ts ./build/js/core.d.ts && mv ./build/js/Core.fs.d.ts.map ./build/js/core.d.ts.map"
+    "postbuild": "mv ./build/js/Interop.fs.d.ts ./build/js/interop.d.ts && mv ./build/js/Interop.fs.d.ts.map ./build/js/interop.d.ts.map"
   },
   "devDependencies": {
     "@types/node": "^20.4.5",

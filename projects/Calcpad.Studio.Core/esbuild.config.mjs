@@ -1,8 +1,8 @@
 import * as esbuild from 'esbuild';
 
 await esbuild.build({
-  entryPoints: ['./Core.fs.ts'],
-  outfile: './build/js/core.js',
+  entryPoints: ['./Interop.fs.ts'],
+  outfile: './build/js/interop.js',
   platform: 'node',
   format: 'esm',
   target: 'es2022',
@@ -12,8 +12,8 @@ await esbuild.build({
 });
 
 await esbuild.build({
-  entryPoints: ['./Core.fs.ts'],
-  outfile: './build/js/core.min.js',
+  entryPoints: ['./Interop.fs.ts'],
+  outfile: './build/js/interop.min.js',
   platform: 'browser',
   format: 'iife',
   globalName: 'Calcpad.Studio',

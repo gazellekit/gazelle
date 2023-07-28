@@ -23,7 +23,7 @@
     <Compile Include="Legacy\Geometry.fs" />
     <Compile Include="Legacy\Concrete.fs" />
     <Compile Include="Legacy\Rebar.fs" />
-    <Compile Include="Core.fs" />
+    <Compile Include="Interop.fs" />
   </ItemGroup>
 
   <ItemGroup>
