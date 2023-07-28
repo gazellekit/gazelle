@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.Studio.Core", "Calcpad.Studio.Core\Calcpad.Studio.Core.fsproj", "{FE607F54-4EF5-41FD-A352-7AC49E5F828F}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.Studio.Core", "Calcpad.Studio.Core\Calcpad.Studio.Core.fsproj", "{D1AC3193-0B4E-4BAB-9A64-8E534F8D028E}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.Studio.Interop.CSI", "Calcpad.Studio.Interop.CSI\Calcpad.Studio.Interop.CSI.fsproj", "{405E17FC-45E1-44B7-B960-ADAB792B920B}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.Studio.Interop.CSI", "Calcpad.Studio.Interop.CSI\Calcpad.Studio.Interop.CSI.fsproj", "{7EA7BF1E-27E0-4DC0-B7FB-6E2DFADF4648}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.Studio.Core.Tests", "Calcpad.Studio.Core.Tests\Calcpad.Studio.Core.Tests.fsproj", "{CEF317BA-E14C-4363-BEEE-877E815A9A39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,21 +18,17 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5BE04F1A-FA22-4801-ABAD-1AE39DB8FD92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5BE04F1A-FA22-4801-ABAD-1AE39DB8FD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5BE04F1A-FA22-4801-ABAD-1AE39DB8FD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5BE04F1A-FA22-4801-ABAD-1AE39DB8FD92}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FE607F54-4EF5-41FD-A352-7AC49E5F828F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE607F54-4EF5-41FD-A352-7AC49E5F828F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE607F54-4EF5-41FD-A352-7AC49E5F828F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE607F54-4EF5-41FD-A352-7AC49E5F828F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4D511100-DDDD-4DF9-95B6-D1C30E80C0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D511100-DDDD-4DF9-95B6-D1C30E80C0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D511100-DDDD-4DF9-95B6-D1C30E80C0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D511100-DDDD-4DF9-95B6-D1C30E80C0A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{405E17FC-45E1-44B7-B960-ADAB792B920B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{405E17FC-45E1-44B7-B960-ADAB792B920B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{405E17FC-45E1-44B7-B960-ADAB792B920B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{405E17FC-45E1-44B7-B960-ADAB792B920B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AC3193-0B4E-4BAB-9A64-8E534F8D028E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AC3193-0B4E-4BAB-9A64-8E534F8D028E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AC3193-0B4E-4BAB-9A64-8E534F8D028E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AC3193-0B4E-4BAB-9A64-8E534F8D028E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA7BF1E-27E0-4DC0-B7FB-6E2DFADF4648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA7BF1E-27E0-4DC0-B7FB-6E2DFADF4648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA7BF1E-27E0-4DC0-B7FB-6E2DFADF4648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA7BF1E-27E0-4DC0-B7FB-6E2DFADF4648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF317BA-E14C-4363-BEEE-877E815A9A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF317BA-E14C-4363-BEEE-877E815A9A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF317BA-E14C-4363-BEEE-877E815A9A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF317BA-E14C-4363-BEEE-877E815A9A39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
