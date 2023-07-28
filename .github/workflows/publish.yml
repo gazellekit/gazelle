@@ -9,10 +9,57 @@ defaults:
     shell: pwsh
 
 jobs:
+  setup:
+    name: Setup
+    runs-on: Ubuntu-Latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: "7.0.x"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+  ci:
+    name: CI
+    runs-on: Ubuntu-Latest
+
+    steps:
+      - name: Restore Projects
+        run: ./.scripts/Restore-Projects.ps1
+
+      - name: Run Code Formatter
+        run: dotnet fantomas "./projects" --check
+
+      - name: Run Test Suite
+        run: dotnet test "./projects"
+
+  publish:
+    name: Publish
+    runs-on: Ubuntu-Latest
+
+    steps:
+      - name: Build .NET Solution
+        run: dotnet publish "./projects" -c "Release"
+
+      - name: Invoke Fable Transpiler
+        run: |
+          Set-Location "./projects/Calcpad.Studio.Core/src"
+          npm run build
+
+
   deploy-infrastructure:
     name: Deploy Infrastructure
     runs-on: Ubuntu-Latest
     environment: Production
+    needs: [setup]
 
     steps:
       - name: Checkout Repository
@@ -61,7 +108,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           api_location: ""
-          app_location: "projects/web/src/public"
+          app_location: "projects/Calcpad.Studio.Web/src/public"
           output_location: ""
           skip_app_build: true
           skip_api_build: true
