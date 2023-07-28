@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <Authors>James S. Bayley</Authors>
+    <Company>Calcpad.Studio</Company>
     <TargetFramework>net7.0</TargetFramework>
     <RepositoryUrl>https://github.com/jamesbayley/Calcpad.Studio</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
