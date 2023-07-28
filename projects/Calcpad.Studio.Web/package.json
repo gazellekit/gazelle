@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@calcpad.studio/core": "file:../Calcpad.Studio.Core"
+  }
+}
