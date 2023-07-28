@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.Studio.Core", "Calcpad.Studio.Core\Calcpad.Studio.Core.fsproj", "{FE607F54-4EF5-41FD-A352-7AC49E5F828F}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcpad.Studio.Interop.CSI", "Calcpad.Studio.Interop.CSI\Calcpad.Studio.Interop.CSI.fsproj", "{405E17FC-45E1-44B7-B960-ADAB792B920B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,5 +28,9 @@ Global
 		{4D511100-DDDD-4DF9-95B6-D1C30E80C0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D511100-DDDD-4DF9-95B6-D1C30E80C0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D511100-DDDD-4DF9-95B6-D1C30E80C0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405E17FC-45E1-44B7-B960-ADAB792B920B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405E17FC-45E1-44B7-B960-ADAB792B920B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405E17FC-45E1-44B7-B960-ADAB792B920B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405E17FC-45E1-44B7-B960-ADAB792B920B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
