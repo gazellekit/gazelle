@@ -7,6 +7,7 @@
     "ms-dotnettools.csharp",
     "ms-azuretools.vscode-bicep",
     "ms-azuretools.vscode-docker",
+    "ms-dotnettools.dotnet-interactive-vscode",
     "bierner.markdown-preview-github-styles",
     "ritwickdey.liveserver",
     "esbenp.prettier-vscode"
