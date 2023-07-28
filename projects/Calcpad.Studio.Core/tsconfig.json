@@ -1,9 +1,8 @@
 {
-  "include": [ "src/**/*", "tests/**/*" ],
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "allowJs": false,
+    "allowJs": true,
     "removeComments": true,
     "moduleResolution": "nodenext",
     "esModuleInterop": true,
@@ -12,6 +11,6 @@
     "declarationMap": true,
     "declaration": true,
     "sourceMap": true,
-    "outDir": "build",
+    "outDir": "build/js",
   }
 }

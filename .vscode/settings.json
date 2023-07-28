@@ -21,8 +21,19 @@
   "files.exclude": {
     "**/.git": false,
     "**/.DS_Store": true,
-    "**/node_modules": false,
-    "**/build": false,
+    "**/node_modules": true,
+    "**/fable_modules": true,
+    "**/__pycache__": true,
+    "**/build/": true,
+    "**/bin": true,
+    "**/obj": true,
+    "**/*.py": true,
+    "**/*.fs.*": true
+  },
+
+  "[fsharp]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
   },
 
   "liveServer.settings.port": 9001,
