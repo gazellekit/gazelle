@@ -30,6 +30,7 @@ jobs:
   ci:
     name: CI
     runs-on: Ubuntu-Latest
+    needs: [setup]
 
     steps:
       - name: Restore Projects
@@ -44,16 +45,19 @@ jobs:
   publish:
     name: Publish
     runs-on: Ubuntu-Latest
+    environment: Production
+    needs: [ci]
 
     steps:
       - name: Build .NET Solution
         run: dotnet publish "./projects" -c "Release"
 
-      - name: Invoke Fable Transpiler
-        run: |
-          Set-Location "./projects/Calcpad.Studio.Core/src"
-          npm run build
-
+      # - name: Publish to NuGet Gallery
+      #   run: | 
+      #     dotnet nuget push Calcpad.Studio.Core/bin/Release/*.nupkg `
+      #       --api-key ${{ secrets.NUGET_KEY }} `
+      #       --source "https://api.nuget.org/v3/index.json" `
+      #       --skip-duplicate
 
   deploy-infrastructure:
     name: Deploy Infrastructure
@@ -82,24 +86,13 @@ jobs:
   publish-calcpad-studio:
     name: Publish Calcpad.Studio
     runs-on: Ubuntu-Latest
-    needs: deploy-infrastructure
+    needs: [deploy-infrastructure, publish]
 
     environment:
       name: Production
       url: https://www.calcpad.studio
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
-
-      - name: Restore Projects
-        run: ./.scripts/Restore-Projects.ps1
-
       - name: Publish Calcpad.Studio
         uses: azure/static-web-apps-deploy@v1
         id: deploy
