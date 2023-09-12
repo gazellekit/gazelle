@@ -1,20 +1,8 @@
-# .NET
+# Go
 bin/
-obj/
-.fake
-
-# Fable
-build/
-fable_modules/
-*.fs.*
 
 # JavaScript
 node_modules/
-
-# Python
-*.py
-venv/
-__pycache__/
 
 # MacOS
 .DS_Store

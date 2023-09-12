@@ -1,47 +1,38 @@
-{
-  "diffEditor.ignoreTrimWhitespace": false,
+{  
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.inlineSuggest.enabled": true,
+    "editor.rulers": [100],
+    "editor.tabSize": 2,
 
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
-  "editor.inlineSuggest.enabled": true,
-  "editor.rulers": [100],
-  "editor.tabSize": 2,
+    "debug.internalConsoleOptions": "neverOpen",
+    
+    "diffEditor.ignoreTrimWhitespace": false,
+   
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": true,
+      "plaintext": false,
+      "markdown": false
+    },
 
-  "git.autofetch": true,
-  "git.confirmSync": false,
-  "git.enableSmartCommit": true,
+    "go.gopath": "/go",
+    "go.useLanguageServer": true,
+    "go.languageServerFlags": ["-rpc.trace"],
+    "gopls": { 
+      "ui.semanticTokens": true 
+    },
+    
+    "files.exclude": {
+        "**/.git": false,
+    },
 
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": true,
-    "plaintext": false,
-    "markdown": false
-  },
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco",
 
-  "files.exclude": {
-    "**/.git": false,
-    "**/.DS_Store": true,
-    "**/node_modules": true,
-    "**/__pycache__": true,
-    "**/bin": true,
-    "**/obj": true,
-  },
-
-  "[fsharp]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
-  },
-
-  "liveServer.settings.port": 9001,
-  "liveServer.settings.root": "/projects/web/src/public",
-
-  "powershell.integratedConsole.showOnStartup": false,
-  "powershell.powerShellAdditionalExePaths": {
-      "ubuntu": "/opt/microsoft/powershell/7/pwsh",
-  },
-
-  "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco",
-
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.wrapTabs": true
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.wrapTabs": true,
 }

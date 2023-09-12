@@ -11,6 +11,9 @@ unzip ~/.poshthemes/themes.zip -d ~/.poshthemes
 chmod u+rw ~/.poshthemes/*.omp.*
 rm ~/.poshthemes/themes.zip
 
+# Install command line tool.
+curl -s https://ohmyposh.dev/install.sh | bash -s
+
 # Update Bash Profile.
 echo 'eval "$(oh-my-posh init bash)"' >> ~/.bashrc
 exec bash
