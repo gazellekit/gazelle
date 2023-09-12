@@ -1,0 +1,3 @@
+.scripts/ linguist-vendored
+.devcontainer/ linguist-vendored
+.github/ linguist-vendored
