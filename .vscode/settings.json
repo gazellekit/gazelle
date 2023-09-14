@@ -8,6 +8,10 @@
     "debug.internalConsoleOptions": "neverOpen",
     
     "diffEditor.ignoreTrimWhitespace": false,
+
+    "files.exclude": {
+      "**/.git": false,
+    },
    
     "git.autofetch": true,
     "git.confirmSync": false,
@@ -26,10 +30,11 @@
     "gopls": { 
       "ui.semanticTokens": true 
     },
-    
-    "files.exclude": {
-        "**/.git": false,
-    },
+
+    "liveServer.settings.root": "/docs",
+    "liveServer.settings.file": "index.html",
+    "liveServer.settings.host": "localhost",
+    "liveServer.settings.port": 3000,
 
     "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco",
 
