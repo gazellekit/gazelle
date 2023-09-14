@@ -15,7 +15,7 @@
 
 - [Table of Contents](#table-of-contents)
 - [Overview](#overview)
-- [Open-Source](#open-source)
+- [Open Source](#open-source)
 - [Contributing](#contributing)
 
 ## Overview
@@ -24,7 +24,7 @@ Gazelle is a fast, efficient and lightweight Command-Line Interface (CLI) tool f
 
 > One who takes the road less traveled earns the rewards most missed. - Matshona Dhliwayo
 
-## Open-Source
+## Open Source
 
 Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. However, the vast majority of professional engineering software is, regrettably, closed source and proprietary. This is unfair and must change. Engineers should be offered the respect and freedom to inspect, validate and influence the algorithms used to design our buildings and bridges. 
 
