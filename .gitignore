@@ -1,5 +1,6 @@
 # Go
 bin/
+build/
 
 # JavaScript
 node_modules/
