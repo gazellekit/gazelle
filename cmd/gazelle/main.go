@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/calcpadstudio/gazelle/internal/concrete"
+	"github.com/calcpadstudio/gazelle/internal/design/concrete"
 )
 
 func main() {
