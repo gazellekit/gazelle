@@ -17,6 +17,7 @@
 - [Overview](#overview)
 - [Open Source](#open-source)
 - [Contributing](#contributing)
+- [Errata](#errata)
 
 ## Overview
 
@@ -33,3 +34,9 @@ Gazelle is proudly open-source.
 ## Contributing
 
 For those interested in helping to build Gazelle, details will be provided in due course. Please ⭐️ and 'watch' this repository, so that you can track its progress in real-time.
+
+## Errata
+
+Gazelle aspires to achieve the highest standards of professional rigour. We consider Structural Analysis & Design software to be _safety critical_. We strive to ensure stability, robustness and correctness throughout the source code, test suite and companion documentation. Nevertheless, our team are human and mistakes _are_ possible. 
+
+We recommend that all users carefully review the code, tests and documentation. Please submit error reports and suggestions for improvement via [GitHub Issues](https://github.com/calcpadstudio/gazelle/issues). For anyone who would like to attempt a fix or improvement, we would encourage you to review our [Contributing](#contributing) guidance and submit a Pull Request.
