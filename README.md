@@ -2,10 +2,10 @@
   <h1>Gazelle 🦌</h1>
   <p>A fast, cross-platform CLI for structural analysis & design.</p>
 
-  [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/calcpadstudio/core)
+  [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/calcpadstudio/gazelle)
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
   
-  [![Build](https://github.com/calcpadstudio/core/actions/workflows/build.yml/badge.svg)](https://github.com/jamesbayley/calcpadstudio/core/actions/workflows/build.yml)
+  [![Build](https://github.com/calcpadstudio/core/actions/workflows/build.yml/badge.svg)](https://github.com/jamesbayley/calcpadstudio/gazelle/actions/workflows/build.yml)
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blueviolet)](https://choosealicense.com/licenses/agpl-3.0/)
   
   [![Go](https://img.shields.io/badge/Go-1.21-00add8)](https://go.dev/)
