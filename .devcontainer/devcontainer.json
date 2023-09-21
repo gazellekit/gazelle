@@ -1,6 +1,6 @@
 {
-	"name": "core",
-	"runArgs": ["--name", "core"],
+	"name": "Gazelle",
+	"runArgs": ["--name", "gazelle"],
 	"build": { "dockerfile": "Dockerfile" },
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
