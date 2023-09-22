@@ -1,3 +1,5 @@
 package concrete
 
-var Name string = "Concrete"
+const (
+	Name string = "Concrete"
+)
