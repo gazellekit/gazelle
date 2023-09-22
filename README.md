@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Gazelle 🦌</h1>
-  <p>A fast, cross-platform CLI for structural analysis & design.</p>
+  <p>A fast, cross-platform toolkit for structural analysis & design.</p>
 
   [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/calcpadstudio/gazelle)
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
