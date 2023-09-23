@@ -4,6 +4,8 @@
     "github.copilot",
     "github.vscode-github-actions",
     "ms-azuretools.vscode-docker",
-    "bierner.markdown-preview-github-styles",
+    "ms-vscode.powershell",
+    "ritwickdey.liveserver",
+    "bierner.markdown-preview-github-styles"
   ]
 }
