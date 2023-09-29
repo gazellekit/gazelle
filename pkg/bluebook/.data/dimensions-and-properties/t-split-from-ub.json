@@ -1,6 +1,6 @@
 {
   "254x343x63": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "686x254x125",
     "Mass Per Metre (kg/m)": 62.6,
     "Width of Section, b (mm)": 253.0,
@@ -28,7 +28,7 @@
     "Area of Section, A (cm2)": 79.7
   },
   "305x305x119": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "610x305x238",
     "Mass Per Metre (kg/m)": 119.0,
     "Width of Section, b (mm)": 311.4,
@@ -56,7 +56,7 @@
     "Area of Section, A (cm2)": 152.0
   },
   "305x305x90": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "610x305x179",
     "Mass Per Metre (kg/m)": 89.5,
     "Width of Section, b (mm)": 307.1,
@@ -84,7 +84,7 @@
     "Area of Section, A (cm2)": 114.0
   },
   "305x305x75": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "610x305x149",
     "Mass Per Metre (kg/m)": 74.6,
     "Width of Section, b (mm)": 304.8,
@@ -112,7 +112,7 @@
     "Area of Section, A (cm2)": 95.0
   },
   "229x305x70": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "610x229x140",
     "Mass Per Metre (kg/m)": 69.9,
     "Width of Section, b (mm)": 230.2,
@@ -140,7 +140,7 @@
     "Area of Section, A (cm2)": 89.1
   },
   "229x305x63": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "610x229x125",
     "Mass Per Metre (kg/m)": 62.5,
     "Width of Section, b (mm)": 229.0,
@@ -168,7 +168,7 @@
     "Area of Section, A (cm2)": 79.7
   },
   "229x305x57": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "610x229x113",
     "Mass Per Metre (kg/m)": 56.5,
     "Width of Section, b (mm)": 228.2,
@@ -196,7 +196,7 @@
     "Area of Section, A (cm2)": 72.0
   },
   "229x305x51": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "610x229x101",
     "Mass Per Metre (kg/m)": 50.6,
     "Width of Section, b (mm)": 227.6,
@@ -224,7 +224,7 @@
     "Area of Section, A (cm2)": 64.4
   },
   "178x305x50": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "610x178x100",
     "Mass Per Metre (kg/m)": 50.1,
     "Width of Section, b (mm)": 179.2,
@@ -252,7 +252,7 @@
     "Area of Section, A (cm2)": 63.9
   },
   "178x305x46": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "610x178x92",
     "Mass Per Metre (kg/m)": 46.1,
     "Width of Section, b (mm)": 178.8,
@@ -280,7 +280,7 @@
     "Area of Section, A (cm2)": 58.7
   },
   "178x305x41": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "610x178x82",
     "Mass Per Metre (kg/m)": 40.9,
     "Width of Section, b (mm)": 177.9,
@@ -308,7 +308,7 @@
     "Area of Section, A (cm2)": 52.1
   },
   "312x267x136": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "533x312x272",
     "Mass Per Metre (kg/m)": 136.6,
     "Width of Section, b (mm)": 320.2,
@@ -336,7 +336,7 @@
     "Area of Section, A (cm2)": 174.0
   },
   "312x267x110": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "533x312x219",
     "Mass Per Metre (kg/m)": 109.4,
     "Width of Section, b (mm)": 317.4,
@@ -364,7 +364,7 @@
     "Area of Section, A (cm2)": 139.0
   },
   "312x267x91": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "533x312x182",
     "Mass Per Metre (kg/m)": 90.7,
     "Width of Section, b (mm)": 314.5,
@@ -392,7 +392,7 @@
     "Area of Section, A (cm2)": 116.0
   },
   "312x267x75": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "533x312x151",
     "Mass Per Metre (kg/m)": 75.3,
     "Width of Section, b (mm)": 312.0,
@@ -420,7 +420,7 @@
     "Area of Section, A (cm2)": 95.9
   },
   "210x267x69": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "533x210x138",
     "Mass Per Metre (kg/m)": 69.1,
     "Width of Section, b (mm)": 213.9,
@@ -448,7 +448,7 @@
     "Area of Section, A (cm2)": 88.1
   },
   "210x267x61": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "533x210x122",
     "Mass Per Metre (kg/m)": 61.0,
     "Width of Section, b (mm)": 211.9,
@@ -476,7 +476,7 @@
     "Area of Section, A (cm2)": 77.7
   },
   "210x267x55": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "533x210x109",
     "Mass Per Metre (kg/m)": 54.5,
     "Width of Section, b (mm)": 210.8,
@@ -504,7 +504,7 @@
     "Area of Section, A (cm2)": 69.4
   },
   "210x267x51": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "533x210x101",
     "Mass Per Metre (kg/m)": 50.5,
     "Width of Section, b (mm)": 210.0,
@@ -532,7 +532,7 @@
     "Area of Section, A (cm2)": 64.3
   },
   "210x267x46": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "533x210x92",
     "Mass Per Metre (kg/m)": 46.0,
     "Width of Section, b (mm)": 209.3,
@@ -560,7 +560,7 @@
     "Area of Section, A (cm2)": 58.7
   },
   "210x267x41": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "533x210x82",
     "Mass Per Metre (kg/m)": 41.1,
     "Width of Section, b (mm)": 208.8,
@@ -588,7 +588,7 @@
     "Area of Section, A (cm2)": 52.3
   },
   "165x267x43": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "533x165x85",
     "Mass Per Metre (kg/m)": 42.3,
     "Width of Section, b (mm)": 166.5,
@@ -616,7 +616,7 @@
     "Area of Section, A (cm2)": 54.0
   },
   "165x267x37": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "533x165x75",
     "Mass Per Metre (kg/m)": 37.3,
     "Width of Section, b (mm)": 165.9,
@@ -644,7 +644,7 @@
     "Area of Section, A (cm2)": 47.6
   },
   "165x267x33": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "533x165x66",
     "Mass Per Metre (kg/m)": 32.8,
     "Width of Section, b (mm)": 165.1,
@@ -672,7 +672,7 @@
     "Area of Section, A (cm2)": 41.9
   },
   "191x229x81": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "457x191x161",
     "Mass Per Metre (kg/m)": 80.7,
     "Width of Section, b (mm)": 199.4,
@@ -700,7 +700,7 @@
     "Area of Section, A (cm2)": 103.0
   },
   "191x229x67": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "457x191x133",
     "Mass Per Metre (kg/m)": 66.6,
     "Width of Section, b (mm)": 196.7,
@@ -728,7 +728,7 @@
     "Area of Section, A (cm2)": 84.9
   },
   "191x229x53": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "457x191x106",
     "Mass Per Metre (kg/m)": 52.9,
     "Width of Section, b (mm)": 194.0,
@@ -756,7 +756,7 @@
     "Area of Section, A (cm2)": 67.4
   },
   "191x229x49": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "457x191x98",
     "Mass Per Metre (kg/m)": 49.1,
     "Width of Section, b (mm)": 192.8,
@@ -784,7 +784,7 @@
     "Area of Section, A (cm2)": 62.6
   },
   "191x229x45": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "457x191x89",
     "Mass Per Metre (kg/m)": 44.6,
     "Width of Section, b (mm)": 191.9,
@@ -812,7 +812,7 @@
     "Area of Section, A (cm2)": 56.9
   },
   "191x229x41": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "457x191x82",
     "Mass Per Metre (kg/m)": 41.0,
     "Width of Section, b (mm)": 191.3,
@@ -840,7 +840,7 @@
     "Area of Section, A (cm2)": 52.2
   },
   "191x229x37": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "457x191x74",
     "Mass Per Metre (kg/m)": 37.1,
     "Width of Section, b (mm)": 190.4,
@@ -868,7 +868,7 @@
     "Area of Section, A (cm2)": 47.3
   },
   "191x229x34": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "457x191x67",
     "Mass Per Metre (kg/m)": 33.5,
     "Width of Section, b (mm)": 189.9,
@@ -896,7 +896,7 @@
     "Area of Section, A (cm2)": 42.7
   },
   "152x229x41": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "457x152x82",
     "Mass Per Metre (kg/m)": 41.0,
     "Width of Section, b (mm)": 155.3,
@@ -924,7 +924,7 @@
     "Area of Section, A (cm2)": 52.3
   },
   "152x229x37": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "457x152x74",
     "Mass Per Metre (kg/m)": 37.1,
     "Width of Section, b (mm)": 154.4,
@@ -952,7 +952,7 @@
     "Area of Section, A (cm2)": 47.2
   },
   "152x229x34": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "457x152x67",
     "Mass Per Metre (kg/m)": 33.6,
     "Width of Section, b (mm)": 153.8,
@@ -980,7 +980,7 @@
     "Area of Section, A (cm2)": 42.8
   },
   "152x229x30": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "457x152x60",
     "Mass Per Metre (kg/m)": 29.9,
     "Width of Section, b (mm)": 152.9,
@@ -1008,7 +1008,7 @@
     "Area of Section, A (cm2)": 38.1
   },
   "152x229x26": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "457x152x52",
     "Mass Per Metre (kg/m)": 26.1,
     "Width of Section, b (mm)": 152.4,
@@ -1036,7 +1036,7 @@
     "Area of Section, A (cm2)": 33.3
   },
   "178x203x43": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "406x178x85",
     "Mass Per Metre (kg/m)": 42.6,
     "Width of Section, b (mm)": 181.9,
@@ -1064,7 +1064,7 @@
     "Area of Section, A (cm2)": 54.3
   },
   "178x203x37": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "406x178x74",
     "Mass Per Metre (kg/m)": 37.1,
     "Width of Section, b (mm)": 179.5,
@@ -1092,7 +1092,7 @@
     "Area of Section, A (cm2)": 47.2
   },
   "178x203x34": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "406x178x67",
     "Mass Per Metre (kg/m)": 33.5,
     "Width of Section, b (mm)": 178.8,
@@ -1120,7 +1120,7 @@
     "Area of Section, A (cm2)": 42.8
   },
   "178x203x30": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "406x178x60",
     "Mass Per Metre (kg/m)": 30.0,
     "Width of Section, b (mm)": 177.9,
@@ -1148,7 +1148,7 @@
     "Area of Section, A (cm2)": 38.3
   },
   "178x203x27": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "406x178x54",
     "Mass Per Metre (kg/m)": 27.0,
     "Width of Section, b (mm)": 177.7,
@@ -1176,7 +1176,7 @@
     "Area of Section, A (cm2)": 34.5
   },
   "140x203x27": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Cut from Universal Beam (Section Designation)": "406x140x53",
     "Mass Per Metre (kg/m)": 26.6,
     "Width of Section, b (mm)": 143.3,
@@ -1204,7 +1204,7 @@
     "Area of Section, A (cm2)": 34.0
   },
   "140x203x23": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "406x140x46",
     "Mass Per Metre (kg/m)": 23.0,
     "Width of Section, b (mm)": 142.2,
@@ -1232,7 +1232,7 @@
     "Area of Section, A (cm2)": 29.3
   },
   "140x203x20": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "406x140x39",
     "Mass Per Metre (kg/m)": 19.5,
     "Width of Section, b (mm)": 141.8,
@@ -1260,7 +1260,7 @@
     "Area of Section, A (cm2)": 24.8
   },
   "171x178x34": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "356x171x67",
     "Mass Per Metre (kg/m)": 33.5,
     "Width of Section, b (mm)": 173.2,
@@ -1288,7 +1288,7 @@
     "Area of Section, A (cm2)": 42.7
   },
   "171x178x29": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "356x171x57",
     "Mass Per Metre (kg/m)": 28.5,
     "Width of Section, b (mm)": 172.2,
@@ -1316,7 +1316,7 @@
     "Area of Section, A (cm2)": 36.3
   },
   "171x178x26": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "356x171x51",
     "Mass Per Metre (kg/m)": 25.5,
     "Width of Section, b (mm)": 171.5,
@@ -1344,7 +1344,7 @@
     "Area of Section, A (cm2)": 32.4
   },
   "171x178x23": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "356x171x45",
     "Mass Per Metre (kg/m)": 22.5,
     "Width of Section, b (mm)": 171.1,
@@ -1372,7 +1372,7 @@
     "Area of Section, A (cm2)": 28.7
   },
   "127x178x20": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "356x127x39",
     "Mass Per Metre (kg/m)": 19.5,
     "Width of Section, b (mm)": 126.0,
@@ -1400,7 +1400,7 @@
     "Area of Section, A (cm2)": 24.9
   },
   "127x178x17": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "356x127x33",
     "Mass Per Metre (kg/m)": 16.5,
     "Width of Section, b (mm)": 125.4,
@@ -1428,7 +1428,7 @@
     "Area of Section, A (cm2)": 21.1
   },
   "165x152x27": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "305x165x54",
     "Mass Per Metre (kg/m)": 27.0,
     "Width of Section, b (mm)": 166.9,
@@ -1456,7 +1456,7 @@
     "Area of Section, A (cm2)": 34.4
   },
   "165x152x23": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "305x165x46",
     "Mass Per Metre (kg/m)": 23.0,
     "Width of Section, b (mm)": 165.7,
@@ -1484,7 +1484,7 @@
     "Area of Section, A (cm2)": 29.4
   },
   "165x152x20": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "305x165x40",
     "Mass Per Metre (kg/m)": 20.1,
     "Width of Section, b (mm)": 165.0,
@@ -1512,7 +1512,7 @@
     "Area of Section, A (cm2)": 25.7
   },
   "127x152x24": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "305x127x48",
     "Mass Per Metre (kg/m)": 24.0,
     "Width of Section, b (mm)": 125.3,
@@ -1540,7 +1540,7 @@
     "Area of Section, A (cm2)": 30.6
   },
   "127x152x21": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "305x127x42",
     "Mass Per Metre (kg/m)": 20.9,
     "Width of Section, b (mm)": 124.3,
@@ -1568,7 +1568,7 @@
     "Area of Section, A (cm2)": 26.7
   },
   "127x152x19": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "305x127x37",
     "Mass Per Metre (kg/m)": 18.5,
     "Width of Section, b (mm)": 123.4,
@@ -1596,7 +1596,7 @@
     "Area of Section, A (cm2)": 23.6
   },
   "102x152x17": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "305x102x33",
     "Mass Per Metre (kg/m)": 16.4,
     "Width of Section, b (mm)": 102.4,
@@ -1624,7 +1624,7 @@
     "Area of Section, A (cm2)": 20.9
   },
   "102x152x14": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "305x102x28",
     "Mass Per Metre (kg/m)": 14.1,
     "Width of Section, b (mm)": 101.8,
@@ -1652,7 +1652,7 @@
     "Area of Section, A (cm2)": 17.9
   },
   "102x152x13": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "305x102x25",
     "Mass Per Metre (kg/m)": 12.4,
     "Width of Section, b (mm)": 101.6,
@@ -1680,7 +1680,7 @@
     "Area of Section, A (cm2)": 15.8
   },
   "146x127x22": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "254x146x43",
     "Mass Per Metre (kg/m)": 21.5,
     "Width of Section, b (mm)": 147.3,
@@ -1708,7 +1708,7 @@
     "Area of Section, A (cm2)": 27.4
   },
   "146x127x19": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "254x146x37",
     "Mass Per Metre (kg/m)": 18.5,
     "Width of Section, b (mm)": 146.4,
@@ -1736,7 +1736,7 @@
     "Area of Section, A (cm2)": 23.6
   },
   "146x127x16": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "254x146x31",
     "Mass Per Metre (kg/m)": 15.5,
     "Width of Section, b (mm)": 146.1,
@@ -1764,7 +1764,7 @@
     "Area of Section, A (cm2)": 19.8
   },
   "102x127x14": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "254x102x28",
     "Mass Per Metre (kg/m)": 14.1,
     "Width of Section, b (mm)": 102.2,
@@ -1792,7 +1792,7 @@
     "Area of Section, A (cm2)": 18.0
   },
   "102x127x13": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "254x102x25",
     "Mass Per Metre (kg/m)": 12.6,
     "Width of Section, b (mm)": 101.9,
@@ -1820,7 +1820,7 @@
     "Area of Section, A (cm2)": 16.0
   },
   "102x127x11": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "254x102x22",
     "Mass Per Metre (kg/m)": 11.0,
     "Width of Section, b (mm)": 101.6,
@@ -1848,7 +1848,7 @@
     "Area of Section, A (cm2)": 14.0
   },
   "133x102x15": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "203x133x30",
     "Mass Per Metre (kg/m)": 15.0,
     "Width of Section, b (mm)": 133.9,
@@ -1876,7 +1876,7 @@
     "Area of Section, A (cm2)": 19.1
   },
   "133x102x13": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Cut from Universal Beam (Section Designation)": "203x133x25",
     "Mass Per Metre (kg/m)": 12.5,
     "Width of Section, b (mm)": 133.2,

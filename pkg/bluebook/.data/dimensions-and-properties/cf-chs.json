@@ -1,6 +1,6 @@
 {
   "33.7x3.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 2.27,
     "Area of Section, A (cm2)": 2.89,
     "Ratio for Local Buckling, d/t": 11.2,
@@ -14,7 +14,7 @@
     "Surface Area Per Tonne (m2)": 46.7
   },
   "42.4x3.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 2.91,
     "Area of Section, A (cm2)": 3.71,
     "Ratio for Local Buckling, d/t": 14.1,
@@ -28,7 +28,7 @@
     "Surface Area Per Tonne (m2)": 45.7
   },
   "48.3x3.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 3.35,
     "Area of Section, A (cm2)": 4.27,
     "Ratio for Local Buckling, d/t": 16.1,
@@ -42,7 +42,7 @@
     "Surface Area Per Tonne (m2)": 45.4
   },
   "48.3x4.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 4.37,
     "Area of Section, A (cm2)": 5.57,
     "Ratio for Local Buckling, d/t": 12.1,
@@ -56,7 +56,7 @@
     "Surface Area Per Tonne (m2)": 34.8
   },
   "60.3x3.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 4.24,
     "Area of Section, A (cm2)": 5.4,
     "Ratio for Local Buckling, d/t": 20.1,
@@ -70,7 +70,7 @@
     "Surface Area Per Tonne (m2)": 44.6
   },
   "60.3x4.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 5.55,
     "Area of Section, A (cm2)": 7.07,
     "Ratio for Local Buckling, d/t": 15.1,
@@ -84,7 +84,7 @@
     "Surface Area Per Tonne (m2)": 34.1
   },
   "76.1x3.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 5.41,
     "Area of Section, A (cm2)": 6.89,
     "Ratio for Local Buckling, d/t": 25.4,
@@ -98,7 +98,7 @@
     "Surface Area Per Tonne (m2)": 44.2
   },
   "76.1x4.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 7.11,
     "Area of Section, A (cm2)": 9.06,
     "Ratio for Local Buckling, d/t": 19.0,
@@ -112,7 +112,7 @@
     "Surface Area Per Tonne (m2)": 33.6
   },
   "88.9x3.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 6.36,
     "Area of Section, A (cm2)": 8.1,
     "Ratio for Local Buckling, d/t": 29.6,
@@ -126,7 +126,7 @@
     "Surface Area Per Tonne (m2)": 43.9
   },
   "88.9x3.5": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 7.37,
     "Area of Section, A (cm2)": 9.39,
     "Ratio for Local Buckling, d/t": 25.4,
@@ -140,7 +140,7 @@
     "Surface Area Per Tonne (m2)": 37.9
   },
   "88.9x4.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 8.38,
     "Area of Section, A (cm2)": 10.7,
     "Ratio for Local Buckling, d/t": 22.2,
@@ -154,7 +154,7 @@
     "Surface Area Per Tonne (m2)": 33.3
   },
   "88.9x5.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 10.3,
     "Area of Section, A (cm2)": 13.2,
     "Ratio for Local Buckling, d/t": 17.8,
@@ -168,7 +168,7 @@
     "Surface Area Per Tonne (m2)": 27.1
   },
   "88.9x6.3": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 12.8,
     "Area of Section, A (cm2)": 16.3,
     "Ratio for Local Buckling, d/t": 14.1,
@@ -182,7 +182,7 @@
     "Surface Area Per Tonne (m2)": 21.8
   },
   "114.3x3.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 8.23,
     "Area of Section, A (cm2)": 10.5,
     "Ratio for Local Buckling, d/t": 38.1,
@@ -196,7 +196,7 @@
     "Surface Area Per Tonne (m2)": 43.6
   },
   "114.3x3.5": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 9.56,
     "Area of Section, A (cm2)": 12.2,
     "Ratio for Local Buckling, d/t": 32.7,
@@ -210,7 +210,7 @@
     "Surface Area Per Tonne (m2)": 37.6
   },
   "114.3x4.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 10.9,
     "Area of Section, A (cm2)": 13.9,
     "Ratio for Local Buckling, d/t": 28.6,
@@ -224,7 +224,7 @@
     "Surface Area Per Tonne (m2)": 32.9
   },
   "114.3x5.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 13.5,
     "Area of Section, A (cm2)": 17.2,
     "Ratio for Local Buckling, d/t": 22.9,
@@ -238,7 +238,7 @@
     "Surface Area Per Tonne (m2)": 26.6
   },
   "114.3x6.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 16.0,
     "Area of Section, A (cm2)": 20.4,
     "Ratio for Local Buckling, d/t": 19.1,
@@ -252,7 +252,7 @@
     "Surface Area Per Tonne (m2)": 22.4
   },
   "114.3x6.3": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 16.8,
     "Area of Section, A (cm2)": 21.4,
     "Ratio for Local Buckling, d/t": 18.1,
@@ -266,7 +266,7 @@
     "Surface Area Per Tonne (m2)": 21.4
   },
   "139.7x3.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 10.1,
     "Area of Section, A (cm2)": 12.9,
     "Ratio for Local Buckling, d/t": 46.6,
@@ -280,7 +280,7 @@
     "Surface Area Per Tonne (m2)": 43.5
   },
   "139.7x4.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 13.4,
     "Area of Section, A (cm2)": 17.1,
     "Ratio for Local Buckling, d/t": 34.9,
@@ -294,7 +294,7 @@
     "Surface Area Per Tonne (m2)": 32.8
   },
   "139.7x5.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 16.6,
     "Area of Section, A (cm2)": 21.2,
     "Ratio for Local Buckling, d/t": 27.9,
@@ -308,7 +308,7 @@
     "Surface Area Per Tonne (m2)": 26.4
   },
   "139.7x6.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 19.8,
     "Area of Section, A (cm2)": 25.2,
     "Ratio for Local Buckling, d/t": 23.3,
@@ -322,7 +322,7 @@
     "Surface Area Per Tonne (m2)": 22.2
   },
   "139.7x6.3": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 20.7,
     "Area of Section, A (cm2)": 26.4,
     "Ratio for Local Buckling, d/t": 22.2,
@@ -336,7 +336,7 @@
     "Surface Area Per Tonne (m2)": 21.2
   },
   "139.7x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 26.0,
     "Area of Section, A (cm2)": 33.1,
     "Ratio for Local Buckling, d/t": 17.5,
@@ -350,7 +350,7 @@
     "Surface Area Per Tonne (m2)": 16.9
   },
   "139.7x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 32.0,
     "Area of Section, A (cm2)": 40.7,
     "Ratio for Local Buckling, d/t": 14.0,
@@ -364,7 +364,7 @@
     "Surface Area Per Tonne (m2)": 13.7
   },
   "168.3x4.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 16.2,
     "Area of Section, A (cm2)": 20.6,
     "Ratio for Local Buckling, d/t": 42.1,
@@ -378,7 +378,7 @@
     "Surface Area Per Tonne (m2)": 32.7
   },
   "168.3x4.5": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 18.2,
     "Area of Section, A (cm2)": 23.2,
     "Ratio for Local Buckling, d/t": 37.4,
@@ -392,7 +392,7 @@
     "Surface Area Per Tonne (m2)": 29.1
   },
   "168.3x5.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 20.1,
     "Area of Section, A (cm2)": 25.7,
     "Ratio for Local Buckling, d/t": 33.7,
@@ -406,7 +406,7 @@
     "Surface Area Per Tonne (m2)": 26.3
   },
   "168.3x6.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 24.0,
     "Area of Section, A (cm2)": 30.6,
     "Ratio for Local Buckling, d/t": 28.1,
@@ -420,7 +420,7 @@
     "Surface Area Per Tonne (m2)": 22.0
   },
   "168.3x6.3": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 25.2,
     "Area of Section, A (cm2)": 32.1,
     "Ratio for Local Buckling, d/t": 26.7,
@@ -434,7 +434,7 @@
     "Surface Area Per Tonne (m2)": 21.0
   },
   "168.3x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 31.6,
     "Area of Section, A (cm2)": 40.3,
     "Ratio for Local Buckling, d/t": 21.0,
@@ -448,7 +448,7 @@
     "Surface Area Per Tonne (m2)": 16.7
   },
   "168.3x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 39.0,
     "Area of Section, A (cm2)": 49.7,
     "Ratio for Local Buckling, d/t": 16.8,
@@ -462,7 +462,7 @@
     "Surface Area Per Tonne (m2)": 13.6
   },
   "168.3x12.5": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 48.0,
     "Area of Section, A (cm2)": 61.2,
     "Ratio for Local Buckling, d/t": 13.5,
@@ -476,7 +476,7 @@
     "Surface Area Per Tonne (m2)": 11.0
   },
   "193.7x4.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 18.7,
     "Area of Section, A (cm2)": 23.8,
     "Ratio for Local Buckling, d/t": 48.4,
@@ -490,7 +490,7 @@
     "Surface Area Per Tonne (m2)": 32.6
   },
   "193.7x4.5": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 21.0,
     "Area of Section, A (cm2)": 26.7,
     "Ratio for Local Buckling, d/t": 43.0,
@@ -504,7 +504,7 @@
     "Surface Area Per Tonne (m2)": 29.0
   },
   "193.7x5.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 23.3,
     "Area of Section, A (cm2)": 29.6,
     "Ratio for Local Buckling, d/t": 38.7,
@@ -518,7 +518,7 @@
     "Surface Area Per Tonne (m2)": 26.1
   },
   "193.7x6.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 27.8,
     "Area of Section, A (cm2)": 35.4,
     "Ratio for Local Buckling, d/t": 32.3,
@@ -532,7 +532,7 @@
     "Surface Area Per Tonne (m2)": 21.9
   },
   "193.7x6.3": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 29.1,
     "Area of Section, A (cm2)": 37.1,
     "Ratio for Local Buckling, d/t": 30.7,
@@ -546,7 +546,7 @@
     "Surface Area Per Tonne (m2)": 20.9
   },
   "193.7x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 36.6,
     "Area of Section, A (cm2)": 46.7,
     "Ratio for Local Buckling, d/t": 24.2,
@@ -560,7 +560,7 @@
     "Surface Area Per Tonne (m2)": 16.6
   },
   "193.7x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 45.3,
     "Area of Section, A (cm2)": 57.7,
     "Ratio for Local Buckling, d/t": 19.4,
@@ -574,7 +574,7 @@
     "Surface Area Per Tonne (m2)": 13.4
   },
   "193.7x12.5": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 55.9,
     "Area of Section, A (cm2)": 71.2,
     "Ratio for Local Buckling, d/t": 15.5,
@@ -588,7 +588,7 @@
     "Surface Area Per Tonne (m2)": 10.9
   },
   "219.1x4.5": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 23.8,
     "Area of Section, A (cm2)": 30.3,
     "Ratio for Local Buckling, d/t": 48.7,
@@ -602,7 +602,7 @@
     "Surface Area Per Tonne (m2)": 28.9
   },
   "219.1x5.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 26.4,
     "Area of Section, A (cm2)": 33.6,
     "Ratio for Local Buckling, d/t": 43.8,
@@ -616,7 +616,7 @@
     "Surface Area Per Tonne (m2)": 26.1
   },
   "219.1x6.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 31.5,
     "Area of Section, A (cm2)": 40.2,
     "Ratio for Local Buckling, d/t": 36.5,
@@ -630,7 +630,7 @@
     "Surface Area Per Tonne (m2)": 21.8
   },
   "219.1x6.3": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 33.1,
     "Area of Section, A (cm2)": 42.1,
     "Ratio for Local Buckling, d/t": 34.8,
@@ -644,7 +644,7 @@
     "Surface Area Per Tonne (m2)": 20.8
   },
   "219.1x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 41.6,
     "Area of Section, A (cm2)": 53.1,
     "Ratio for Local Buckling, d/t": 27.4,
@@ -658,7 +658,7 @@
     "Surface Area Per Tonne (m2)": 16.5
   },
   "219.1x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 51.6,
     "Area of Section, A (cm2)": 65.7,
     "Ratio for Local Buckling, d/t": 21.9,
@@ -672,7 +672,7 @@
     "Surface Area Per Tonne (m2)": 13.3
   },
   "219.1x12.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 61.3,
     "Area of Section, A (cm2)": 78.1,
     "Ratio for Local Buckling, d/t": 18.3,
@@ -686,7 +686,7 @@
     "Surface Area Per Tonne (m2)": 11.2
   },
   "219.1x12.5": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 63.7,
     "Area of Section, A (cm2)": 81.1,
     "Ratio for Local Buckling, d/t": 17.5,
@@ -700,7 +700,7 @@
     "Surface Area Per Tonne (m2)": 10.8
   },
   "219.1x16.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 80.1,
     "Area of Section, A (cm2)": 102.0,
     "Ratio for Local Buckling, d/t": 13.7,
@@ -714,7 +714,7 @@
     "Surface Area Per Tonne (m2)": 8.59
   },
   "244.5x5.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 29.5,
     "Area of Section, A (cm2)": 37.6,
     "Ratio for Local Buckling, d/t": 48.9,
@@ -728,7 +728,7 @@
     "Surface Area Per Tonne (m2)": 26.0
   },
   "244.5x6.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 35.3,
     "Area of Section, A (cm2)": 45.0,
     "Ratio for Local Buckling, d/t": 40.8,
@@ -742,7 +742,7 @@
     "Surface Area Per Tonne (m2)": 21.8
   },
   "244.5x6.3": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 37.0,
     "Area of Section, A (cm2)": 47.1,
     "Ratio for Local Buckling, d/t": 38.8,
@@ -756,7 +756,7 @@
     "Surface Area Per Tonne (m2)": 20.8
   },
   "244.5x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 46.7,
     "Area of Section, A (cm2)": 59.4,
     "Ratio for Local Buckling, d/t": 30.6,
@@ -770,7 +770,7 @@
     "Surface Area Per Tonne (m2)": 16.4
   },
   "244.5x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 57.8,
     "Area of Section, A (cm2)": 73.7,
     "Ratio for Local Buckling, d/t": 24.5,
@@ -784,7 +784,7 @@
     "Surface Area Per Tonne (m2)": 13.3
   },
   "244.5x12.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 68.8,
     "Area of Section, A (cm2)": 87.7,
     "Ratio for Local Buckling, d/t": 20.4,
@@ -798,7 +798,7 @@
     "Surface Area Per Tonne (m2)": 11.2
   },
   "244.5x12.5": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 71.5,
     "Area of Section, A (cm2)": 91.1,
     "Ratio for Local Buckling, d/t": 19.6,
@@ -812,7 +812,7 @@
     "Surface Area Per Tonne (m2)": 10.7
   },
   "244.5x16.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 90.2,
     "Area of Section, A (cm2)": 115.0,
     "Ratio for Local Buckling, d/t": 15.3,
@@ -826,7 +826,7 @@
     "Surface Area Per Tonne (m2)": 8.51
   },
   "273.0x4.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 26.5,
     "Area of Section, A (cm2)": 33.8,
     "Ratio for Local Buckling, d/t": 68.3,
@@ -840,7 +840,7 @@
     "Surface Area Per Tonne (m2)": 32.4
   },
   "273.0x4.5": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 29.8,
     "Area of Section, A (cm2)": 38.0,
     "Ratio for Local Buckling, d/t": 60.7,
@@ -854,7 +854,7 @@
     "Surface Area Per Tonne (m2)": 28.8
   },
   "273.0x5.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 33.0,
     "Area of Section, A (cm2)": 42.1,
     "Ratio for Local Buckling, d/t": 54.6,
@@ -868,7 +868,7 @@
     "Surface Area Per Tonne (m2)": 26.0
   },
   "273.0x6.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 39.5,
     "Area of Section, A (cm2)": 50.3,
     "Ratio for Local Buckling, d/t": 45.5,
@@ -882,7 +882,7 @@
     "Surface Area Per Tonne (m2)": 21.7
   },
   "273.0x6.3": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 41.4,
     "Area of Section, A (cm2)": 52.8,
     "Ratio for Local Buckling, d/t": 43.3,
@@ -896,7 +896,7 @@
     "Surface Area Per Tonne (m2)": 20.7
   },
   "273.0x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 52.3,
     "Area of Section, A (cm2)": 66.6,
     "Ratio for Local Buckling, d/t": 34.1,
@@ -910,7 +910,7 @@
     "Surface Area Per Tonne (m2)": 16.4
   },
   "273.0x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 64.9,
     "Area of Section, A (cm2)": 82.6,
     "Ratio for Local Buckling, d/t": 27.3,
@@ -924,7 +924,7 @@
     "Surface Area Per Tonne (m2)": 13.2
   },
   "273.0x12.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 77.2,
     "Area of Section, A (cm2)": 98.4,
     "Ratio for Local Buckling, d/t": 22.8,
@@ -938,7 +938,7 @@
     "Surface Area Per Tonne (m2)": 11.1
   },
   "273.0x12.5": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 80.3,
     "Area of Section, A (cm2)": 102.0,
     "Ratio for Local Buckling, d/t": 21.8,
@@ -952,7 +952,7 @@
     "Surface Area Per Tonne (m2)": 10.7
   },
   "273.0x16.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 101.0,
     "Area of Section, A (cm2)": 129.0,
     "Ratio for Local Buckling, d/t": 17.1,
@@ -966,7 +966,7 @@
     "Surface Area Per Tonne (m2)": 8.5
   },
   "323.9x5.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 39.3,
     "Area of Section, A (cm2)": 50.1,
     "Ratio for Local Buckling, d/t": 64.8,
@@ -980,7 +980,7 @@
     "Surface Area Per Tonne (m2)": 26.0
   },
   "323.9x6.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 47.0,
     "Area of Section, A (cm2)": 59.9,
     "Ratio for Local Buckling, d/t": 54.0,
@@ -994,7 +994,7 @@
     "Surface Area Per Tonne (m2)": 21.7
   },
   "323.9x6.3": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 49.3,
     "Area of Section, A (cm2)": 62.9,
     "Ratio for Local Buckling, d/t": 51.4,
@@ -1008,7 +1008,7 @@
     "Surface Area Per Tonne (m2)": 20.7
   },
   "323.9x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 62.3,
     "Area of Section, A (cm2)": 79.4,
     "Ratio for Local Buckling, d/t": 40.5,
@@ -1022,7 +1022,7 @@
     "Surface Area Per Tonne (m2)": 16.4
   },
   "323.9x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 77.4,
     "Area of Section, A (cm2)": 98.6,
     "Ratio for Local Buckling, d/t": 32.4,
@@ -1036,7 +1036,7 @@
     "Surface Area Per Tonne (m2)": 13.2
   },
   "323.9x12.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 92.3,
     "Area of Section, A (cm2)": 118.0,
     "Ratio for Local Buckling, d/t": 27.0,
@@ -1050,7 +1050,7 @@
     "Surface Area Per Tonne (m2)": 11.1
   },
   "323.9x12.5": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 96.0,
     "Area of Section, A (cm2)": 122.0,
     "Ratio for Local Buckling, d/t": 25.9,
@@ -1064,7 +1064,7 @@
     "Surface Area Per Tonne (m2)": 10.6
   },
   "323.9x16.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 121.0,
     "Area of Section, A (cm2)": 155.0,
     "Ratio for Local Buckling, d/t": 20.2,
@@ -1078,7 +1078,7 @@
     "Surface Area Per Tonne (m2)": 8.43
   },
   "355.6x5.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 43.2,
     "Area of Section, A (cm2)": 55.1,
     "Ratio for Local Buckling, d/t": 71.1,
@@ -1092,7 +1092,7 @@
     "Surface Area Per Tonne (m2)": 25.9
   },
   "355.6x6.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 51.7,
     "Area of Section, A (cm2)": 65.9,
     "Ratio for Local Buckling, d/t": 59.3,
@@ -1106,7 +1106,7 @@
     "Surface Area Per Tonne (m2)": 21.7
   },
   "355.6x6.3": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 54.3,
     "Area of Section, A (cm2)": 69.1,
     "Ratio for Local Buckling, d/t": 56.4,
@@ -1120,7 +1120,7 @@
     "Surface Area Per Tonne (m2)": 20.6
   },
   "355.6x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 68.6,
     "Area of Section, A (cm2)": 87.4,
     "Ratio for Local Buckling, d/t": 44.5,
@@ -1134,7 +1134,7 @@
     "Surface Area Per Tonne (m2)": 16.3
   },
   "355.6x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 85.2,
     "Area of Section, A (cm2)": 109.0,
     "Ratio for Local Buckling, d/t": 35.6,
@@ -1148,7 +1148,7 @@
     "Surface Area Per Tonne (m2)": 13.1
   },
   "355.6x12.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 102.0,
     "Area of Section, A (cm2)": 130.0,
     "Ratio for Local Buckling, d/t": 29.6,
@@ -1162,7 +1162,7 @@
     "Surface Area Per Tonne (m2)": 11.0
   },
   "355.6x12.5": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 106.0,
     "Area of Section, A (cm2)": 135.0,
     "Ratio for Local Buckling, d/t": 28.4,
@@ -1176,7 +1176,7 @@
     "Surface Area Per Tonne (m2)": 10.6
   },
   "355.6x16.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 134.0,
     "Area of Section, A (cm2)": 171.0,
     "Ratio for Local Buckling, d/t": 22.2,
@@ -1190,7 +1190,7 @@
     "Surface Area Per Tonne (m2)": 8.36
   },
   "406.4x6.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 59.2,
     "Area of Section, A (cm2)": 75.5,
     "Ratio for Local Buckling, d/t": 67.7,
@@ -1204,7 +1204,7 @@
     "Surface Area Per Tonne (m2)": 21.6
   },
   "406.4x6.3": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 62.2,
     "Area of Section, A (cm2)": 79.2,
     "Ratio for Local Buckling, d/t": 64.5,
@@ -1218,7 +1218,7 @@
     "Surface Area Per Tonne (m2)": 20.6
   },
   "406.4x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 78.6,
     "Area of Section, A (cm2)": 100.0,
     "Ratio for Local Buckling, d/t": 50.8,
@@ -1232,7 +1232,7 @@
     "Surface Area Per Tonne (m2)": 16.3
   },
   "406.4x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 97.8,
     "Area of Section, A (cm2)": 125.0,
     "Ratio for Local Buckling, d/t": 40.6,
@@ -1246,7 +1246,7 @@
     "Surface Area Per Tonne (m2)": 13.1
   },
   "406.4x12.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 117.0,
     "Area of Section, A (cm2)": 149.0,
     "Ratio for Local Buckling, d/t": 33.9,
@@ -1260,7 +1260,7 @@
     "Surface Area Per Tonne (m2)": 10.9
   },
   "406.4x12.5": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 121.0,
     "Area of Section, A (cm2)": 155.0,
     "Ratio for Local Buckling, d/t": 32.5,
@@ -1274,7 +1274,7 @@
     "Surface Area Per Tonne (m2)": 10.6
   },
   "406.4x16.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 154.0,
     "Area of Section, A (cm2)": 196.0,
     "Ratio for Local Buckling, d/t": 25.4,
@@ -1288,7 +1288,7 @@
     "Surface Area Per Tonne (m2)": 8.31
   },
   "457.0x6.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 66.7,
     "Area of Section, A (cm2)": 85.0,
     "Ratio for Local Buckling, d/t": 76.2,
@@ -1302,7 +1302,7 @@
     "Surface Area Per Tonne (m2)": 21.6
   },
   "457.0x6.3": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 70.0,
     "Area of Section, A (cm2)": 89.2,
     "Ratio for Local Buckling, d/t": 72.5,
@@ -1316,7 +1316,7 @@
     "Surface Area Per Tonne (m2)": 20.6
   },
   "457.0x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 88.6,
     "Area of Section, A (cm2)": 113.0,
     "Ratio for Local Buckling, d/t": 57.1,
@@ -1330,7 +1330,7 @@
     "Surface Area Per Tonne (m2)": 16.3
   },
   "457.0x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 110.0,
     "Area of Section, A (cm2)": 140.0,
     "Ratio for Local Buckling, d/t": 45.7,
@@ -1344,7 +1344,7 @@
     "Surface Area Per Tonne (m2)": 13.1
   },
   "457.0x12.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 132.0,
     "Area of Section, A (cm2)": 168.0,
     "Ratio for Local Buckling, d/t": 38.1,
@@ -1358,7 +1358,7 @@
     "Surface Area Per Tonne (m2)": 10.9
   },
   "457.0x12.5": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 137.0,
     "Area of Section, A (cm2)": 175.0,
     "Ratio for Local Buckling, d/t": 36.6,
@@ -1372,7 +1372,7 @@
     "Surface Area Per Tonne (m2)": 10.5
   },
   "457.0x16.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 174.0,
     "Area of Section, A (cm2)": 222.0,
     "Ratio for Local Buckling, d/t": 28.6,
@@ -1386,7 +1386,7 @@
     "Surface Area Per Tonne (m2)": 8.28
   },
   "508.0x6.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 74.3,
     "Area of Section, A (cm2)": 94.6,
     "Ratio for Local Buckling, d/t": 84.7,
@@ -1400,7 +1400,7 @@
     "Surface Area Per Tonne (m2)": 21.5
   },
   "508.0x6.3": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 77.9,
     "Area of Section, A (cm2)": 99.3,
     "Ratio for Local Buckling, d/t": 80.6,
@@ -1414,7 +1414,7 @@
     "Surface Area Per Tonne (m2)": 20.5
   },
   "508.0x8.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 98.6,
     "Area of Section, A (cm2)": 126.0,
     "Ratio for Local Buckling, d/t": 63.5,
@@ -1428,7 +1428,7 @@
     "Surface Area Per Tonne (m2)": 16.2
   },
   "508.0x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 123.0,
     "Area of Section, A (cm2)": 156.0,
     "Ratio for Local Buckling, d/t": 50.8,
@@ -1442,7 +1442,7 @@
     "Surface Area Per Tonne (m2)": 13.0
   },
   "508.0x12.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 147.0,
     "Area of Section, A (cm2)": 187.0,
     "Ratio for Local Buckling, d/t": 42.3,
@@ -1456,7 +1456,7 @@
     "Surface Area Per Tonne (m2)": 10.9
   },
   "508.0x12.5": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 153.0,
     "Area of Section, A (cm2)": 195.0,
     "Ratio for Local Buckling, d/t": 40.6,
@@ -1470,7 +1470,7 @@
     "Surface Area Per Tonne (m2)": 10.5
   },
   "508.0x16.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 194.0,
     "Area of Section, A (cm2)": 247.0,
     "Ratio for Local Buckling, d/t": 31.8,

@@ -1,6 +1,6 @@
 {
   "430x100x64": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 64.4,
     "Depth of Section, h (mm)": 430.0,
     "Width of Section, b (mm)": 100.0,
@@ -31,7 +31,7 @@
     "Area of Section, A (cm2)": 82.1
   },
   "380x100x54": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 54.0,
     "Depth of Section, h (mm)": 380.0,
     "Width of Section, b (mm)": 100.0,
@@ -62,7 +62,7 @@
     "Area of Section, A (cm2)": 68.7
   },
   "300x100x46": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 45.5,
     "Depth of Section, h (mm)": 300.0,
     "Width of Section, b (mm)": 100.0,
@@ -93,7 +93,7 @@
     "Area of Section, A (cm2)": 58.0
   },
   "300x90x41": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 41.4,
     "Depth of Section, h (mm)": 300.0,
     "Width of Section, b (mm)": 90.0,
@@ -124,7 +124,7 @@
     "Area of Section, A (cm2)": 52.7
   },
   "260x90x35": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 34.8,
     "Depth of Section, h (mm)": 260.0,
     "Width of Section, b (mm)": 90.0,
@@ -155,7 +155,7 @@
     "Area of Section, A (cm2)": 44.4
   },
   "260x75x28": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 27.6,
     "Depth of Section, h (mm)": 260.0,
     "Width of Section, b (mm)": 75.0,
@@ -186,7 +186,7 @@
     "Area of Section, A (cm2)": 35.1
   },
   "230x90x32": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 32.2,
     "Depth of Section, h (mm)": 230.0,
     "Width of Section, b (mm)": 90.0,
@@ -217,7 +217,7 @@
     "Area of Section, A (cm2)": 41.0
   },
   "230x75x26": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 25.7,
     "Depth of Section, h (mm)": 230.0,
     "Width of Section, b (mm)": 75.0,
@@ -248,7 +248,7 @@
     "Area of Section, A (cm2)": 32.7
   },
   "200x90x30": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 29.7,
     "Depth of Section, h (mm)": 200.0,
     "Width of Section, b (mm)": 90.0,
@@ -279,7 +279,7 @@
     "Area of Section, A (cm2)": 37.9
   },
   "200x75x23": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 23.4,
     "Depth of Section, h (mm)": 200.0,
     "Width of Section, b (mm)": 75.0,
@@ -310,7 +310,7 @@
     "Area of Section, A (cm2)": 29.9
   },
   "180x90x26": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 26.1,
     "Depth of Section, h (mm)": 180.0,
     "Width of Section, b (mm)": 90.0,
@@ -341,7 +341,7 @@
     "Area of Section, A (cm2)": 33.2
   },
   "180x75x20": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 20.3,
     "Depth of Section, h (mm)": 180.0,
     "Width of Section, b (mm)": 75.0,
@@ -372,7 +372,7 @@
     "Area of Section, A (cm2)": 25.9
   },
   "150x90x24": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 23.9,
     "Depth of Section, h (mm)": 150.0,
     "Width of Section, b (mm)": 90.0,
@@ -403,7 +403,7 @@
     "Area of Section, A (cm2)": 30.4
   },
   "150x75x18": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 17.9,
     "Depth of Section, h (mm)": 150.0,
     "Width of Section, b (mm)": 75.0,
@@ -434,7 +434,7 @@
     "Area of Section, A (cm2)": 22.8
   },
   "125x65x15": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 14.8,
     "Depth of Section, h (mm)": 125.0,
     "Width of Section, b (mm)": 65.0,
@@ -465,7 +465,7 @@
     "Area of Section, A (cm2)": 18.8
   },
   "100x50x10": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 10.2,
     "Depth of Section, h (mm)": 100.0,
     "Width of Section, b (mm)": 50.0,

@@ -1,6 +1,6 @@
 {
   "200x150x18.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 47.1,
     "Root Radius, r1 (mm)": 15.0,
     "Toe Radius, r2 (mm)": 7.5,
@@ -24,7 +24,7 @@
     "Area of Section (cm2)": 60.1
   },
   "200x150x15.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 39.6,
     "Root Radius, r1 (mm)": 15.0,
     "Toe Radius, r2 (mm)": 7.5,
@@ -48,7 +48,7 @@
     "Area of Section (cm2)": 50.5
   },
   "200x150x12.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 32.0,
     "Root Radius, r1 (mm)": 15.0,
     "Toe Radius, r2 (mm)": 7.5,
@@ -72,7 +72,7 @@
     "Area of Section (cm2)": 40.8
   },
   "200x100x15.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 33.8,
     "Root Radius, r1 (mm)": 15.0,
     "Toe Radius, r2 (mm)": 7.5,
@@ -96,7 +96,7 @@
     "Area of Section (cm2)": 43.0
   },
   "200x100x12.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 27.3,
     "Root Radius, r1 (mm)": 15.0,
     "Toe Radius, r2 (mm)": 7.5,
@@ -120,7 +120,7 @@
     "Area of Section (cm2)": 34.8
   },
   "200x100x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 23.0,
     "Root Radius, r1 (mm)": 15.0,
     "Toe Radius, r2 (mm)": 7.5,
@@ -144,7 +144,7 @@
     "Area of Section (cm2)": 29.2
   },
   "150x90x15.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 26.6,
     "Root Radius, r1 (mm)": 12.0,
     "Toe Radius, r2 (mm)": 6.0,
@@ -168,7 +168,7 @@
     "Area of Section (cm2)": 33.9
   },
   "150x90x12.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 21.6,
     "Root Radius, r1 (mm)": 12.0,
     "Toe Radius, r2 (mm)": 6.0,
@@ -192,7 +192,7 @@
     "Area of Section (cm2)": 27.5
   },
   "150x90x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 18.2,
     "Root Radius, r1 (mm)": 12.0,
     "Toe Radius, r2 (mm)": 6.0,
@@ -216,7 +216,7 @@
     "Area of Section (cm2)": 23.2
   },
   "150x75x15.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 24.8,
     "Root Radius, r1 (mm)": 12.0,
     "Toe Radius, r2 (mm)": 6.0,
@@ -240,7 +240,7 @@
     "Area of Section (cm2)": 31.7
   },
   "150x75x12.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 20.2,
     "Root Radius, r1 (mm)": 12.0,
     "Toe Radius, r2 (mm)": 6.0,
@@ -264,7 +264,7 @@
     "Area of Section (cm2)": 25.7
   },
   "150x75x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 17.0,
     "Root Radius, r1 (mm)": 12.0,
     "Toe Radius, r2 (mm)": 6.0,
@@ -288,7 +288,7 @@
     "Area of Section (cm2)": 21.7
   },
   "125x75x12.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 17.8,
     "Root Radius, r1 (mm)": 11.0,
     "Toe Radius, r2 (mm)": 5.5,
@@ -312,7 +312,7 @@
     "Area of Section (cm2)": 22.7
   },
   "125x75x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 15.0,
     "Root Radius, r1 (mm)": 11.0,
     "Toe Radius, r2 (mm)": 5.5,
@@ -336,7 +336,7 @@
     "Area of Section (cm2)": 19.1
   },
   "125x75x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 12.2,
     "Root Radius, r1 (mm)": 11.0,
     "Toe Radius, r2 (mm)": 5.5,
@@ -360,7 +360,7 @@
     "Area of Section (cm2)": 15.5
   },
   "100x75x12.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 15.4,
     "Root Radius, r1 (mm)": 10.0,
     "Toe Radius, r2 (mm)": 5.0,
@@ -384,7 +384,7 @@
     "Area of Section (cm2)": 19.7
   },
   "100x75x10.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 13.0,
     "Root Radius, r1 (mm)": 10.0,
     "Toe Radius, r2 (mm)": 5.0,
@@ -408,7 +408,7 @@
     "Area of Section (cm2)": 16.6
   },
   "100x75x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 10.6,
     "Root Radius, r1 (mm)": 10.0,
     "Toe Radius, r2 (mm)": 5.0,
@@ -432,7 +432,7 @@
     "Area of Section (cm2)": 13.5
   },
   "100x65x10.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 12.3,
     "Root Radius, r1 (mm)": 10.0,
     "Toe Radius, r2 (mm)": 5.0,
@@ -456,7 +456,7 @@
     "Area of Section (cm2)": 15.6
   },
   "100x65x8.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 9.94,
     "Root Radius, r1 (mm)": 10.0,
     "Toe Radius, r2 (mm)": 5.0,
@@ -480,7 +480,7 @@
     "Area of Section (cm2)": 12.7
   },
   "100x65x7.0": {
-    "Uncommon Section": true,
+    "Is Non-Standard": true,
     "Mass Per Metre (kg/m)": 8.77,
     "Root Radius, r1 (mm)": 10.0,
     "Toe Radius, r2 (mm)": 5.0,
@@ -504,7 +504,7 @@
     "Area of Section (cm2)": 11.2
   },
   "100x50x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 8.97,
     "Root Radius, r1 (mm)": 8.0,
     "Toe Radius, r2 (mm)": 4.0,
@@ -528,7 +528,7 @@
     "Area of Section (cm2)": 11.4
   },
   "100x50x6.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 6.84,
     "Root Radius, r1 (mm)": 8.0,
     "Toe Radius, r2 (mm)": 4.0,
@@ -552,7 +552,7 @@
     "Area of Section (cm2)": 8.71
   },
   "80x60x7.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 7.36,
     "Root Radius, r1 (mm)": 8.0,
     "Toe Radius, r2 (mm)": 4.0,
@@ -576,7 +576,7 @@
     "Area of Section (cm2)": 9.38
   },
   "80x40x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 7.07,
     "Root Radius, r1 (mm)": 7.0,
     "Toe Radius, r2 (mm)": 3.5,
@@ -600,7 +600,7 @@
     "Area of Section (cm2)": 9.01
   },
   "80x40x6.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 5.41,
     "Root Radius, r1 (mm)": 7.0,
     "Toe Radius, r2 (mm)": 3.5,
@@ -624,7 +624,7 @@
     "Area of Section (cm2)": 6.89
   },
   "75x50x8.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 7.39,
     "Root Radius, r1 (mm)": 7.0,
     "Toe Radius, r2 (mm)": 3.5,
@@ -648,7 +648,7 @@
     "Area of Section (cm2)": 9.41
   },
   "75x50x6.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 5.65,
     "Root Radius, r1 (mm)": 7.0,
     "Toe Radius, r2 (mm)": 3.5,
@@ -672,7 +672,7 @@
     "Area of Section (cm2)": 7.19
   },
   "70x50x6.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 5.41,
     "Root Radius, r1 (mm)": 7.0,
     "Toe Radius, r2 (mm)": 3.5,
@@ -696,7 +696,7 @@
     "Area of Section (cm2)": 6.89
   },
   "65x50x5.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 4.35,
     "Root Radius, r1 (mm)": 6.0,
     "Toe Radius, r2 (mm)": 3.0,
@@ -720,7 +720,7 @@
     "Area of Section (cm2)": 5.54
   },
   "60x40x6.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 4.46,
     "Root Radius, r1 (mm)": 6.0,
     "Toe Radius, r2 (mm)": 3.0,
@@ -744,7 +744,7 @@
     "Area of Section (cm2)": 5.68
   },
   "60x40x5.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 3.76,
     "Root Radius, r1 (mm)": 6.0,
     "Toe Radius, r2 (mm)": 3.0,
@@ -768,7 +768,7 @@
     "Area of Section (cm2)": 4.79
   },
   "60x30x5.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 3.36,
     "Root Radius, r1 (mm)": 5.0,
     "Toe Radius, r2 (mm)": 2.5,
@@ -792,7 +792,7 @@
     "Area of Section (cm2)": 4.28
   },
   "50x30x5.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 2.96,
     "Root Radius, r1 (mm)": 5.0,
     "Toe Radius, r2 (mm)": 2.5,
@@ -816,7 +816,7 @@
     "Area of Section (cm2)": 3.78
   },
   "45x30x4.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 2.25,
     "Root Radius, r1 (mm)": 4.5,
     "Toe Radius, r2 (mm)": 2.25,
@@ -840,7 +840,7 @@
     "Area of Section (cm2)": 2.87
   },
   "40x25x4.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 1.93,
     "Root Radius, r1 (mm)": 4.0,
     "Toe Radius, r2 (mm)": 2.0,
@@ -864,7 +864,7 @@
     "Area of Section (cm2)": 2.46
   },
   "40x20x4.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 1.77,
     "Root Radius, r1 (mm)": 4.0,
     "Toe Radius, r2 (mm)": 2.0,
@@ -888,7 +888,7 @@
     "Area of Section (cm2)": 2.26
   },
   "30x20x4.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 1.46,
     "Root Radius, r1 (mm)": 4.0,
     "Toe Radius, r2 (mm)": 2.0,
@@ -912,7 +912,7 @@
     "Area of Section (cm2)": 1.86
   },
   "30x20x3.0": {
-    "Uncommon Section": false,
+    "Is Non-Standard": false,
     "Mass Per Metre (kg/m)": 1.12,
     "Root Radius, r1 (mm)": 4.0,
     "Toe Radius, r2 (mm)": 2.0,
