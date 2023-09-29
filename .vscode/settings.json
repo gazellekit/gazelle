@@ -31,6 +31,10 @@
       "ui.semanticTokens": true 
     },
 
+    "[go]": {
+      "editor.rulers": [80]
+    },
+
     "liveServer.settings.root": "/docs",
     "liveServer.settings.file": "index.html",
     "liveServer.settings.host": "localhost",
