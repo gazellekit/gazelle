@@ -1,10 +1,5 @@
 package geometry
 
-type RadiusOfGyration struct {
-	XX float64
-	YY float64
-}
-
 type DimensionsAndProperties struct {
 	Depth                      float64
 	Width                      float64
