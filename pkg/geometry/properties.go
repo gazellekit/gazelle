@@ -1,17 +1,15 @@
 package geometry
 
-// The geometric cross-sectional depth.
-type Depth float64
+type FlexuralAxis int
 
-// The geometric cross-sectional width.
-type Width float64
+const (
+	XX FlexuralAxis = iota
+	YY
+)
 
-// The geometric cross-sectional length.
-type Length float64
+type LinearAxis int
 
-// The geometric cross-sectional radius of gyration,
-// about both the major (XX) and the minor axes (YY).
-type RadiusOfGyration struct {
-	XX float64
-	YY float64
-}
+const (
+	X LinearAxis = iota
+	Y
+)
