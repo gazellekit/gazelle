@@ -21,7 +21,7 @@
 
 ## Overview
 
-Gazelle is a fast, efficient and lightweight Command-Line Interface (CLI) tool for Structural Engineers. It favours radical simplicity and loosely follows the Unix Philosophy. For those comfortable working in shell-based environments (e.g., Bash, PowerShell), Gazelle offers a truly cross-platform alternative to traditional engineering software.
+Gazelle is a fast, efficient and lightweight toolkit for Structural Engineers. It favours radical simplicity and loosely follows the Unix Philosophy. Gazelle offers a truly cross-platform alternative to traditional engineering software.
 
 > One who takes the road less traveled earns the rewards most missed. - Matshona Dhliwayo
 
