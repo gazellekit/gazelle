@@ -1,15 +1,14 @@
 package bluebook
 
 import (
-	units "github.com/calcpadstudio/gazelle/pkg/units"
-	"golang.org/x/exp/constraints"
+	units "github.com/calcpadstudio/units"
 )
 
-type DimensionsAndProperties[L units.Length[T], M units.Mass[T], T constraints.Float] struct {
-	Depth                      L
-	Width                      L
-	Length                     L
-	TotalMass                  M
+type DimensionsAndProperties struct {
+	Depth                      units.Millimetre
+	Width                      units.Millimetre
+	Length                     units.Millimetre
+	TotalMass                  units.Kilogram
 	MassPerMetreLength         float64
 	CrossSectionalArea         float64
 	SurfaceAreaPerMetre        float64

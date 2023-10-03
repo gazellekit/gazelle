@@ -2,36 +2,34 @@ package steel
 
 import (
 	bluebook "github.com/calcpadstudio/gazelle/pkg/bluebook"
-	units "github.com/calcpadstudio/gazelle/pkg/units"
-	"golang.org/x/exp/constraints"
 )
 
-type UniversalBeam[L units.Length[T], M units.Mass[T], T constraints.Float] struct {
+type UniversalBeam struct {
 	SectionClassification   string
 	IsNonStandard           bool
-	DimensionsAndProperties bluebook.DimensionsAndProperties[L, M, T]
+	DimensionsAndProperties bluebook.DimensionsAndProperties
 }
 
-type UniversalColumn[L units.Length[T], M units.Mass[T], T constraints.Float] struct {
+type UniversalColumn struct {
 	SectionClassification   string
 	IsNonStandard           bool
-	DimensionsAndProperties bluebook.DimensionsAndProperties[L, M, T]
+	DimensionsAndProperties bluebook.DimensionsAndProperties
 }
 
-type UniversalBearingPile[L units.Length[T], M units.Mass[T], T constraints.Float] struct {
+type UniversalBearingPile struct {
 	SectionClassification   string
 	IsNonStandard           bool
-	DimensionsAndProperties bluebook.DimensionsAndProperties[L, M, T]
+	DimensionsAndProperties bluebook.DimensionsAndProperties
 }
 
-func (UniversalBeam[L, M, T]) String() string {
+func (UniversalBeam) String() string {
 	return "Universal Beam"
 }
 
-func (UniversalColumn[L, M, T]) String() string {
+func (UniversalColumn) String() string {
 	return "Universal Column"
 }
 
-func (UniversalBearingPile[L, M, T]) String() string {
+func (UniversalBearingPile) String() string {
 	return "Universal Bearing Pile"
 }
