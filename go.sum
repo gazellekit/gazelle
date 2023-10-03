@@ -1,2 +1,2 @@
-golang.org/x/exp v0.0.0-20230905200255-921286631fa9 h1:GoHiUyI/Tp2nVkLI2mCxVkOjsbSXD66ic0XW0js0R9g=
-golang.org/x/exp v0.0.0-20230905200255-921286631fa9/go.mod h1:S2oDrQGGwySpoQPVqRShND87VCbxmc6bL1Yd2oYrm6k=
+github.com/calcpadstudio/units v0.0.0-20231003152544-9039f3bf1036 h1:eEURkB9IgePph7ho8fuZO8TewyiqH0Y5SE1WRPTyfMQ=
+github.com/calcpadstudio/units v0.0.0-20231003152544-9039f3bf1036/go.mod h1:hTgPER3f8NW7Cc40c3k9uNCRT3T6BkGMCWR68kWzI2E=
