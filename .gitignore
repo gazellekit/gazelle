@@ -1,0 +1,9 @@
+# Go
+bin/
+build/
+
+# JavaScript
+node_modules/
+
+# MacOS
+.DS_Store

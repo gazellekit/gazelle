@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "golang.go",
+    "github.copilot",
+    "github.vscode-github-actions",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.powershell",
+    "ritwickdey.liveserver",
+    "grapecity.gc-excelviewer",
+    "bierner.markdown-preview-github-styles"
+  ]
+}

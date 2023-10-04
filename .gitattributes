@@ -1,0 +1,5 @@
+.devcontainer/* linguist-vendored
+.github/* linguist-vendored
+scripts/* linguist-vendored
+ci/* linguist-vendored
+ci/**/* linguist-vendored
