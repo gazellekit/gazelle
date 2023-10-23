@@ -16,18 +16,6 @@ type Perimeter float64
 type SurfaceArea float64
 type Volume float64
 
-type Length interface {
-	Metre | Millimetre
-}
-
-type Mass interface {
-	Gram | Kilogram | Tonne
-}
-
-type Force interface {
-	Newton | Kilonewton
-}
-
 type SecondMomentOfArea struct {
 	XX, YY float64
 }
