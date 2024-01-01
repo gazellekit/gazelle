@@ -1,6 +1,7 @@
 <div align="center">
-  <h1>Gazelle 🦌</h1>
-  <p>A fast, cross-platform toolkit for structural analysis & design.</p>
+  <img src="assets/images/gazelle-250x250-rounded.png" height="175px" width="175px" />
+  <h1>Gazelle</h1>
+  <p>A fast, cross-platform engine for structural analysis & design.</p>
 
   [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/calcpadstudio/gazelle)
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/calcpadstudio/gazelle/blob/main/CODE_OF_CONDUCT.md)
