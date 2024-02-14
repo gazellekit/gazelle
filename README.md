@@ -3,10 +3,10 @@
   <h1>Gazelle</h1>
   <p>A fast, cross-platform engine for structural analysis & design.</p>
 
-  [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/calcpadstudio/gazelle)
-  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/calcpadstudio/gazelle/blob/main/CODE_OF_CONDUCT.md)
+  [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/GazelleKit/gazelle)
+  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/GazelleKit/gazelle/blob/main/CODE_OF_CONDUCT.md)
   
-  [![Build](https://github.com/calcpadstudio/core/actions/workflows/build.yml/badge.svg)](https://github.com/calcpadstudio/gazelle/actions/workflows/build.yml)
+  [![CI](https://github.com/GazelleKit/gazelle/actions/workflows/ci.yml/badge.svg)](https://github.com/GazelleKit/gazelle/actions/workflows/build.yml)
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blueviolet)](https://choosealicense.com/licenses/agpl-3.0/)
   
   [![Go](https://img.shields.io/badge/Go-1.21-00add8)](https://go.dev/)
