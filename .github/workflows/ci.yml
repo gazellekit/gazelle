@@ -1,14 +1,20 @@
-name: Build
+name: CI
 
 on:
   push:
-    branches: main
+    branches:
+      - '*'
+      - '!main'
+
+defaults:
+  run:
+    shell: pwsh
 
 jobs:
-  setup:
-    name: CI
+  build:
+    name: Build
     runs-on: Ubuntu-Latest
-
+    
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
