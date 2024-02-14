@@ -1,7 +1,7 @@
 package bluebook
 
 import (
-	units "github.com/calcpadstudio/gazelle/pkg/units"
+	units "github.com/GazelleKit/gazelle/pkg/units"
 )
 
 type DimensionsAndProperties struct {
