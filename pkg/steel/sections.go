@@ -1,7 +1,7 @@
 package steel
 
 import (
-	bluebook "github.com/calcpadstudio/gazelle/pkg/bluebook"
+	bluebook "github.com/GazelleKit/gazelle/pkg/bluebook"
 )
 
 type UniversalBeam struct {

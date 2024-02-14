@@ -1,3 +1,3 @@
-module github.com/calcpadstudio/gazelle
+module github.com/GazelleKit/gazelle
 
-go 1.21.1
+go 1.22.0
