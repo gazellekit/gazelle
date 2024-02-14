@@ -35,6 +35,7 @@
       "editor.rulers": [80]
     },
 
+    "powershell.powerShellDefaultVersion": "7",
     "powershell.powerShellAdditionalExePaths": {
       "pwsh": "/usr/local/bin/pwsh"
     },
