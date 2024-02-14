@@ -35,6 +35,10 @@
       "editor.rulers": [80]
     },
 
+    "powershell.powerShellAdditionalExePaths": {
+      "pwsh": "/usr/local/bin/pwsh"
+    },
+
     "liveServer.settings.root": "/docs",
     "liveServer.settings.file": "index.html",
     "liveServer.settings.host": "localhost",
