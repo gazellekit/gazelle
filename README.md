@@ -9,35 +9,82 @@
   [![CI](https://github.com/GazelleKit/gazelle/actions/workflows/ci.yml/badge.svg)](https://github.com/GazelleKit/gazelle/actions/workflows/build.yml)
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blueviolet)](https://choosealicense.com/licenses/agpl-3.0/)
   
-  [![Go](https://img.shields.io/badge/Go-1.21-00add8)](https://go.dev/)
+  [![Go](https://img.shields.io/badge/Go-1.22-00add8)](https://go.dev/)
 </div>
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Overview](#overview)
+- [Getting Started](#getting-started)
+- [The Gazelle CLI](#the-gazelle-cli)
 - [Open Source](#open-source)
 - [Contributing](#contributing)
+- [Community](#community)
 - [Errata](#errata)
 
 ## Overview
 
-Gazelle is a fast, efficient and lightweight toolkit for Structural Engineers. It favours radical simplicity and loosely follows the Unix Philosophy. Gazelle offers a truly cross-platform alternative to traditional engineering software.
+<p align="justify">
+  Gazelle is a fast, efficient and lightweight engine for structural analysis and design. The project aspires to accelerate AEC software innovation, underpin academic research and support Structural Engineering education. Gazelle favours radical simplicity, loosely follows the Unix Philosophy, and offers a truly cross-platform alternative to traditional engineering software.
+</p>
 
 > One who takes the road less traveled earns the rewards most missed. - Matshona Dhliwayo
 
+## Getting Started
+
+<p align="justify">
+  Gazelle is a daemon service that can run both locally and remotely. It adopts a typical, language-agnostic, client-server architecture by exposing its API over HTTP. This pattern was inspired by Docker (specifically <code>dockerd</code>).
+</p>
+
+## The Gazelle CLI
+
+<p align="justify">
+  An official Gazelle CLI will be supported. More details to follow.
+</p>
+
 ## Open Source
 
-Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. However, the vast majority of professional engineering software is, regrettably, closed source and proprietary. This is unfair and must change. Engineers should be offered the respect and freedom to inspect, validate and influence the algorithms used to design our buildings and bridges. 
+<p align="justify">
+  Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. However, the vast majority of professional engineering software is, regrettably, closed source and proprietary. This is unfair and must change. Engineers should be offered the respect and freedom to inspect, validate and influence the algorithms used to design our buildings and bridges. 
+</p>
 
-Gazelle is proudly open-source.
+<p align="justify">
+  Gazelle is proudly open-source.
+</p>
 
 ## Contributing
 
-For those interested in helping to build Gazelle, details will be provided in due course. Please ⭐️ and 'watch' this repository, so that you can track its progress in real-time.
+<p align="justify">
+  For those interested in helping to build Gazelle, please ⭐️ and 'watch' this repository so that you can track its progress in real-time.
+</p>
+
+<p align="justify">
+  We are always on the lookout for new contributors to help: 
+</p>
+
+- Propose design improvements,
+- Develop and maintain the engine, 
+- Enhance our testing and performance suite,
+- Verify algorithmic correctness.
+
+## Community
+
+<p align="justify">
+  For those keen to build upon the core Gazelle engine and extend its reach and capabilities, here are a few suggested project ideas: 
+</p>
+
+- Create a dedicated Graphical User Interface (GUI) atop the HTTP API,
+- Develop bespoke plugins so that other software can benefit from Gazelle,
+- Organise local meetups to discuss how Gazelle could enhance your existing workflows,
+- Plan conferences and community engagement events to broaden Gazelle's adoption,
+- For Go developers, consider importing Gazelle as a package into your own projects.
 
 ## Errata
 
-Gazelle aspires to achieve the highest standards of professional rigour. We consider Structural Analysis & Design software to be _safety critical_. We strive to ensure stability, robustness and correctness throughout the source code, test suite and companion documentation. Nevertheless, our team are human and mistakes _are_ possible. 
+<p align="justify">
+  Gazelle aspires to achieve the highest standards of professional rigour. We consider Structural Analysis & Design software to be safety critical. We strive to ensure stability, robustness and correctness throughout the source code, test suite and companion documentation. Nevertheless, our team are human and mistakes <em>are</em> possible. 
+</p>
 
-We recommend that all users carefully review the code, tests and documentation. Please submit error reports and suggestions for improvement via [GitHub Issues](https://github.com/calcpadstudio/gazelle/issues). For anyone who would like to attempt a fix or improvement, we would encourage you to review our [Contributing](#contributing) guidance and submit a Pull Request.
+<p align="justify">
+  We recommend that all users carefully review the code, tests and documentation. Please submit error reports and suggestions for improvement via <a href="https://github.com/calcpadstudio/gazelle/issues" target="_blank">GitHub Issues</a>. For anyone who would like to attempt a fix or improvement, we would encourage you to review our <a href="#contributing">Contributing</a> guidance and submit a Pull Request.
+</p>
