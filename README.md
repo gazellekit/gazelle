@@ -7,9 +7,9 @@
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/GazelleKit/gazelle/blob/main/CODE_OF_CONDUCT.md)
   
   [![CI](https://github.com/GazelleKit/gazelle/actions/workflows/ci.yml/badge.svg)](https://github.com/GazelleKit/gazelle/actions/workflows/build.yml)
-  [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blueviolet)](https://choosealicense.com/licenses/agpl-3.0/)
+  [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-00add8)](https://choosealicense.com/licenses/agpl-3.0/)
   
-  [![Go](https://img.shields.io/badge/Go-1.22-00add8)](https://go.dev/)
+  [![.NET](https://img.shields.io/badge/.NET-8.0-8a2be2)](https://dotnet.microsoft.com)
 </div>
 
 ## Table of Contents
@@ -77,7 +77,7 @@
 - Develop bespoke plugins so that other software can benefit from Gazelle,
 - Organise local meetups to discuss how Gazelle could enhance your existing workflows,
 - Plan conferences and community engagement events to broaden Gazelle's adoption,
-- For Go developers, consider importing Gazelle as a package into your own projects.
+- For .NET developers, consider importing Gazelle as a library into your own projects.
 
 ## Errata
 
