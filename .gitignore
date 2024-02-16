@@ -1,6 +1,7 @@
-# Go
+# .NET
 bin/
-build/
+obj/
+.fake
 
 # JavaScript
 node_modules/
