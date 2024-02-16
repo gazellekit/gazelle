@@ -11,6 +11,7 @@
 
     "files.exclude": {
       "**/.git": false,
+      "**/obj": true,
     },
    
     "git.autofetch": true,
@@ -24,26 +25,17 @@
       "markdown": false
     },
 
-    "go.gopath": "/go",
-    "go.useLanguageServer": true,
-    "go.languageServerFlags": ["-rpc.trace"],
-    "gopls": { 
-      "ui.semanticTokens": true 
-    },
-
-    "[go]": {
-      "editor.rulers": [80]
+    "[fsharp]": {
+      "editor.rulers": [80],
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "Ionide.Ionide-fsharp"
     },
 
     "powershell.powerShellDefaultVersion": "7",
+    "powershell.integratedConsole.showOnStartup": false,
     "powershell.powerShellAdditionalExePaths": {
       "pwsh": "/usr/local/bin/pwsh"
     },
-
-    "liveServer.settings.root": "/docs",
-    "liveServer.settings.file": "index.html",
-    "liveServer.settings.host": "localhost",
-    "liveServer.settings.port": 3000,
 
     "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco",
 

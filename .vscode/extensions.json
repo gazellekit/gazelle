@@ -1,12 +1,14 @@
 {
   "recommendations": [
-    "golang.go",
     "github.copilot",
     "github.vscode-github-actions",
+    "grapecity.gc-excelviewer",
+    "ionide.ionide-fsharp",
+    "ms-vscode.powershell",
+    "ms-dotnettools.csharp",
     "ms-azuretools.vscode-docker",
     "ms-vscode.powershell",
-    "ritwickdey.liveserver",
-    "grapecity.gc-excelviewer",
+    "ms-dotnettools.dotnet-interactive-vscode",
     "bierner.markdown-preview-github-styles"
   ]
 }
