@@ -11,15 +11,24 @@ defaults:
     shell: pwsh
 
 jobs:
-  build:
-    name: Build
+  ci:
+    name: CI
     runs-on: Ubuntu-Latest
+    strategy:
+      matrix:
+        version: [3.9, 3.10, 3.11]
     
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Setup Go
-        uses: actions/setup-go@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          go-version-file: ./go.mod
+          python-version: ${{ matrix.version}}
+    
+      - name: Setup Project
+        run: setup.sh
+
+      - name: Run Test Suite
+        run: pytest
