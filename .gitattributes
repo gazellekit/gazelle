@@ -1,3 +1,4 @@
 .devcontainer/* linguist-vendored
 .github/* linguist-vendored
+.pytest_cache/* linguist-vendored
 *.ps1 linguist-vendored
