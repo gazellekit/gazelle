@@ -9,14 +9,13 @@
   [![CI](https://github.com/noblesource/gazelle/actions/workflows/ci.yml/badge.svg)](https://github.com/noblesource/gazelle/actions/workflows/build.yml)
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blueviolet)](https://choosealicense.com/licenses/agpl-3.0/)
   
-  [![Go](https://img.shields.io/badge/Go-1.22-00add8)](https://go.dev/)
+  [![Python](https://img.shields.io/badge/Python-3.11-2b5b84)](https://www.python.org/)
 </div>
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Getting Started](#getting-started)
-- [The Gazelle CLI](#the-gazelle-cli)
 - [Open Source](#open-source)
 - [Contributing](#contributing)
 - [Community](#community)
@@ -29,18 +28,6 @@
 </p>
 
 > One who takes the road less traveled earns the rewards most missed. - Matshona Dhliwayo
-
-## Getting Started
-
-<p align="justify">
-  Gazelle is a daemon service that can run both locally and remotely. It adopts a typical, language-agnostic, client-server architecture by exposing its API over HTTP. This pattern was inspired by Docker (specifically <code>dockerd</code>).
-</p>
-
-## The Gazelle CLI
-
-<p align="justify">
-  An official Gazelle CLI will be supported. More details to follow.
-</p>
 
 ## Open Source
 
@@ -73,11 +60,9 @@
   For those keen to build upon the core Gazelle engine and extend its reach and capabilities, here are a few suggested project ideas: 
 </p>
 
-- Create a dedicated Graphical User Interface (GUI) atop the HTTP API,
-- Develop bespoke plugins so that other software can benefit from Gazelle,
 - Organise local meetups to discuss how Gazelle could enhance your existing workflows,
 - Plan conferences and community engagement events to broaden Gazelle's adoption,
-- For Go developers, consider importing Gazelle as a package into your own projects.
+- For Python developers, consider importing Gazelle as a package into your own projects.
 
 ## Errata
 
@@ -86,5 +71,5 @@
 </p>
 
 <p align="justify">
-  We recommend that all users carefully review the code, tests and documentation. Please submit error reports and suggestions for improvement via <a href="https://github.com/calcpadstudio/gazelle/issues" target="_blank">GitHub Issues</a>. For anyone who would like to attempt a fix or improvement, we would encourage you to review our <a href="#contributing">Contributing</a> guidance and submit a Pull Request.
+  We recommend that all users carefully review the code, tests and documentation. Please submit error reports and suggestions for improvement via <a href="https://github.com/noblesource/gazelle/issues" target="_blank">GitHub Issues</a>. For anyone who would like to attempt a fix or improvement, we would encourage you to review our <a href="#contributing">Contributing</a> guidance and submit a Pull Request.
 </p>
