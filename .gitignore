@@ -1,9 +1,6 @@
-# Go
-bin/
-build/
-
-# JavaScript
-node_modules/
+# Python
+__pycache__/
+.pytest_cache/
 
 # MacOS
 .DS_Store
