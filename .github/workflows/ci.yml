@@ -28,7 +28,7 @@ jobs:
           python-version: ${{ matrix.version}}
     
       - name: Setup Project
-        run: setup.sh
+        run: ./setup.sh
 
       - name: Run Test Suite
         run: pytest
