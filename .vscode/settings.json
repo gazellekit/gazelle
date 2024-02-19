@@ -11,6 +11,7 @@
 
     "files.exclude": {
       "**/.git": false,
+      "**/__pycache__/": true,
       "**/.pytest_cache": true,
     },
    
