@@ -1,21 +1,29 @@
 {
 	"name": "Gazelle",
 	"runArgs": ["--name", "gazelle"],
-	"build": { "dockerfile": "Dockerfile" },
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	"postCreateCommand": "bash setup.sh",
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
-		"ghcr.io/devcontainers/features/powershell:1": {}
+		"ghcr.io/devcontainers/features/powershell:1": {},
+		"ghcr.io/devcontainers/features/python:1": {
+			"version": 3.11,
+			"toolsToInstall": "pytest",
+			"installTools": true,
+			"optimize": false,
+			"enableShared": false
+		}
 	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"golang.go",
 				"github.copilot",
 				"github.vscode-github-actions",
 				"ms-azuretools.vscode-docker",
 				"ms-vscode.powershell",
-				"ritwickdey.liveserver",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
 				"grapecity.gc-excelviewer",
 				"bierner.markdown-preview-github-styles"
 			]
