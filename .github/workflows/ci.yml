@@ -31,4 +31,4 @@ jobs:
         run: ./setup.sh
 
       - name: Run Test Suite
-        run: pytest
+        run: python -m pytest
