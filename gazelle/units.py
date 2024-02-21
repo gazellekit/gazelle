@@ -17,7 +17,12 @@
 
 from abc import ABC
 from math import pi
-from typing import Generic, TypeVar, Type, Union
+from typing import (
+  Generic, 
+  TypeVar, 
+  Type, 
+  Union
+)
 
 
 M = TypeVar("M", bound="Mass")
