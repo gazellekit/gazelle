@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gazelle"
+version = "0.1.0"
+description = "A fast, cross-platform engine for structural analysis & design."
+authors = ["James S. Bayley <https://www.linkedin.com/in/jsbayley>"]
+repository = "https://github.com/noblesource/gazelle"
+homepage = "https://docs.gazelle.sh"
+license = "LICENSE"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.1"
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

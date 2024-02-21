@@ -31,6 +31,11 @@
       "pwsh": "/usr/local/bin/pwsh"
     },
 
+    "python.analysis.autoFormatStrings": true,
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestPath": "pytest",
+
     "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco",
 
     "workbench.editor.highlightModifiedTabs": true,
