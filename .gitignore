@@ -1,6 +1,7 @@
 # Python
 __pycache__/
 .pytest_cache/
+.mypy_cache/
 poetry.lock
 .venv/
 
