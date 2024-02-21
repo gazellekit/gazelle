@@ -26,7 +26,8 @@
 				"ms-python.vscode-pylance",
 				"grapecity.gc-excelviewer",
 				"bierner.markdown-preview-github-styles",
-				"tamasfe.even-better-toml"
+				"tamasfe.even-better-toml",
+				"charliermarsh.ruff"
 			]
 		}
 	}
