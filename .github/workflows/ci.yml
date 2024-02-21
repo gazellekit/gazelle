@@ -25,7 +25,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: ${{ matrix.version}}
+          python-version: ${{ matrix.version }}
     
       - name: Install Poetry
         run: pipx install poetry
