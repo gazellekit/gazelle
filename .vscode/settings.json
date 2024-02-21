@@ -11,8 +11,11 @@
 
     "files.exclude": {
       "**/.git": false,
+      "**/.venv": false,
       "**/__pycache__/": true,
       "**/.pytest_cache": true,
+      "**/.mypy_cache": true,
+      "**/poetry.lock": false
     },
    
     "git.autofetch": true,
@@ -35,6 +38,15 @@
     "python.defaultInterpreterPath": ".venv/bin/python",
     "python.testing.pytestEnabled": true,
     "python.testing.pytestPath": "pytest",
+
+    "[python]": {
+      "editor.defaultFormatter": "charliermarsh.ruff",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+        "source.fixAll": "explicit"
+      }
+    },
 
     "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco",
 
