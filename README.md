@@ -9,7 +9,7 @@
   [![CI](https://github.com/noblesource/gazelle/actions/workflows/ci.yml/badge.svg)](https://github.com/noblesource/gazelle/actions/workflows/build.yml)
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blueviolet)](https://choosealicense.com/licenses/agpl-3.0/)
   
-  [![Python](https://img.shields.io/badge/Python-3.11-2b5b84)](https://www.python.org/)
+  [![Python](https://img.shields.io/badge/Python-3.11-4b8bbe)](https://www.python.org/)
 </div>
 
 ## Table of Contents
