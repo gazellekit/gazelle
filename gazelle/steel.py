@@ -260,21 +260,6 @@ class UniversalSection(SteelSection, ABC):
     pass
 
 
-class UniversalBeam(UniversalSection):
-  def __str__(self):
-    return f"Universal Beam (UB) Section: {self.designation}"
-
-
-class UniversalColumn(UniversalSection):
-  def __str__(self):
-    return f"Universal Column (UC) Section: {self.designation}"
-
-
-class UniversalBearingPile(UniversalSection):
-  def __str__(self):
-    return f"Universal Bearing Pile (UBP) Section: {self.designation}"
-
-
 class RectangularHollowSection(SteelSection, ABC):
   """A rectangular hollow section."""
 
@@ -399,6 +384,21 @@ class CircularHollowSection(SteelSection, ABC):
   @abstractmethod
   def __str__(self):
     pass
+
+
+class UniversalBeam(UniversalSection):
+  def __str__(self):
+    return f"Universal Beam (UB) Section: {self.designation}"
+
+
+class UniversalColumn(UniversalSection):
+  def __str__(self):
+    return f"Universal Column (UC) Section: {self.designation}"
+
+
+class UniversalBearingPile(UniversalSection):
+  def __str__(self):
+    return f"Universal Bearing Pile (UBP) Section: {self.designation}"
 
 
 class HotFormedRectangularHollowSection(RectangularHollowSection):
