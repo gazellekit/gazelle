@@ -47,14 +47,18 @@ Please visit [docs.gazelle.sh](https://docs.gazelle.sh) to learn more.
 ## Getting Started
 
 <p align="justify">
-For now, the simplest way to experiment with Gazelle is to install it as a Python package directly from the GitHub repository.
+For now, the simplest way to experiment with Gazelle is to install it as a Python package directly from the GitHub repository using your preferred package manager.
 </p>
 
-```bash
-# Using Poetry
-poetry add git+https://github.com/noblesource/gazelle.git#add-python-support
+### Poetry
 
-# Using Pip
+```bash
+poetry add git+https://github.com/noblesource/gazelle.git#add-python-support
+```
+
+### Pip
+
+```bash
 pip install git+https://github.com/noblesource/gazelle.git@add-python-support
 ```
 
