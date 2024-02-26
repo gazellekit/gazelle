@@ -13,22 +13,21 @@ sourced from the official website: https://www.steelforlifebluebook.co.uk.
 
 import json
 import pathlib
-from enum import Enum
 from abc import ABC, abstractmethod
+from enum import Enum
 from typing import Generic, NewType, Tuple, TypeVar, Union
 
 from gazelle.units import (
-    Area,
-    Carbon,
-    Centimetre,
-    Kilogram,
-    Mass,
-    Metre,
-    Millimetre,
-    SurfaceArea,
-    Tonne
+  Area,
+  Carbon,
+  Centimetre,
+  Kilogram,
+  Mass,
+  Metre,
+  Millimetre,
+  SurfaceArea,
+  Tonne,
 )
-
 
 SectionDesignation = NewType("SectionDesignation", str)
 SectionProperties = NewType("SectionProperties", dict[str, Union[bool, float]])
@@ -54,43 +53,43 @@ class SectionCategory(Enum):
 
 class SteelSectionCategoryNotFound(BaseException):
   """
-  A specified steel section category is either currently unsupported in our 
+  A specified steel section category is either currently unsupported in our
   application, or simply does not exist in the Blue Book data.
   """
 
 
 class SteelSectionDesignationNotFound(BaseException):
   """
-  A specified steel section designation is either currently unsupported in 
+  A specified steel section designation is either currently unsupported in
   our application, or simply does not exist in the Blue Book data.
   """
 
 
 class SteelFabricatorNotSupported(BaseException):
   """
-  The specified steel fabricator either is either currently unsupported in our 
+  The specified steel fabricator either is either currently unsupported in our
   application, or simply does not exist.
   """
 
 
 class SteelSection(ABC):
   """
-  Abstract base class representations common to all steel sections. 
+  Abstract base class representations common to all steel sections.
 
-  Typically, users will not use this module directly. All 'concrete' steel 
-  sections implemented elsewhere within the package inherit from classes within 
-  this module. Users can reliably depend on the attributes and methods defined 
-  herein as the public interface for all steel sections and collections of steel 
+  Typically, users will not use this module directly. All 'concrete' steel
+  sections implemented elsewhere within the package inherit from classes within
+  this module. Users can reliably depend on the attributes and methods defined
+  herein as the public interface for all steel sections and collections of steel
   sections.
 
-  Nevertheless, specific steel section types do provide more specialised, 
-  refined implementations and additional attributes. Therefore, if a particular 
-  attribute has not been defined within the abstract base classes, it is worth 
+  Nevertheless, specific steel section types do provide more specialised,
+  refined implementations and additional attributes. Therefore, if a particular
+  attribute has not been defined within the abstract base classes, it is worth
   checking the specific section implementations.
 
-  The real advantage of this module is that it provides generic behaviours that 
-  are common to all steel sections, regardless of their specific geometries. 
-  For example, all steel sections have a 'mass per metre length', hence it is 
+  The real advantage of this module is that it provides generic behaviours that
+  are common to all steel sections, regardless of their specific geometries.
+  For example, all steel sections have a 'mass per metre length', hence it is
   sensible to capture this behaviour at the top of the class hierarchy.
   """
 
@@ -123,40 +122,41 @@ class SteelSection(ABC):
   @property
   def surface_area_per_metre(self) -> SurfaceArea.PerUnitLength[Metre, Metre]:
     """The surface area per metre length of the section."""
-    return SurfaceArea(self._properties["Surface Area Per Metre (m2)"], Metre) \
-        .per_unit_length(Metre)
+    return SurfaceArea(
+      self._properties["Surface Area Per Metre (m2)"], Metre
+    ).per_unit_length(Metre)
 
   @property
   def surface_area_per_tonne(self) -> SurfaceArea.PerUnitMass[Metre, Tonne]:
     """The surface area per tonne of the section."""
-    return SurfaceArea(self._properties["Surface Area Per Tonne (m2)"], Metre) \
-        .per_unit_mass(Tonne)
+    return SurfaceArea(
+      self._properties["Surface Area Per Tonne (m2)"], Metre
+    ).per_unit_mass(Tonne)
 
   @property
   def carbon_per_metre(self) -> Carbon.PerUnitLength[Metre]:
     """The carbon per metre length of the section."""
-    return Carbon(self._properties["Carbon Per Metre (CO2/m)"]) \
-        .per_unit_length(Metre)
+    return Carbon(self._properties["Carbon Per Metre (CO2/m)"]).per_unit_length(Metre)
 
   def to_json(self):
     """Return a JSON representation of the section."""
     return {
-        "sectionClassification": str(self),
-        "isNonstandard": self.is_nonstandard,
-        "sectionProperties": {
-            "length": self.length.to_json(),
-            "massPerMetreLength": self.mass_per_metre_length.to_json(),
-            "totalMass": self.total_mass.to_json(),
-            "crossSectionalArea": self.cross_sectional_area.to_json(),
-            "surfaceAreaPerMetre": self.surface_area_per_metre.to_json(),
-            "surfaceAreaPerTonne": self.surface_area_per_tonne.to_json(),
-            # "carbonPerMetre": self.carbon_per_metre.to_json()
-        }
+      "sectionClassification": str(self),
+      "isNonstandard": self.is_nonstandard,
+      "sectionProperties": {
+        "length": self.length.to_json(),
+        "massPerMetreLength": self.mass_per_metre_length.to_json(),
+        "totalMass": self.total_mass.to_json(),
+        "crossSectionalArea": self.cross_sectional_area.to_json(),
+        "surfaceAreaPerMetre": self.surface_area_per_metre.to_json(),
+        "surfaceAreaPerTonne": self.surface_area_per_tonne.to_json(),
+        # "carbonPerMetre": self.carbon_per_metre.to_json()
+      },
     }
 
   @abstractmethod
   def __str__(self) -> str:
-      pass
+    pass
 
 
 S = TypeVar("S", bound=SteelSection)
@@ -250,9 +250,9 @@ class UniversalSection(SteelSection, ABC):
         "verticalNotchDimension": self.vertical_notch_dimension.to_json(),
         "radiusOfGyration": {
           "yy": self.radius_of_gyration_yy.to_json(),
-          "zz": self.radius_of_gyration_zz.to_json()
-        }
-      }
+          "zz": self.radius_of_gyration_zz.to_json(),
+        },
+      },
     }
 
   @abstractmethod
@@ -299,8 +299,8 @@ class RectangularHollowSection(SteelSection, ABC):
         "surfaceAreaPerTonne": self.surface_area_per_tonne.to_json(),
         "carbonPerMetre": self.carbon_per_metre.to_json(),
         "flangeThickness": self.flange_thickness.to_json(),
-        "webThickness": self.web_thickness.to_json()
-      }
+        "webThickness": self.web_thickness.to_json(),
+      },
     }
 
   @abstractmethod
@@ -341,8 +341,8 @@ class EllipticalHollowSection(SteelSection, ABC):
         "surfaceAreaPerMetre": self.surface_area_per_metre.to_json(),
         "surfaceAreaPerTonne": self.surface_area_per_tonne.to_json(),
         "carbonPerMetre": self.carbon_per_metre.to_json(),
-        "plateThickness": self.plate_thickness.to_json()
-      }
+        "plateThickness": self.plate_thickness.to_json(),
+      },
     }
 
   @abstractmethod
@@ -377,8 +377,8 @@ class CircularHollowSection(SteelSection, ABC):
         "surfaceAreaPerMetre": self.surface_area_per_metre.to_json(),
         "surfaceAreaPerTonne": self.surface_area_per_tonne.to_json(),
         "carbonPerMetre": self.carbon_per_metre.to_json(),
-        "plateThickness": self.plate_thickness.to_json()
-      }
+        "plateThickness": self.plate_thickness.to_json(),
+      },
     }
 
   @abstractmethod
@@ -405,49 +405,49 @@ class HotFormedRectangularHollowSection(RectangularHollowSection):
   """A hot-formed rectangular hollow section."""
 
   def __str__(self):
-      return f"Hot Formed Rectangular Hollow Section (HF-RHS): {self.designation}"
+    return f"Hot Formed Rectangular Hollow Section (HF-RHS): {self.designation}"
 
 
 class ColdFormedRectangularHollowSection(RectangularHollowSection):
   """A cold-formed rectangular hollow section."""
 
   def __str__(self):
-      return f"Cold Formed Rectangular Hollow Section (CF-RHS): {self.designation}"
+    return f"Cold Formed Rectangular Hollow Section (CF-RHS): {self.designation}"
 
 
 class HotFormedSquareHollowSection(RectangularHollowSection):
   """A hot-formed square hollow section."""
 
   def __str__(self):
-      return f"Hot Formed Square Hollow Section (HF-SHS): {self.designation}"
+    return f"Hot Formed Square Hollow Section (HF-SHS): {self.designation}"
 
 
 class ColdFormedSquareHollowSection(RectangularHollowSection):
   """A cold-formed square hollow section."""
 
   def __str__(self):
-      return f"Cold Formed Square Hollow Section (CF-SHS): {self.designation}"
+    return f"Cold Formed Square Hollow Section (CF-SHS): {self.designation}"
 
 
 class HotFormedCircularHollowSection(CircularHollowSection):
   """A hot-formed circular hollow section."""
 
   def __str__(self):
-      return f"Hot Formed Circular Hollow Section (HF-CHS): {self.designation}"
+    return f"Hot Formed Circular Hollow Section (HF-CHS): {self.designation}"
 
 
 class ColdFormedCircularHollowSection(CircularHollowSection):
   """A cold-formed circular hollow section."""
 
   def __str__(self):
-      return f"Cold Formed Circular Hollow Section (CF-CHS): {self.designation}"
+    return f"Cold Formed Circular Hollow Section (CF-CHS): {self.designation}"
 
 
 class HotFormedEllipticalHollowSection(EllipticalHollowSection):
   """A hot-formed elliptical hollow section."""
 
   def __str__(self):
-      return f"Hot Formed Elliptical Hollow Section (HF-EHS): {self.designation}"
+    return f"Hot Formed Elliptical Hollow Section (HF-EHS): {self.designation}"
 
 
 class SteelFabricator(Generic[S]):
@@ -459,7 +459,9 @@ class SteelFabricator(Generic[S]):
   """
 
   @classmethod
-  def _load_section_data_for(cls, category: SectionCategory) -> dict[SectionDesignation, SectionProperties]:
+  def _load_section_data_for(
+    cls, category: SectionCategory
+  ) -> dict[SectionDesignation, SectionProperties]:
     """
     Returns the properties and dimensions for all sections in a given category,
     as defined in the Steel for Life 'Blue Book'.
@@ -478,33 +480,33 @@ class SteelFabricator(Generic[S]):
     dir_path = pathlib.Path(__file__).parent / ".d/bluebook/properties"
 
     categories = {
-        SectionCategory.UB: dir_path / "ub.json",
-        SectionCategory.UC: dir_path / "uc.json",
-        SectionCategory.PFC: dir_path / "pfc.json",
-        SectionCategory.UBP: dir_path / "ubp.json",
-        SectionCategory.EQUAL_L: dir_path / "equal-l.json",
-        SectionCategory.UNEQUAL_L: dir_path / "unequal-l.json",
-        SectionCategory.COLD_FORMED_CHS: dir_path / "cf-chs.json",
-        SectionCategory.COLD_FORMED_RHS: dir_path / "cf-rhs.json",
-        SectionCategory.COLD_FORMED_SHS: dir_path / "cf-shs.json",
-        SectionCategory.HOT_FORMED_CHS: dir_path / "hf-chs.json",
-        SectionCategory.HOT_FORMED_RHS: dir_path / "hf-rhs.json",
-        SectionCategory.HOT_FORMED_SHS: dir_path / "hf-shs.json",
-        SectionCategory.HOT_FORMED_EHS: dir_path / "hf-ehs.json",
-        SectionCategory.T_SPLIT_FROM_UB: dir_path / "t-split-from-ub.json",
-        SectionCategory.T_SPLIT_FROM_UC: dir_path / "t-split-from-uc.json",
+      SectionCategory.UB: dir_path / "ub.json",
+      SectionCategory.UC: dir_path / "uc.json",
+      SectionCategory.PFC: dir_path / "pfc.json",
+      SectionCategory.UBP: dir_path / "ubp.json",
+      SectionCategory.EQUAL_L: dir_path / "equal-l.json",
+      SectionCategory.UNEQUAL_L: dir_path / "unequal-l.json",
+      SectionCategory.COLD_FORMED_CHS: dir_path / "cf-chs.json",
+      SectionCategory.COLD_FORMED_RHS: dir_path / "cf-rhs.json",
+      SectionCategory.COLD_FORMED_SHS: dir_path / "cf-shs.json",
+      SectionCategory.HOT_FORMED_CHS: dir_path / "hf-chs.json",
+      SectionCategory.HOT_FORMED_RHS: dir_path / "hf-rhs.json",
+      SectionCategory.HOT_FORMED_SHS: dir_path / "hf-shs.json",
+      SectionCategory.HOT_FORMED_EHS: dir_path / "hf-ehs.json",
+      SectionCategory.T_SPLIT_FROM_UB: dir_path / "t-split-from-ub.json",
+      SectionCategory.T_SPLIT_FROM_UC: dir_path / "t-split-from-uc.json",
     }
 
     if category not in categories:
-        raise SteelSectionCategoryNotFound(f"{category.name}.")
+      raise SteelSectionCategoryNotFound(f"{category.name}.")
 
     file = categories[category]
 
     if not file.exists():
-        raise FileNotFoundError(f"Section Category: {category}.")
+      raise FileNotFoundError(f"Section Category: {category}.")
 
     with open(file, "r", encoding="utf-8") as sections:
-        return json.load(sections)
+      return json.load(sections)
 
   # @classmethod
   # def _inject_carbon_data(cls, definitions: dict[SectionDesignation, SectionProperties]) -> dict[SectionDesignation, SectionProperties]:
@@ -529,7 +531,9 @@ class SteelFabricator(Generic[S]):
   #   return definitions
 
   @classmethod
-  def _get_sections_and_constructor_for(cls, category: SectionCategory) -> Tuple[S, dict[SectionDesignation, SectionProperties]]:
+  def _get_sections_and_constructor_for(
+    cls, category: SectionCategory
+  ) -> Tuple[S, dict[SectionDesignation, SectionProperties]]:
     """
     :param SectionCategory category: Selected 'Blue Book' steel section category.
     :return: A tuple containing the constructor and steel section collection.
@@ -537,20 +541,20 @@ class SteelFabricator(Generic[S]):
     """
 
     constructors: dict[SectionCategory, S] = {
-        SectionCategory.UB: UniversalBeam,
-        SectionCategory.UC: UniversalColumn,
-        SectionCategory.UBP: UniversalBearingPile,
-        SectionCategory.HOT_FORMED_RHS: HotFormedRectangularHollowSection,
-        SectionCategory.HOT_FORMED_SHS: HotFormedSquareHollowSection,
-        SectionCategory.HOT_FORMED_CHS: HotFormedCircularHollowSection,
-        SectionCategory.HOT_FORMED_EHS: HotFormedEllipticalHollowSection,
-        SectionCategory.COLD_FORMED_RHS: ColdFormedRectangularHollowSection,
-        SectionCategory.COLD_FORMED_SHS: ColdFormedSquareHollowSection,
-        SectionCategory.COLD_FORMED_CHS: ColdFormedCircularHollowSection,
+      SectionCategory.UB: UniversalBeam,
+      SectionCategory.UC: UniversalColumn,
+      SectionCategory.UBP: UniversalBearingPile,
+      SectionCategory.HOT_FORMED_RHS: HotFormedRectangularHollowSection,
+      SectionCategory.HOT_FORMED_SHS: HotFormedSquareHollowSection,
+      SectionCategory.HOT_FORMED_CHS: HotFormedCircularHollowSection,
+      SectionCategory.HOT_FORMED_EHS: HotFormedEllipticalHollowSection,
+      SectionCategory.COLD_FORMED_RHS: ColdFormedRectangularHollowSection,
+      SectionCategory.COLD_FORMED_SHS: ColdFormedSquareHollowSection,
+      SectionCategory.COLD_FORMED_CHS: ColdFormedCircularHollowSection,
     }
 
     if category not in constructors:
-        raise SteelSectionCategoryNotFound(f"{category}.")
+      raise SteelSectionCategoryNotFound(f"{category}.")
 
     ctor = constructors[category]
     sections = cls._load_section_data_for(category)
@@ -559,7 +563,12 @@ class SteelFabricator(Generic[S]):
     return ctor, sections
 
   @classmethod
-  def make_section(cls, category: SectionCategory, designation: SectionDesignation, length: Metre = Metre(1.0)) -> S:
+  def make_section(
+    cls,
+    category: SectionCategory,
+    designation: SectionDesignation,
+    length: Metre = Metre(1.0),
+  ) -> S:
     """
     Instantiate a specific steel section from a given category. For the full
     list of available steel section designations, the user is advised to
@@ -580,12 +589,14 @@ class SteelFabricator(Generic[S]):
     (ctor, sections) = cls._get_sections_and_constructor_for(category)
 
     if designation not in sections:
-        raise SteelSectionDesignationNotFound(f"{designation}.")
+      raise SteelSectionDesignationNotFound(f"{designation}.")
 
     return ctor(designation, sections[designation], length)
 
   @classmethod
-  def make_all_sections(cls, category: SectionCategory, length: Metre = Metre(1.0)) -> SteelSections[S]:
+  def make_all_sections(
+    cls, category: SectionCategory, length: Metre = Metre(1.0)
+  ) -> SteelSections[S]:
     """
     Instantiates the full collection of steel sections for a given category.
     For the full list of available steel section categories, the user is
