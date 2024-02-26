@@ -1,5 +1,6 @@
-from gazelle.steel import SteelFabricator, SectionCategory
+from gazelle.steel import SectionCategory, SteelFabricator
 
-sections = SteelFabricator.make_all_sections(SectionCategory.UC)
+sections = SteelFabricator.make_all_sections(SectionCategory.UB)
+
 for section in sections:
-    print(f'Section: {section}, width: {section.width}')
+  print(section)
