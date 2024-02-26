@@ -3,7 +3,7 @@ name = "gazelle"
 version = "0.1.0"
 description = "A fast, cross-platform engine for structural analysis & design."
 authors = ["James S. Bayley <https://www.linkedin.com/in/jsbayley>"]
-repository = "https://github.com/noblesource/gazelle"
+repository = "https://github.com/noblesource/gazelle.git"
 homepage = "https://docs.gazelle.sh"
 license = "LICENSE"
 readme = "README.md"
@@ -19,6 +19,9 @@ ruff = "^0.2.2"
 [tool.mypy]
 strict = true
 packages = "gazelle"
+
+[tool.ruff]
+indent-width = 2
 
 [build-system]
 requires = ["poetry-core"]
