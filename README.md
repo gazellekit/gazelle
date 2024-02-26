@@ -15,8 +15,9 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Getting Started](#getting-started)
 - [Open Source](#open-source)
+- [Documentation](#documentation)
+- [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [Community](#community)
 - [Errata](#errata)
@@ -38,6 +39,24 @@
 <p align="justify">
   Gazelle is proudly open-source.
 </p>
+
+## Documentation
+
+Please visit [docs.gazelle.sh](https://docs.gazelle.sh) to learn more.
+
+## Getting Started
+
+<p align="justify">
+For now, the simplest way to experiment with Gazelle is to install it as a Python package directly from the GitHub repository.
+</p>
+
+```bash
+# Using Poetry
+poetry add git+https://github.com/noblesource/gazelle.git#add-python-support
+
+# Using Pip
+pip install git+https://github.com/noblesource/gazelle.git@add-python-support
+```
 
 ## Contributing
 
