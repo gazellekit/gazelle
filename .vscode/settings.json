@@ -36,6 +36,7 @@
 
     "python.analysis.autoFormatStrings": true,
     "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.languageServer": "Pylance",
     "python.testing.pytestEnabled": true,
     "python.testing.pytestPath": "pytest",
 
