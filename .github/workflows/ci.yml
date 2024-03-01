@@ -34,7 +34,7 @@ jobs:
         run: cd ./gazelle/python && poetry install
 
       - name: Run Test Suite
-        run: poetry run pytest
+        run: cd ./gazelle/python && poetry run pytest
 
   setup-go:
     name: Setup Go
@@ -47,4 +47,4 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
-          go-version-file: ./go.mod
+          go-version-file: ./gazelle/go/go.mod
