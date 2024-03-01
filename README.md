@@ -5,11 +5,12 @@
 
   [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/noblesource/gazelle)
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/noblesource/gazelle/blob/main/CODE_OF_CONDUCT.md)
-  
-  [![CI](https://github.com/noblesource/gazelle/actions/workflows/ci.yml/badge.svg)](https://github.com/noblesource/gazelle/actions/workflows/build.yml)
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blueviolet)](https://choosealicense.com/licenses/agpl-3.0/)
   
-  [![Python](https://img.shields.io/badge/Python-3.11-4b8bbe)](https://www.python.org/)
+  [![Go](https://img.shields.io/badge/Go-1.22-00add8)](https://go.dev/)
+  [![Python](https://img.shields.io/badge/Python-3.9_|_3.10_|_3.11_|_3.12-4b8bbe)](https://www.python.org/)
+  
+  [![CI](https://github.com/noblesource/gazelle/actions/workflows/ci.yml/badge.svg)](https://github.com/noblesource/gazelle/actions/workflows/build.yml)
 </div>
 
 ## Table of Contents
