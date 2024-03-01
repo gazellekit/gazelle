@@ -16,7 +16,7 @@ jobs:
     runs-on: Ubuntu-Latest
     strategy:
       matrix:
-        version: ['3.11', '3.12']
+        version: ['3.9', '3.10', '3.11', '3.12']
     
     steps:
       - name: Checkout Repository
@@ -31,7 +31,7 @@ jobs:
         run: pipx install poetry
 
       - name: Install Dependencies
-        run: poetry install
+        run: cd ./gazelle/python && poetry install
 
       - name: Run Test Suite
         run: poetry run pytest
