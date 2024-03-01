@@ -11,8 +11,8 @@ defaults:
     shell: pwsh
 
 jobs:
-  ci:
-    name: CI
+  setup-python:
+    name: Setup Python
     runs-on: Ubuntu-Latest
     strategy:
       matrix:
@@ -35,3 +35,16 @@ jobs:
 
       - name: Run Test Suite
         run: poetry run pytest
+
+  setup-go:
+    name: Setup Go
+    runs-on: Ubuntu-Latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version-file: ./go.mod
