@@ -1,15 +1,17 @@
 [tool.poetry]
 name = "gazelle"
-version = "0.1.0"
+version = "0.1.2"
+packages = [{include = "src" }]
 description = "A fast, cross-platform engine for structural analysis & design."
 authors = ["James S. Bayley <https://www.linkedin.com/in/jsbayley>"]
-repository = "https://github.com/noblesource/gazelle.git"
+repository = "https://github.com/gazellekit/gazelle.git"
 homepage = "https://docs.gazelle.sh"
-license = "LICENSE"
-readme = "README.md"
+license = "../../LICENSE"
+readme = "../../README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.12"
+requests = "^2.31.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.1"
@@ -18,7 +20,7 @@ ruff = "^0.2.2"
 
 [tool.mypy]
 strict = true
-packages = "gazelle"
+packages = "src, tests"
 
 [tool.ruff]
 indent-width = 2

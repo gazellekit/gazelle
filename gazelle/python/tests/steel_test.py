@@ -1,7 +1,5 @@
-from gazelle.steel import (
-  SteelFabricator, 
-  SectionCategory
-)
+from ..src.steel import SectionCategory, SteelFabricator
+
 
 def test_steel():
   sections = SteelFabricator.make_all_sections(SectionCategory.UB)

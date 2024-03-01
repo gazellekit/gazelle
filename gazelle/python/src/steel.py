@@ -3,11 +3,11 @@
 # Copyright (C) 2024 James S. Bayley
 
 """
-The Steel for Life 'Blue Book' is the standard tome used by Structural Engineers 
+The Steel for Life 'Blue Book' is the standard tome used by Structural Engineers
 in the UK to design and specify structural steel sections. The book contains
-a plethora of design data that is fundamental to steel design in accordance with 
-Eurocode 3 (EC3). This module provides a convenient API interface to interact 
-with, and transform, the data captured within the Blue Book. Data has been 
+a plethora of design data that is fundamental to steel design in accordance with
+Eurocode 3 (EC3). This module provides a convenient API interface to interact
+with, and transform, the data captured within the Blue Book. Data has been
 sourced from the official website: https://www.steelforlifebluebook.co.uk.
 """
 
@@ -17,7 +17,7 @@ from abc import ABC, abstractmethod
 from enum import Enum
 from typing import Generic, NewType, Tuple, TypeVar, Union
 
-from gazelle.units import (
+from .units import (
   Area,
   Carbon,
   Centimetre,
