@@ -6,8 +6,6 @@ description = "A fast, cross-platform engine for structural analysis & design."
 authors = ["James S. Bayley <https://www.linkedin.com/in/jsbayley>"]
 repository = "https://github.com/gazellekit/gazelle.git"
 homepage = "https://docs.gazelle.sh"
-license = "../../LICENSE"
-readme = "../../README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.9"
