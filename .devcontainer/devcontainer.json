@@ -1,12 +1,12 @@
 {
 	"name": "Gazelle",
 	"runArgs": ["--name", "gazelle"],
-	"image": "mcr.microsoft.com/devcontainers/dotnet:8.0-bookworm",
+	"build": { "dockerfile": "Dockerfile" },
 	"postCreateCommand": "pwsh Setup.ps1",
+	"privileged": true,
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
-		"ghcr.io/devcontainers/features/github-cli:1": {},
-		"ghcr.io/devcontainers/features/powershell:1": {}
+		"ghcr.io/devcontainers/features/github-cli:1": {}
 	},
 	"customizations": {
 		"vscode": {
@@ -14,13 +14,13 @@
 				"github.copilot",
 				"github.vscode-github-actions",
 				"grapecity.gc-excelviewer",
+				"ms-dotnettools.csdevkit",
 				"ionide.ionide-fsharp",
-				"ms-vscode.powershell",
-				"ms-dotnettools.csharp",
+        "ms-vscode.powershell",
 				"ms-azuretools.vscode-docker",
-				"ms-vscode.powershell",
 				"ms-dotnettools.dotnet-interactive-vscode",
-				"bierner.markdown-preview-github-styles"
+				"bierner.markdown-preview-github-styles",
+				"tamasfe.even-better-toml"
 			]
 		}
 	}
