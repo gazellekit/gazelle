@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: AGPL-3.0-or-later 
+﻿// SPDX-License-Identifier: AGPL-3.0-or-later
 // Gazelle: a fast, cross-platform engine for structural analysis & design.
 // Copyright (C) 2024 James S. Bayley
 
@@ -8,15 +8,15 @@ namespace Gazelle.Geometry
 /// Orthogonal geometric axis.
 /// </summary>
 type Axis =
-  | X
-  | Y
+    | X
+    | Y
 
 /// <summary>
 /// Orthogonal axis about which rotation occurs.
 /// </summary>
 type RotationalAxis =
-  | XX
-  | YY
+    | XX
+    | YY
 
 /// <summary>
 /// Length dimension annotated with unit-of-measure.
@@ -48,8 +48,8 @@ type Perimeter<[<Measure>] 'TUnit> = Perimeter of float<'TUnit>
 /// Union type represents possible area semantics.
 /// </summary>
 type Area<[<Measure>] 'TUnit> =
-  | CrossSectionalArea of float<'TUnit^2>
-  | SurfaceArea of float<'TUnit^2>
+    | CrossSectionalArea of float<'TUnit^2>
+    | SurfaceArea of float<'TUnit^2>
 
 /// <summary>
 /// Volume dimension annotated with unit-of-measure.
