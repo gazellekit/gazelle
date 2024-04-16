@@ -3,7 +3,6 @@ Set-Location $PSScriptRoot
 $DirectoryCommands = @(
   @{ RelativePath = "."; Command = "sudo dotnet workload update" }
   @{ RelativePath = "."; Command = "dotnet tool restore" }
-  @{ RelativePath = "."; Command = "dotnet tool install --global PowerShell" }
   @{ RelativePath = "."; Command = "dotnet restore" }
 ) 
 
