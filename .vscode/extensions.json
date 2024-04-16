@@ -3,12 +3,12 @@
     "github.copilot",
     "github.vscode-github-actions",
     "grapecity.gc-excelviewer",
+    "ms-dotnettools.csdevkit",
     "ionide.ionide-fsharp",
     "ms-vscode.powershell",
-    "ms-dotnettools.csharp",
     "ms-azuretools.vscode-docker",
-    "ms-vscode.powershell",
     "ms-dotnettools.dotnet-interactive-vscode",
-    "bierner.markdown-preview-github-styles"
+    "bierner.markdown-preview-github-styles",
+    "tamasfe.even-better-toml"
   ]
 }
