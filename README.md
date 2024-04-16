@@ -3,10 +3,10 @@
   <h1>Gazelle</h1>
   <p>A fast, cross-platform engine for structural analysis & design.</p>
 
-  [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/GazelleKit/gazelle)
-  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/GazelleKit/gazelle/blob/main/CODE_OF_CONDUCT.md)
+  [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/noblesource/gazelle)
+  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/noblesource/gazelle/blob/main/CODE_OF_CONDUCT.md)
   
-  [![CI](https://github.com/GazelleKit/gazelle/actions/workflows/ci.yml/badge.svg)](https://github.com/GazelleKit/gazelle/actions/workflows/build.yml)
+  [![CI](https://github.com/GazelleKit/gazelle/actions/workflows/ci.yml/badge.svg)](https://github.com/GazelleKit/gazelle/actions/workflows/ci.yml)
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-00add8)](https://choosealicense.com/licenses/agpl-3.0/)
   
   [![.NET](https://img.shields.io/badge/.NET-8.0-8a2be2)](https://dotnet.microsoft.com)
@@ -86,5 +86,5 @@
 </p>
 
 <p align="justify">
-  We recommend that all users carefully review the code, tests and documentation. Please submit error reports and suggestions for improvement via <a href="https://github.com/calcpadstudio/gazelle/issues" target="_blank">GitHub Issues</a>. For anyone who would like to attempt a fix or improvement, we would encourage you to review our <a href="#contributing">Contributing</a> guidance and submit a Pull Request.
+  We recommend that all users carefully review the code, tests and documentation. Please submit error reports and suggestions for improvement via <a href="https://github.com/noblesource/gazelle/issues" target="_blank">GitHub Issues</a>. For anyone who would like to attempt a fix or improvement, we would encourage you to review our <a href="#contributing">Contributing</a> guidance and submit a Pull Request.
 </p>
