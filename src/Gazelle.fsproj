@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>James S. Bayley</Authors>
+    <Company>GazelleKit</Company>
+    <TargetFramework>net8.0</TargetFramework>
+    <RepositoryUrl>https://github.com/gazellekit/gazelle</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageDescription>A fast, cross-platform engine for structural analysis and design.</PackageDescription>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageId>Gazelle</PackageId>
+    <IsPackable>true</IsPackable>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="units\Units.fs" />
+    <Compile Include="units\Annotation.fs" />
+    <Compile Include="units\Conversion.fs" />
+    <Compile Include="units\Math.fs" />
+    <Compile Include="Geometry.fs" />
+  </ItemGroup>
+
+</Project>

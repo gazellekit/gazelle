@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: Gazelle
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: James
+    family-names: Bayley
+repository-code: 'https://github.com/gazellekit/gazelle'
+abstract: >-
+  A fast, cross-platform engine for structural analysis &
+  design.
+keywords:
+  - Civil Engineering
+  - Structural Engineering
+license: AGPL-3.0-or-later

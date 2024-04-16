@@ -11,15 +11,24 @@ defaults:
     shell: pwsh
 
 jobs:
-  build:
-    name: Build
+  setup: 
+    name: CI
     runs-on: Ubuntu-Latest
-    
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Setup Go
-        uses: actions/setup-go@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
         with:
-          go-version-file: ./go.mod
+          dotnet-version: "8.0.x"
+
+      - name: Restore Project
+        run: ./Setup.ps1
+  
+      - name: Check Code Formatting
+        run: dotnet fantomas . --check
+
+      - name: Run Test Suite
+        run: dotnet test
