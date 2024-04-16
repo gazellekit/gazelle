@@ -12,7 +12,7 @@ defaults:
 
 jobs:
   setup: 
-    name: Setup
+    name: CI
     runs-on: Ubuntu-Latest
 
     steps:
@@ -24,18 +24,9 @@ jobs:
         with:
           dotnet-version: "8.0.x"
 
-  ci:
-    name: CI
-    runs-on: Ubuntu-Latest
-    needs: [setup]
-
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
       - name: Restore
         run: dotnet restore
-
+  
       - name: Format
         run: dotnet fantomas . --check
 
