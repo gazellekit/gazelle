@@ -1,44 +1,46 @@
 {  
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": "active",
-    "editor.inlineSuggest.enabled": true,
-    "editor.rulers": [100],
-    "editor.tabSize": 2,
+  "editor.rulers": [80],
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
 
-    "debug.internalConsoleOptions": "neverOpen",
-    
-    "diffEditor.ignoreTrimWhitespace": false,
+  "debug.internalConsoleOptions": "neverOpen",
+  
+  "diffEditor.ignoreTrimWhitespace": false,
 
-    "files.exclude": {
-      "**/.git": false,
-      "**/obj": true,
-    },
-   
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    
-    "github.copilot.enable": {
-      "*": true,
-      "yaml": true,
-      "plaintext": false,
-      "markdown": false
-    },
+  "files.exclude": {
+    "**/.git": false,
+    "**/obj": true,
+    "**/bin": true
+  },
+  
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": false
+  },
 
-    "[fsharp]": {
-      "editor.rulers": [80],
-      "editor.formatOnSave": true,
-      "editor.defaultFormatter": "Ionide.Ionide-fsharp"
-    },
+  "[fsharp]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
+  },
 
-    "powershell.powerShellDefaultVersion": "7",
-    "powershell.integratedConsole.showOnStartup": false,
-    "powershell.powerShellAdditionalExePaths": {
-      "pwsh": "/usr/local/bin/pwsh"
-    },
+  "powershell.powerShellDefaultVersion": "7",
+  "powershell.integratedConsole.showOnStartup": false,
+  "powershell.powerShellAdditionalExePaths": {
+    "pwsh": "/usr/bin/pwsh"
+  },
 
-    "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco",
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco",
 
-    "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editor.wrapTabs": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.wrapTabs": true,
 }
