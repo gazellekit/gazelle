@@ -5,10 +5,9 @@
 
   [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/gazellekit/gazelle)
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/gazellekit/gazelle/blob/main/CODE_OF_CONDUCT.md)
-  [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-00add8)](https://choosealicense.com/licenses/agpl-3.0/)
   
-  [![Staging](https://github.com/gazellekit/gazelle/actions/workflows/staging.yml/badge.svg)](https://github.com/gazellekit/gazelle/actions/workflows/staging.yml)
-  [![Production](https://github.com/gazellekit/gazelle/actions/workflows/production.yml/badge.svg)](https://github.com/gazellekit/gazelle/actions/workflows/production.yml)
+  [![CI](https://github.com/gazellekit/gazelle/actions/workflows/ci.yml/badge.svg)](https://github.com/gazellekit/gazelle/actions/workflows/ci.yml)
+  [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-00add8)](https://choosealicense.com/licenses/agpl-3.0/)
   
   [![.NET](https://img.shields.io/badge/.NET-8.0-8a2be2)](https://dotnet.microsoft.com)
 </div>
