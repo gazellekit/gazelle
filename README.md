@@ -16,8 +16,8 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Getting Started](#getting-started)
-- [The Gazelle CLI](#the-gazelle-cli)
+- [Supported Platforms](#supported-platforms)
+- [Why F#](#why-f)
 - [Open Source](#open-source)
 - [Contributing](#contributing)
 - [Community](#community)
@@ -48,16 +48,6 @@ Gazelle runs everywhere that [.NET](https://dotnet.microsoft.com/en-us/learn/dot
 
 In fact, the project is actively developed on Ubuntu Linux running inside of [GitHub Codespaces](https://github.com/features/codespaces).
 
-## Open Source
-
-<p align="justify">
-  Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. However, the vast majority of professional engineering software is, regrettably, closed source and proprietary. This is unfair and must change. Engineers should be offered the respect and freedom to inspect, validate and influence the algorithms used to design our buildings and bridges. 
-</p>
-
-<p align="justify">
-  Gazelle is proudly open-source.
-</p>
-
 ## Why F#?
 
 <p align="justify">
@@ -74,6 +64,16 @@ In fact, the project is actively developed on Ubuntu Linux running inside of [Gi
 For some, the choice of F# will be an odd one. However, we believe it's perfect for solving our domain problems. We also really enjoy working with the language and want to see it more widely adopted.
 
 > One who takes the road less traveled earns the rewards most missed. - Matshona Dhliwayo
+
+## Open Source
+
+<p align="justify">
+  Engineers accept phenomenal responsibility when dedicating their lives to improve our built environment. However, the vast majority of professional engineering software is, regrettably, closed source and proprietary. This is unfair and must change. Engineers should be offered the respect and freedom to inspect, validate and influence the algorithms used to design our buildings and bridges. 
+</p>
+
+<p align="justify">
+  Gazelle is proudly open-source.
+</p>
 
 ## Contributing
 
