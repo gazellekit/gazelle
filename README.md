@@ -25,23 +25,28 @@
 
 ## Overview
 
-<p align="justify">
-  Gazelle is a fast, efficient and lightweight engine for structural analysis and design. The project aspires to accelerate AEC software innovation, underpin academic research and support Structural Engineering education. Gazelle favours radical simplicity, loosely follows the Unix Philosophy, and offers a truly cross-platform alternative to traditional engineering software.
-</p>
+Gazelle aspires to: 
 
-> One who takes the road less traveled earns the rewards most missed. - Matshona Dhliwayo
+1. Underpin academic research.
+2. Support Structural Engineering education.
+3. Accelerate AEC software innovation.
+4. Offer first-class support for [Polyglot Notebooks](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode).
+5. Demonstrate that F# is ideal for Civil Engineers.
 
-## Getting Started
+## Supported Platforms
 
-<p align="justify">
-  Gazelle is a daemon service that can run both locally and remotely. It adopts a typical, language-agnostic, client-server architecture by exposing its API over HTTP. This pattern was inspired by Docker (specifically <code>dockerd</code>).
-</p>
+Gazelle runs everywhere that [.NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet) runs!
 
-## The Gazelle CLI
+- Windows, 
+- Linux, 
+- MacOS, 
+- iOS, 
+- Android, 
+- IoT, 
+- WASM
+- And more...
 
-<p align="justify">
-  An official Gazelle CLI will be supported. More details to follow.
-</p>
+In fact, the project is actively developed on Ubuntu Linux running inside of [GitHub Codespaces](https://github.com/features/codespaces).
 
 ## Open Source
 
@@ -53,10 +58,27 @@
   Gazelle is proudly open-source.
 </p>
 
+## Why F#?
+
+<p align="justify">
+  Many programming languages were considered before committing to [F#](https://dotnet.microsoft.com/en-us/languages/fsharp). Whilst the community of F# developers is smaller than for C#, Python, JavaScript, Rust etc. the language offers a number of distinct features that make it ideal for Civil & Structural Engineering software.
+</p>
+
+1. **Runs on .NET:** this makes it fast, extremely portable and fully interoperable with C#.
+2. **Polyglot Notebooks:** F# has great support for Polyglot Notebooks in VSCode. Check out our [examples](./examples/). 
+3. **Functional-first:** the FP paradigm allows for succinct, maintainable, elegant solutions.
+4. **Units-of-Measure:** mathematical unit systems (e.g., Metres, Newtons) can be [encoded and checked at compile time](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/units-of-measure)!
+5. **Great for Cloud:** REST API services are stateless by definition; the Functional Programming paradigm mirrors this nicely.
+6. **ML type system:** it's very strict and if your code *builds* it probably runs too!
+
+For some, the choice of F# will be an odd one. However, we believe it's perfect for solving our domain problems. We also really enjoy working with the language and want to see it more widely adopted.
+
+> One who takes the road less traveled earns the rewards most missed. - Matshona Dhliwayo
+
 ## Contributing
 
 <p align="justify">
-  For those interested in helping to build Gazelle, please ⭐️ and 'watch' this repository so that you can track its progress in real-time.
+  For those interested in helping to build [Gazelle](https://github.com/gazellekit/gazelle), please ⭐️ and 'watch' this repository so that you can track its progress in real-time.
 </p>
 
 <p align="justify">
@@ -74,11 +96,24 @@
   For those keen to build upon the core Gazelle engine and extend its reach and capabilities, here are a few suggested project ideas: 
 </p>
 
-- Create a dedicated Graphical User Interface (GUI) atop the HTTP API,
-- Develop bespoke plugins so that other software can benefit from Gazelle,
 - Organise local meetups to discuss how Gazelle could enhance your existing workflows,
 - Plan conferences and community engagement events to broaden Gazelle's adoption,
-- For .NET developers, consider importing Gazelle as a library into your own projects.
+- Install the Gazelle NuGet package and run it inside Polyglot Notebooks.
+
+```fsharp
+// Polyglot Notebooks sample.
+
+// Install package from NuGet Package Gallery.
+#r "nuget: Gazelle" 
+
+
+open Gazelle.Units
+
+let moment = 2.5<kNm>
+let force = 5.0<kN>
+
+printfn $"Moment / Force = %.2f{moment / force} m" // => 0.50 m
+```
 
 ## Errata
 
@@ -87,5 +122,5 @@
 </p>
 
 <p align="justify">
-  We recommend that all users carefully review the code, tests and documentation. Please submit error reports and suggestions for improvement via <a href="https://github.com/noblesource/gazelle/issues" target="_blank">GitHub Issues</a>. For anyone who would like to attempt a fix or improvement, we would encourage you to review our <a href="#contributing">Contributing</a> guidance and submit a Pull Request.
+  We recommend that all users carefully review the code, tests and documentation. Please submit error reports and suggestions for improvement via <a href="https://github.com/gazellekit/gazelle/issues" target="_blank">GitHub Issues</a>. For anyone who would like to attempt a fix or improvement, we would encourage you to review our <a href="#contributing">Contributing</a> guidance and submit a Pull Request.
 </p>
