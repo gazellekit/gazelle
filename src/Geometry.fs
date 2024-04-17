@@ -8,15 +8,15 @@ namespace Gazelle.Geometry
 /// Orthogonal geometric axis.
 /// </summary>
 type Axis =
-    | X
-    | Y
+  | X
+  | Y
 
 /// <summary>
 /// Orthogonal axis about which rotation occurs.
 /// </summary>
 type RotationalAxis =
-    | XX
-    | YY
+  | XX
+  | YY
 
 /// <summary>
 /// Length dimension annotated with unit-of-measure.
@@ -48,8 +48,8 @@ type Perimeter<[<Measure>] 'TUnit> = Perimeter of float<'TUnit>
 /// Union type represents possible area semantics.
 /// </summary>
 type Area<[<Measure>] 'TUnit> =
-    | CrossSectionalArea of float<'TUnit^2>
-    | SurfaceArea of float<'TUnit^2>
+  | CrossSectionalArea of float<'TUnit^2>
+  | SurfaceArea of float<'TUnit^2>
 
 /// <summary>
 /// Volume dimension annotated with unit-of-measure.
@@ -59,4 +59,5 @@ type Volume<[<Measure>] 'TUnit> = Volume of float<'TUnit^3>
 /// <summary>
 /// Second moment of area dimension annotated with unit-of-measure.
 /// </summary>
-type SecondMomentOfArea<[<Measure>] 'TUnit> = SecondMomentOfArea of float<'TUnit^4>
+type SecondMomentOfArea<[<Measure>] 'TUnit> =
+  | SecondMomentOfArea of float<'TUnit^4>

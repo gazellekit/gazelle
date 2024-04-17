@@ -45,14 +45,17 @@ type bars
 /// <summary>
 /// Unit of density.
 /// </summary>
-type Density<[<Measure>] 'TMass, [<Measure>] 'TLength> = Density of float<'TMass / 'TLength^3>
+type Density<[<Measure>] 'TMass, [<Measure>] 'TLength> =
+  | Density of float<'TMass / 'TLength^3>
 
 /// <summary>
 /// Unit of mechanical stress.
 /// </summary>
-type Stress<[<Measure>] 'TForce, [<Measure>] 'TLength> = Stress of float<'TForce / 'TLength^2>
+type Stress<[<Measure>] 'TForce, [<Measure>] 'TLength> =
+  | Stress of float<'TForce / 'TLength^2>
 
 /// <summary>
 /// Unit of mechanical pressure.
 /// </summary>
-type Pressure<[<Measure>] 'TForce, [<Measure>] 'TLength> = Stress<'TForce, 'TLength>
+type Pressure<[<Measure>] 'TForce, [<Measure>] 'TLength> =
+  Stress<'TForce, 'TLength>
