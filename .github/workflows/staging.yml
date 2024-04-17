@@ -1,4 +1,4 @@
-name: CI
+name: Staging
 
 on:
   push:
@@ -11,8 +11,9 @@ defaults:
     shell: pwsh
 
 jobs:
-  setup: 
+  ci: 
     name: CI
+    environment: Staging
     runs-on: Ubuntu-Latest
 
     steps:
@@ -22,7 +23,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: "8.0.x"
+          dotnet-version: "8.x.x"
 
       - name: Restore Project
         run: ./Setup.ps1
