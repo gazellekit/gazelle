@@ -5,10 +5,10 @@
 namespace Gazelle.Concrete
 
 type DesignSituation =
-    | Persistent
-    | Transient
-    | Accidental
+  | Persistent
+  | Transient
+  | Accidental
 
 type LimitState =
-    | ULS of DesignSituation
-    | SLS
+  | ULS of DesignSituation
+  | SLS

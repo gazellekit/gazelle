@@ -5,8 +5,8 @@ open Xunit
 
 module GeometryTests =
 
-    [<Fact>]
-    let ``Mock Test`` () = Assert.True(true)
+  [<Fact>]
+  let ``Mock Test`` () = Assert.True(true)
 
 //     module CuboidTests =
 
