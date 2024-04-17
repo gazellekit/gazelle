@@ -18,7 +18,7 @@
 - [Overview](#overview)
 - [Supported Platforms](#supported-platforms)
 - [Documentation](#documentation)
-- [Why F#](#why-f)
+- [Why F#?](#why-f)
 - [Open Source](#open-source)
 - [Contributing](#contributing)
 - [Community](#community)
