@@ -1,4 +1,4 @@
-name: Staging
+name: CI
 
 on:
   push:
@@ -13,7 +13,6 @@ defaults:
 jobs:
   ci: 
     name: CI
-    environment: Staging
     runs-on: Ubuntu-Latest
 
     steps:
