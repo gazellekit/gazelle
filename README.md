@@ -17,6 +17,7 @@
 
 - [Overview](#overview)
 - [Supported Platforms](#supported-platforms)
+- [Documentation](#documentation)
 - [Why F#](#why-f)
 - [Open Source](#open-source)
 - [Contributing](#contributing)
@@ -47,6 +48,10 @@ Gazelle runs everywhere that [.NET](https://dotnet.microsoft.com/en-us/learn/dot
 - And more...
 
 In fact, the project is actively developed on Ubuntu Linux running inside of [GitHub Codespaces](https://github.com/features/codespaces).
+
+## Documentation
+
+Please visit [docs.gazelle.sh](https://docs.gazelle.sh) to learn more.
 
 ## Why F#?
 
