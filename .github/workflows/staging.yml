@@ -1,4 +1,4 @@
-name: CI
+name: Staging
 
 on:
   push:
@@ -11,8 +11,9 @@ defaults:
     shell: pwsh
 
 jobs:
-  setup: 
+  ci: 
     name: CI
+    environment: Staging
     runs-on: Ubuntu-Latest
 
     steps:
