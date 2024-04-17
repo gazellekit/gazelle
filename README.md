@@ -31,8 +31,9 @@ Gazelle aspires to:
 1. Underpin academic research.
 2. Support Structural Engineering education.
 3. Accelerate AEC software innovation.
-4. Offer first-class support for [Polyglot Notebooks](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode).
-5. Demonstrate that F# is ideal for Civil Engineers.
+4. Become an authoritative *source of truth*.
+5. Offer first-class support for [Polyglot Notebooks](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode).
+6. Demonstrate that F# is ideal for Civil Engineers.
 
 ## Supported Platforms
 
@@ -56,7 +57,7 @@ Please visit [docs.gazelle.sh](https://docs.gazelle.sh) to learn more.
 ## Why F#?
 
 <p align="justify">
-  Many programming languages were considered before committing to [F#](https://dotnet.microsoft.com/en-us/languages/fsharp). Whilst the community of F# developers is smaller than for C#, Python, JavaScript, Rust etc. the language offers a number of distinct features that make it ideal for Civil & Structural Engineering software.
+  Many programming languages were considered before committing to <a href="https://dotnet.microsoft.com/en-us/languages/fsharp" target="_blank">F#</a>. Whilst the community of F# developers is smaller than for C#, Python, JavaScript, Rust etc. the language offers a number of distinct features that make it ideal for Civil & Structural Engineering software.
 </p>
 
 1. **Runs on .NET:** this makes it fast, extremely portable and fully interoperable with C#.
@@ -64,7 +65,7 @@ Please visit [docs.gazelle.sh](https://docs.gazelle.sh) to learn more.
 3. **Functional-first:** the FP paradigm allows for succinct, maintainable, elegant solutions.
 4. **Units-of-Measure:** mathematical unit systems (e.g., Metres, Newtons) can be [encoded and checked at compile time](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/units-of-measure)!
 5. **Great for Cloud:** REST API services are stateless by definition; the Functional Programming paradigm mirrors this nicely.
-6. **ML type system:** it's very strict and if your code *builds* it probably runs too!
+6. **ML type system:** it's very strict and if your code *builds* then it probably runs too!
 
 For some, the choice of F# will be an odd one. However, we believe it's perfect for solving our domain problems. We also really enjoy working with the language and want to see it more widely adopted.
 
@@ -83,7 +84,7 @@ For some, the choice of F# will be an odd one. However, we believe it's perfect 
 ## Contributing
 
 <p align="justify">
-  For those interested in helping to build [Gazelle](https://github.com/gazellekit/gazelle), please ⭐️ and 'watch' this repository so that you can track its progress in real-time.
+  For those interested in helping to build <a href="https://github.com/gazellekit/gazelle" target="_blank">Gazelle</a>, please ⭐️ and 'watch' this repository so that you can track its progress in real-time.
 </p>
 
 <p align="justify">
