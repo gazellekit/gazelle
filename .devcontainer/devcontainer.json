@@ -20,7 +20,8 @@
 				"ms-azuretools.vscode-docker",
 				"ms-dotnettools.dotnet-interactive-vscode",
 				"bierner.markdown-preview-github-styles",
-				"tamasfe.even-better-toml"
+				"tamasfe.even-better-toml",
+        "redhat.vscode-xml"
 			]
 		}
 	}
