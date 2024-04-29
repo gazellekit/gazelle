@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Authors>James S. Bayley</Authors>
-    <Company>GazelleKit</Company>
+    <Company>Gazelle Kit</Company>
     <TargetFramework>net8.0</TargetFramework>
     <RepositoryUrl>https://github.com/gazellekit/gazelle</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
