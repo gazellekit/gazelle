@@ -1,3 +1,3 @@
 # Gazelle
 
-A fast, cross-platform engine for structural analysis & design.
+The .NET SDK for Civil Engineers.
