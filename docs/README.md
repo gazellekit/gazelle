@@ -1,9 +1,15 @@
 ---
-description: A fast, cross-platform engine for structural analysis & design.
+description: The .NET SDK for Civil Engineers.
 ---
 
 # Welcome
 
-Welcome to Gazelle.
+This is Gazelle Kit.
 
-We're an open-source, community-led project looking to accelerate AEC innovation, underpin academic research and support Structural Engineering education. Let's get started!
+We're an open-source, community-led project looking to: 
+
+- Accelerate AEC innovation, 
+- Underpin academic research, and 
+- Support Civil & Structural Engineering education. 
+
+Let's get started!
