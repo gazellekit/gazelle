@@ -8,7 +8,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
-    <PackageDescription>A fast, cross-platform engine for structural analysis and design.</PackageDescription>
+    <PackageDescription>The .NET SDK for Civil Engineers.</PackageDescription>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageId>Gazelle</PackageId>
     <IsPackable>true</IsPackable>

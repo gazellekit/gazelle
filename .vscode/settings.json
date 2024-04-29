@@ -13,8 +13,8 @@
 
   "files.exclude": {
     "**/.git": false,
-    "**/obj": true,
-    "**/bin": true
+    "**/bin": false,
+    "**/obj": true
   },
   
   "git.autofetch": true,
@@ -33,11 +33,9 @@
     "editor.defaultFormatter": "Ionide.Ionide-fsharp"
   },
 
-  "powershell.powerShellDefaultVersion": "7",
+  "powershell.powerShellDefaultVersion": "PowerShell",
   "powershell.integratedConsole.showOnStartup": false,
-  "powershell.powerShellAdditionalExePaths": {
-    "pwsh": "/usr/bin/pwsh"
-  },
+  "powershell.suppressAdditionalExeNotFoundWarning": false,
 
   "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco",
 
