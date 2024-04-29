@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Gazelle</h1>
+  <h1>Gazelle Kit</h1>
   <p>The .NET SDK for Civil Engineers.</p>
 
   [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/gazellekit/gazelle)
