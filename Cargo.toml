@@ -7,6 +7,6 @@ edition = "2021"
 pyo3 = { version = "0.21.2", features = ["extension-module"] }
 
 [lib]
-name = "gazellekit"
+name = "gazelle"
 crate-type = ["cdylib"]
 
