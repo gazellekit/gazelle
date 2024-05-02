@@ -8,7 +8,7 @@
   [![CI](https://github.com/gazellekit/gazelle/actions/workflows/ci.yml/badge.svg)](https://github.com/gazellekit/gazelle/actions/workflows/ci.yml)
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-00add8)](https://choosealicense.com/licenses/agpl-3.0/)
   
-  [![Rust](https://img.shields.io/badge/Rust-1.78.0-8a2be2)](https://www.rust-lang.org)
+  [![Rust](https://img.shields.io/badge/Rust-1.78.0-ce412b)](https://www.rust-lang.org)
 </div>
 
 ## Table of Contents
