@@ -9,6 +9,7 @@
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-00add8)](https://choosealicense.com/licenses/agpl-3.0/)
   
   [![Rust](https://img.shields.io/badge/Rust-1.78.0-ce412b)](https://www.rust-lang.org)
+  [![Python](https://img.shields.io/badge/Python-3.12-3776ab)](https://www.python.org)
 </div>
 
 ## Table of Contents
