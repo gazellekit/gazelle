@@ -22,10 +22,11 @@
 
 ## Project Goals
 
-- Underpin academic research.
-- Accelerate AEC software innovation.
-- Support civil and structural engineering education.
-- Provide a stable platform for higher-level language bindings.
+- Accelerate AEC innovation,
+- Underpin academic research,
+- Support Civil Engineering education,
+- Offer first-class Python support out-of-the-box,
+- Provide a stable platform for high-level language bindings.
 
 ## Documentation
 
