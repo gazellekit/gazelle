@@ -1,10 +1,13 @@
 {
   "recommendations": [
     "bierner.markdown-preview-github-styles",
+    "charliermarsh.ruff",
     "github.copilot",
     "github.vscode-github-actions",
     "grapecity.gc-excelviewer",
     "ms-azuretools.vscode-docker",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
     "ms-vscode.powershell",
     "redhat.vscode-xml",
     "rust-lang.rust-analyzer",
