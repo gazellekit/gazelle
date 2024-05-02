@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gazelle"
+version = "0.1.0"
+readme = "README.md"
+description = "A fast engine for civil engineering design."
+repository = "https://github.com/gazellekit/gazelle.git"
+authors = ["James S. Bayley <https://www.linkedin.com/in/jsbayley>"]
+license = "AGPL-3.0-or-later"
+packages = [{ include = "bindings/python" }]
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.1"
+ruff = "^0.2.2"
+
+[tool.ruff]
+indent-width = 2
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
