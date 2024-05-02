@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>Gazelle Kit</h1>
-  <p>A faster, safer engine for civil engineering design.</p>
+  <h1>Gazelle</h1>
+  <p>A fast engine for civil engineering design.</p>
 
   [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/gazellekit/gazelle)
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/gazellekit/gazelle/blob/main/.github/CODE_OF_CONDUCT.md)
@@ -24,6 +24,7 @@
 - Underpin academic research.
 - Accelerate AEC software innovation.
 - Support civil and structural engineering education.
+- Provide a stable platform for higher-level language bindings.
 
 ## Documentation
 
@@ -57,7 +58,7 @@ Please visit [docs.gazelle.sh](https://docs.gazelle.sh) to learn more.
 ## Errata
 
 <p align="justify">
-  Gazelle aspires to achieve the highest standards of professional rigour. We consider Structural Analysis & Design software to be safety critical. We strive to ensure stability, robustness and correctness throughout the source code, test suite and companion documentation. Nevertheless, our team are human and mistakes <em>are</em> possible. 
+  Gazelle aspires to achieve the highest standards of professional rigour. We consider Civil Engineering software to be safety critical. We strive to ensure stability, robustness and correctness throughout the source code, test suite and companion documentation. Nevertheless, our team are human and mistakes <em>are</em> possible. 
 </p>
 
 <p align="justify">
