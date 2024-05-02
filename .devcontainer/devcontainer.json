@@ -2,26 +2,25 @@
 	"name": "Gazelle",
 	"runArgs": ["--name", "gazelle"],
 	"build": { "dockerfile": "Dockerfile" },
-	"postCreateCommand": "pwsh Setup.ps1",
 	"privileged": true,
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
-		"ghcr.io/devcontainers/features/github-cli:1": {}
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/powershell": {},
+    "ghcr.io/devcontainers/features/rust:1": {}
 	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"bierner.markdown-preview-github-styles",
 				"github.copilot",
 				"github.vscode-github-actions",
 				"grapecity.gc-excelviewer",
-				"ms-dotnettools.csdevkit",
-				"ionide.ionide-fsharp",
-        "ms-vscode.powershell",
 				"ms-azuretools.vscode-docker",
-				"ms-dotnettools.dotnet-interactive-vscode",
-				"bierner.markdown-preview-github-styles",
-				"tamasfe.even-better-toml",
-        "redhat.vscode-xml"
+        "ms-vscode.powershell",
+        "redhat.vscode-xml",
+        "rust-lang.rust-analyzer",
+				"tamasfe.even-better-toml"
 			]
 		}
 	}

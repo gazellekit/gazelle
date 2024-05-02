@@ -1,5 +1,5 @@
 ---
-description: The .NET SDK for Civil Engineers.
+description: A faster, safer engine for civil engineering design.
 ---
 
 # Welcome

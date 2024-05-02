@@ -1,15 +1,13 @@
 {
   "recommendations": [
+    "bierner.markdown-preview-github-styles",
     "github.copilot",
     "github.vscode-github-actions",
     "grapecity.gc-excelviewer",
-    "ms-dotnettools.csdevkit",
-    "ionide.ionide-fsharp",
-    "ms-vscode.powershell",
     "ms-azuretools.vscode-docker",
-    "ms-dotnettools.dotnet-interactive-vscode",
-    "bierner.markdown-preview-github-styles",
-    "tamasfe.even-better-toml",
-    "redhat.vscode-xml"
+    "ms-vscode.powershell",
+    "redhat.vscode-xml",
+    "rust-lang.rust-analyzer",
+    "tamasfe.even-better-toml"
   ]
 }

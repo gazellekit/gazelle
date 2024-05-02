@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Gazelle Kit</h1>
-  <p>The .NET SDK for Civil Engineers.</p>
+  <p>A faster, safer engine for civil engineering design.</p>
 
   [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/gazellekit/gazelle)
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/gazellekit/gazelle/blob/main/.github/CODE_OF_CONDUCT.md)
@@ -8,14 +8,13 @@
   [![CI](https://github.com/gazellekit/gazelle/actions/workflows/ci.yml/badge.svg)](https://github.com/gazellekit/gazelle/actions/workflows/ci.yml)
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-00add8)](https://choosealicense.com/licenses/agpl-3.0/)
   
-  [![.NET](https://img.shields.io/badge/.NET-8.0-8a2be2)](https://dotnet.microsoft.com)
+  [![Rust](https://img.shields.io/badge/Rust-1.78.0-8a2be2)](https://www.rust-lang.org)
 </div>
 
 ## Table of Contents
 
 - [Project Goals](#project-goals)
 - [Documentation](#documentation)
-- [Supported Platforms](#supported-platforms)
 - [Open Source](#open-source)
 - [Contributing](#contributing)
 - [Errata](#errata)
@@ -29,19 +28,6 @@
 ## Documentation
 
 Please visit [docs.gazelle.sh](https://docs.gazelle.sh) to learn more.
-
-## Supported Platforms
-
-Gazelle runs everywhere that [.NET](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet) runs!
-
-- Windows, 
-- Linux, 
-- MacOS, 
-- iOS, 
-- Android, 
-- IoT, 
-- WASM
-- And more...
 
 ## Open Source
 

@@ -28,16 +28,11 @@
     "markdown": false
   },
 
-  "[fsharp]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
-  },
-
   "powershell.powerShellDefaultVersion": "PowerShell",
   "powershell.integratedConsole.showOnStartup": false,
   "powershell.suppressAdditionalExeNotFoundWarning": false,
 
-  "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco",
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco, Consolas",
 
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.wrapTabs": true,

@@ -9,8 +9,7 @@ authors:
     family-names: Bayley
 repository-code: 'https://github.com/gazellekit/gazelle'
 abstract: >-
-  A fast, cross-platform engine for structural analysis &
-  design.
+  A faster, safer engine for civil engineering design.
 keywords:
   - Civil Engineering
   - Structural Engineering
