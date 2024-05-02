@@ -2,26 +2,36 @@
 	"name": "Gazelle",
 	"runArgs": ["--name", "gazelle"],
 	"build": { "dockerfile": "Dockerfile" },
-	"postCreateCommand": "pwsh Setup.ps1",
+  "postCreateCommand": "poetry install",
 	"privileged": true,
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
-		"ghcr.io/devcontainers/features/github-cli:1": {}
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/powershell": {},
+    "ghcr.io/devcontainers/features/rust:1": {},
+    "ghcr.io/devcontainers/features/python:1": { 
+			"version": "3.12",
+			"toolsToInstall": "pipx, poetry",
+			"installTools": true,
+			"optimize": false,
+			"enableShared": false
+		}
 	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"bierner.markdown-preview-github-styles",
+        "charliermarsh.ruff",
 				"github.copilot",
 				"github.vscode-github-actions",
 				"grapecity.gc-excelviewer",
-				"ms-dotnettools.csdevkit",
-				"ionide.ionide-fsharp",
-        "ms-vscode.powershell",
 				"ms-azuretools.vscode-docker",
-				"ms-dotnettools.dotnet-interactive-vscode",
-				"bierner.markdown-preview-github-styles",
-				"tamasfe.even-better-toml",
-        "redhat.vscode-xml"
+        "ms-python.python",
+				"ms-python.vscode-pylance",
+        "ms-vscode.powershell",
+        "redhat.vscode-xml",
+        "rust-lang.rust-analyzer",
+				"tamasfe.even-better-toml"
 			]
 		}
 	}

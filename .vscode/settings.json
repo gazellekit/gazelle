@@ -14,7 +14,9 @@
   "files.exclude": {
     "**/.git": false,
     "**/bin": false,
-    "**/obj": true
+    "**/obj": true,
+    "poetry.lock": true,
+    ".pytest_cache": true
   },
   
   "git.autofetch": true,
@@ -28,16 +30,26 @@
     "markdown": false
   },
 
-  "[fsharp]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
-  },
-
   "powershell.powerShellDefaultVersion": "PowerShell",
   "powershell.integratedConsole.showOnStartup": false,
   "powershell.suppressAdditionalExeNotFoundWarning": false,
 
-  "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco",
+  "python.analysis.autoFormatStrings": true,
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "python.languageServer": "Pylance",
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestPath": "pytest",
+
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always",
+      "source.fixAll": "explicit"
+    }
+  },
+
+  "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'Fira Code', Menlo, Monaco, Consolas",
 
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.wrapTabs": true,
