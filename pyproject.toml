@@ -7,7 +7,7 @@ documentation = "https://docs.gazelle.sh"
 repository = "https://github.com/gazellekit/gazelle.git"
 authors = ["James S. Bayley <https://www.linkedin.com/in/jsbayley>"]
 description = "A fast, open-source engine for civil engineers."
-packages = [{ include = "gazelle" }]
+packages = [{ include = "python" }]
 classifiers = [
   "Programming Language :: Rust",
   "Programming Language :: Python :: Implementation :: CPython"
