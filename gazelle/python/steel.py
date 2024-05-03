@@ -17,7 +17,7 @@ from abc import ABC, abstractmethod
 from enum import Enum
 from typing import Generic, NewType, Tuple, TypeVar, Union
 
-from .units import (
+from python.units import (
   Area,
   Carbon,
   Centimetre,
