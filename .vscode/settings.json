@@ -17,6 +17,7 @@
     "**/obj": true,
     "**/target/": false,
     "**/poetry.lock": true,
+    "**/__pycache__": true,
     "**/.pytest_cache": true,
     "**/.venv": false
   },
