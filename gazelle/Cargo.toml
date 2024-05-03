@@ -11,4 +11,4 @@ pyo3 = { version = "0.21.2", features = ["extension-module"] }
 
 [lib]
 path = "rust/lib.rs"
-crate-type = ["cdylib"]
+crate-type = ["cdylib", "rlib"]
