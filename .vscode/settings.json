@@ -15,7 +15,7 @@
     "**/.git": false,
     "**/bin": false,
     "**/obj": true,
-    "**/target/": true,
+    "**/target/": false,
     "**/poetry.lock": true,
     "**/.pytest_cache": true,
     "**/.venv": false
