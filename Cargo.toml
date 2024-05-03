@@ -1,0 +1,11 @@
+[package]
+name = "gazelle"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pyo3 = { version = "0.21.2", features = ["extension-module"] }
+
+[lib]
+name = "gazelle"
+crate-type = ["cdylib"]

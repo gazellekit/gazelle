@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
-# Gazelle: A fast engine for civil engineering design.
+# Gazelle: A fast, open-source engine for civil engineers.
 # Copyright (C) 2024 James S. Bayley
 
 
