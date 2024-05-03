@@ -18,6 +18,7 @@
     "poetry.lock": true,
     "**/__pycache__": true,
     "**/.pytest_cache": true,
+    "**/*.so": true,
     ".venv": false
   },
   
