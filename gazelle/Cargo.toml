@@ -1,0 +1,14 @@
+[package]
+name = "gazelle"
+version = "0.1.0"
+edition = "2021"
+description = "A fast, open-source engine for civil engineers."
+repository = "https://github.com/gazellekit/gazelle.git"
+license = "AGPL-3.0-or-later"
+
+[dependencies]
+pyo3 = { version = "0.21.2", features = ["extension-module"] }
+
+[lib]
+path = "rust/lib.rs"
+crate-type = ["cdylib", "rlib"]

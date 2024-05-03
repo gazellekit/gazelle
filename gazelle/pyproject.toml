@@ -1,15 +1,21 @@
 [tool.poetry]
 name = "gazelle"
 version = "0.1.0"
-readme = "README.md"
-description = "A fast engine for civil engineering design."
+readme = "../README.md"
+license = "AGPL-3.0-or-later"
+documentation = "https://docs.gazelle.sh"
+description = "A fast, open-source engine for civil engineers."
 repository = "https://github.com/gazellekit/gazelle.git"
 authors = ["James S. Bayley <https://www.linkedin.com/in/jsbayley>"]
-license = "AGPL-3.0-or-later"
-packages = [{ include = "bindings/python" }]
+packages = [{ include = "python" }]
+classifiers = [
+  "Programming Language :: Rust",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy"
+]
 
 [tool.poetry.dependencies]
-python = ">=3.11"
+python = ">=3.12"
 
 [tool.poetry.group.dev.dependencies]
 maturin = "^1.5.1"

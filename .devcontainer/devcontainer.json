@@ -2,7 +2,7 @@
 	"name": "Gazelle",
 	"runArgs": ["--name", "gazelle"],
 	"build": { "dockerfile": "Dockerfile" },
-  "postCreateCommand": "poetry install",
+  "postCreateCommand": "cd gazelle && poetry install",
 	"privileged": true,
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
