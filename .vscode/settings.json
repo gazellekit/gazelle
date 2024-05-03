@@ -14,11 +14,11 @@
   "files.exclude": {
     "**/.git": false,
     "**/bin": false,
-    "**/target/": true,
-    "**/poetry.lock": true,
+    "target/": false,
+    "poetry.lock": true,
     "**/__pycache__": true,
     "**/.pytest_cache": true,
-    "**/.venv": true
+    ".venv": false
   },
   
   "git.autofetch": true,
