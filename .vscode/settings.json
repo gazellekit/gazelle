@@ -15,8 +15,10 @@
     "**/.git": false,
     "**/bin": false,
     "**/obj": true,
-    "poetry.lock": true,
-    ".pytest_cache": true
+    "**/target/": true,
+    "**/poetry.lock": true,
+    "**/.pytest_cache": true,
+    "**/.venv": false
   },
   
   "git.autofetch": true,
@@ -35,7 +37,7 @@
   "powershell.suppressAdditionalExeNotFoundWarning": false,
 
   "python.analysis.autoFormatStrings": true,
-  "python.defaultInterpreterPath": ".venv/bin/python",
+  "python.defaultInterpreterPath": "gazelle/python/.venv/bin/python",
   "python.languageServer": "Pylance",
   "python.testing.pytestEnabled": true,
   "python.testing.pytestPath": "pytest",

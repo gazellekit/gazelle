@@ -1,12 +1,15 @@
 [package]
-name = "gz"
+name = "gazelle"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 pyo3 = { version = "0.21.2", features = ["extension-module"] }
 
-[lib]
-name = "gazellekit"
-crate-type = ["cdylib"]
+[[bin]]
+name = "gz"
+path = "rust/main.rs"
 
+[lib]
+path = "rust/lib.rs"
+crate-type = ["cdylib"]
