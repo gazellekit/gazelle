@@ -10,8 +10,7 @@ authors = ["James S. Bayley <https://www.linkedin.com/in/jsbayley>"]
 packages = [{ include = "python" }]
 classifiers = [
   "Programming Language :: Rust",
-  "Programming Language :: Python :: Implementation :: CPython",
-  "Programming Language :: Python :: Implementation :: PyPy"
+  "Programming Language :: Python :: Implementation :: CPython"
 ]
 
 [tool.poetry.dependencies]
