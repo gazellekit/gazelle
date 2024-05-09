@@ -7,7 +7,7 @@
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/devcontainers/features/powershell": {},
+    "ghcr.io/devcontainers/features/powershell:1": {},
     "ghcr.io/devcontainers/features/rust:1": {},
     "ghcr.io/devcontainers/features/python:1": { 
 			"version": "3.12",
@@ -21,6 +21,7 @@
 		"vscode": {
 			"extensions": [
 				"bierner.markdown-preview-github-styles",
+        "bierner.markdown-mermaid",
         "charliermarsh.ruff",
 				"github.copilot",
 				"github.vscode-github-actions",
