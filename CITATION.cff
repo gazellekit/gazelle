@@ -9,7 +9,7 @@ authors:
     family-names: Bayley
 repository-code: 'https://github.com/gazellekit/gazelle'
 abstract: >-
-  A faster, safer engine for civil engineering design.
+  A fast, open-source engine for civil engineers.
 keywords:
   - Civil Engineering
   - Structural Engineering
