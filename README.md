@@ -1,6 +1,7 @@
 <div align="center">
+  <img src="./.github/assets/gazelle.png" width="100px" height="100px" />
   <h1>Gazelle</h1>
-  <p>🦌 A fast, open-source engine for civil engineers. 💨</p>
+  <p>🦌 A fast engine for civil engineers. 💨</p>
 
   [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/gazellekit/gazelle)
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/gazellekit/gazelle/blob/main/.github/CODE_OF_CONDUCT.md)
@@ -8,8 +9,7 @@
   [![CI](https://github.com/gazellekit/gazelle/actions/workflows/ci.yml/badge.svg)](https://github.com/gazellekit/gazelle/actions/workflows/ci.yml)
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-00add8)](https://choosealicense.com/licenses/agpl-3.0/)
   
-  [![Rust](https://img.shields.io/badge/Rust-1.78.0-ce412b)](https://www.rust-lang.org)
-  [![Python](https://img.shields.io/badge/Python-3.12-3776ab)](https://www.python.org)
+  [![Rust](https://img.shields.io/badge/Rust-1.79.0-ce412b?logo=rust)](https://www.rust-lang.org)
 </div>
 
 ## Table of Contents
@@ -25,8 +25,8 @@
 - Accelerate AEC innovation,
 - Underpin academic research,
 - Support Civil Engineering education,
-- Offer first-class Python support out-of-the-box,
-- Provide a stable platform for high-level language bindings.
+- Attract a like-minded community of Engineers,
+- Provide a stable platform for higher-level language bindings.
 
 ## Documentation
 
